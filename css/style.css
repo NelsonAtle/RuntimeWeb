@@ -2,3 +2,40 @@
 	margin:0px;
 	padding:0px;
 }
+
+header{
+	padding: 7px;
+	background-color: #0c2740;
+
+}
+
+#logo{
+	width: 150px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#fondo{
+	position: fixed;
+	min-width: 100%;
+	min-height: 100%;
+
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	z-index: -1;
+}
+main{
+	margin-left: 70%;
+	padding-bottom: 41%;
+	background: rgba(0,0,0,0.5);
+	color:#fff;
+}
+
+#user{
+	padding-top: 15%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

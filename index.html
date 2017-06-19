@@ -6,17 +6,33 @@
         </title>
         <link href="css/style.css" rel="stylesheet" type="text/css">
         </link>
+        <link href="https://fonts.googleapis.com/css?family=Jockey+One" rel="stylesheet">       
+    <meta charset="UTF-8">
     </head>
     <body>
         <header>
             <img id="logo" src="imagenes/logotipo.png">
             </img>
         </header>
-        <video autoplay="" id="fondo" loop="" src="videos/fondo.mp4">
+        <video autoplay="" id="fondo" loop="" src="videos/fondo2.mp4">
         </video>
         <main>
-            <img id="user" src="imagenes/user.png">
-            </img>
+            <div align="center" id="titulo-sesion">
+                <h1>Iniciar Sesión</h1>
+            </div>
+            <div align="center">
+            <img id="user" src="imagenes/user.png"></img>
+            </div>
+            <div align="center">
+                <input id="usuario" placeholder="Usuario" type="text"></input> 
+                <br>
+                <input id="password" placeholder="Contraseña" type="text"></input> 
+            </div>
+            <div align="center">
+                <button id="login" >
+                    <font color=red><a id="link-principal" href="principal.html">Iniciar</a></font>
+                </button>
+            </div>
         </main>
     </body>
 </html>

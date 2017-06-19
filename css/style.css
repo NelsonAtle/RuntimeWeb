@@ -4,9 +4,9 @@
 }
 
 header{
-	padding: 7px;
-	background-color: #0c2740;
-
+	padding: 5px;
+	background-color:rgba(0,0,0,0.5);
+     
 }
 
 #logo{
@@ -26,16 +26,190 @@ header{
 	transform: translateX(-50%) translateY(-50%);
 	z-index: -1;
 }
+
 main{
-	margin-left: 70%;
-	padding-bottom: 41%;
-	background: rgba(0,0,0,0.5);
-	color:#fff;
+   padding-bottom: 6%;
+    margin-right:38%;
+    margin-left: 38%;
+    margin-top: 8%;
+    background: rgba(0,0,0,0.5);
+    border-radius: 15px;
 }
 
 #user{
-	padding-top: 15%;
+    margin-top: 5%;
+}
+
+#usuario{
+   margin-top: 5%;
+    /*padding-bottom: 1%;
+    padding-left: 12%; 
+    border-radius: 5px;
+   */
+    border: 1px;
+      font-size: 120%;
+      font-family: Arial;
+      padding-left: 7px;
+      padding-right: 7px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      border-radius: 4px;
+    
+}
+#password{
+    margin-top: 2%;
+    margin-left: -0.5%;
+     border: 1px;
+      font-size: 120%;
+      font-family: Arial;
+      padding-left: 7px;
+      padding-right: 7px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      border-radius: 4px;
+}
+
+#login{
+     margin-top: 2%;
+    margin-left: -0.5%;
+     border: 1px;
+      font-size: 120%; color:#fff;
+      font-family: 'Arial';
+      padding-left: 7px;
+      padding-right: 7px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      border-radius: 4px;
+    background-color: #2E4053;
+}
+
+#icon-logo{
+	width: 150px;
 	display: block;
     margin-left: auto;
     margin-right: auto;
+}
+#link-principal{
+    color: white;
+    text-decoration:none;  
+}
+
+#titulo-sesion{
+    background: #fff;
+    font-family:'Jockey One';
+}
+
+h1{
+    font-size: 27px;
+}
+
+/*----------------------------------Pricipal-------------------------------*/
+
+#principal{
+    background-color:#D0D3D4;
+}
+
+.icons{
+    width: 28px;
+    
+}
+
+.navegacion{
+    width: 100%;
+}
+
+.navegacion nav{
+    width: 16%;
+    margin-left: 84%;
+    margin-top: -35px;
+}
+
+.navegacion nav>ul{
+    list-style: none;
+    position: relative;
+}
+
+.navegacion nav>ul>li{
+    display: inline-block
+}
+
+.navegacion nav>ul>li>a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.navegacion nav>ul>li>a span{
+   font-size: 20px;
+    position: absolute;
+    margin-left: -1px;
+    margin-top: -6px;
+    display: none;
+}
+
+.navegacion nav>ul>li:hover span{
+    display: block;
+}
+
+.navegacion nav ul li .submenu{
+    background: #fff;
+
+    position: absolute;
+    margin-left: -75px;
+    margin-top: 7px;
+    display: none;
+    border-radius: 5px;
+    width: 100px;
+    /*sombra*/
+    -webkit-box-shadow: 0px 8px 9px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 8px 9px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 8px 9px -1px rgba(0,0,0,0.75);
+  
+}
+
+.navegacion nav ul li:hover .submenu{
+    display: flex;
+   
+}
+
+#items1 li{
+    list-style: none;
+    padding:15px 16px 15px 15px;
+     border-radius: 5px ;
+}
+
+#items1 a{
+    text-decoration: none;
+    font-family:'homenaje';
+    color: #000;
+}
+
+#items1 a:hover{
+    color: #fff;
+}
+
+.navegacion nav ul li .submenu li:hover{
+   background:  #566573 ;
+}
+
+#menu{
+    margin-left: 80px;
+}
+
+#colum-perfil{
+    margin-top: 3px;
+    height: 100%;
+    width: 15%;
+    background: #2e2e2e;
+}
+
+#foto,#foto-perfil{
+    
+    width: 140px;
+    height: 140px;
+    border-radius: 75px;
+}
+
+#foto-perfil{
+    margin: 28px;
+    
 }

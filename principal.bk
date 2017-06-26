@@ -1,0 +1,59 @@
+
+<html>
+<head>
+    <title>
+        RunTime Web
+    </title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/fontello.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Homenaje" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rosario" rel="stylesheet">
+    <meta charset="UTF-8">
+</head>
+
+<body id="principal">
+    <header id="headerPrin">
+        <img id="icon-logo" src="imagenes/logotipo.png">
+        </img>
+      
+    </header>
+    <div id="colum-perfil">
+        <div id="foto">
+           <div id="menu">
+            <h1 >Menu</h1>
+            </div>
+            <img id="foto-perfil" src="imagenes/nelson.jpg" />
+            <h2 id="nombre" align="center">Nelson Barrantes</h2>
+            <hr id="linea1" />
+            <hr id="linea2" />
+            <br/>
+            <h4>Personal</h4>
+            <hr class="lineas" />
+            <ul id="menu-perfil">
+                <li><a href="">Perfil<img id="down"src="imagenes/down6.png"></a>
+                    <ul class="hijos">
+                        <li><a href="">Seguidores</a></li>
+                        <li><a href="">Seguidos</a></li>
+                        <li><a href="">Retos Ganados</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Rutas Hechas</a></li>
+                <li><a href="">Fotos</a></li>
+                <li><a href="">Videos</a></li>
+                <br/>
+                <h4>Social</h4>
+                <hr class="lineas" />
+                </li>
+                <li><a href="">Notificaciones</a></li>
+                <li><a href="">Mensajes</a></li>
+                <li><a href="">Retos</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="slide">
+        sdfsd
+    </div>
+</body>
+
+</html>

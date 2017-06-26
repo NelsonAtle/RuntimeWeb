@@ -1,43 +1,105 @@
 <html>
-    <head>
-        <title>
-            RunTime Web
-        </title>
-        <link href="css/style.css" rel="stylesheet" type="text/css"/>
-        <link href="css/fontello.css" rel="stylesheet" type="text/css"/>
-        <link href="https://fonts.googleapis.com/css?family=Homenaje" rel="stylesheet"> 
-        <meta charset="UTF-8">
-    </head>
-    <body id="principal" >
-         <header id="headerPrin" >
-            <img id="icon-logo" src="imagenes/logotipo.png">
-            </img>
-        </header>
-        <div class="navegacion">
-            <nav>
-                <ul>
-                    <li><a href=""><img class="icons" src="imagenes/user.png"/><span class="icon icon-up-dir" /></a></li>
-                    <li><a href=""><img class="icons" src="imagenes/chat.png"/><span class="icon icon-up-dir" /></a></li>
-                    <li><a href=""><img class="icons" src="imagenes/avisos.png"/><span class="icon icon-up-dir" /></a></li>
-                    <li id="menu"><a href=""><img class="icons" src="imagenes/menu.png"/><span class="icon icon-up-dir" /></a>
-                        <div class="submenu">
-                            <div id="items1">
-                                <ul>
-                                    <li><a href="#">Configuración</a></li>
-                                    <li><a href="#">Acerca</a></li>
-                                    <li><a href="#">Ayuda</a></li>
-                                    <li><a href="#">Salir</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </nav>
+
+<head>
+    <title>
+        RunTime Web
+    </title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/icons.css" rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+    <!--Nos sirve para configurar la adaptacion de la pantalla-->
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
+</head>
+
+<body id="cuerpoPrincipal">
+    <!--Encabezado-->
+    <header id="principal">
+        <img id="icon-logo" src="imagenes/logotipo.png">
+        </img>
+    </header>
+    <!--Menu del Perfil-->
+    <div id="menu-bar">
+        <a href="#" id="btn-menu"><span class="icon-menu"></span>Menu</a>
+        <div id="logo-bar" align="center">
+            <img src="imagenes/logotipo.png" />
         </div>
-        <div id="colum-perfil">
-            <div id="foto">
-                <img id="foto-perfil" src="imagenes/nelson.jpg"/>
-            </div>
-        </div>
-    </body>
+    </div>
+    <div id="divPerfil">
+        <nav>
+            <img id="foto" src="imagenes/nelson.jpg" />
+            <h2 id="nombre" align="center">Nelson Barrantes</h2>
+            <hr id="linea1" />
+            <hr id="linea2" />
+            <h4 class="subtitulos-menu"><span class="icon-xing2"></span>Personal</h4>
+            <ul id="menu">
+                <li class="activado"><a href=""><span class="icon-stack"></span>Perfil<span class="icon-circle-down" id="more"></span</a>
+                    <ul class="children">
+                        <li><a href="" class="subitems"><span class="icon-users"></span>Seguidores</a></li>
+
+                        <li><a href="" class="subitems"><span class="icon-user-check"></span>Seguidos</a></li>
+
+                        <li><a href="" class="subitems"><span class="icon-spinner4"></span>Retos Ganados</a></li>
+                    </ul>
+                </li>
+
+                <li><a href=""><span class="icon-earth"></span>Notificaciones</a></li>
+
+                <li><a href=""><span class="icon-mail4"></span>Mensajes</a></li>
+
+                <li><a href=""><span class="icon-play"></span>Videos</a></li>
+
+                <li><a href=""><span class="icon-camera"></span>Fotos</a></li>
+
+                <li><a href=""><span class="icon-map"></span>Rutas Realizadas</a></li>
+
+                <h4 class="subItemsTitulos-menu"><span class="icon-xing2"></span>Social</h4>
+
+                <li><a href=""><span class="icon-fire"></span>Nuevos Retos</a></li>
+
+                <li><a href=""><span class="icon-spinner10"></span>Retos Corriendo</a></li>
+
+                <h4 class="subItemsTitulos-menu"><span class="icon-xing2"></span>Otros</h4>
+
+                <li><a href=""><span class="icon-cog"></span>Configuración</a></li>
+
+                <li><a href=""><span class="icon-lock"></span>Salir</a></li>
+
+            </ul>
+        </nav>
+    </div>
+    <div class="slider">
+        <ul>
+            <li><img src="slides/1.jpg" /></li>
+            <li><img src="slides/2.jpg" /></li>
+            <li><img src="slides/3.jpg" /></li>
+            <li><img src="slides/4.jpg" /></li>
+            <li><img src="slides/5.jpg" /></li>
+        </ul>
+    </div>
+    <div id="opciones">
+        <ul>
+            <li>
+                <div id="divMuro">
+                    <h1>Ver Publicaciones</h1>
+                    <div id="capa">
+                        <h1>Ver Publicaciones</h1>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div id="divRegistro">
+                    <h1>Registro Tiempos</h1>
+                    <div id="capa2">
+                        <h1>Registro Tiempos</h1>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/menu.js"></script>
+    <!---->
+</body>
+
 </html>

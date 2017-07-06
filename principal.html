@@ -8,17 +8,55 @@
     <link href="css/icons.css" rel="stylesheet" type="text/css" />
     <meta charset="UTF-8">
     <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
     <!--Nos sirve para configurar la adaptacion de la pantalla-->
     <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
 </head>
 
 <body id="cuerpoPrincipal">
+    <div id="particulas"></div>
+    <!--Modal-->
+    <div id="modal">
+        <div>
+           <div>
+           <a href="#cerrar"> <div id="cerrar-modal"><img src="imagenes/cerrar.jpg" alt="">
+               </div></a>
+          </div>
+            <a>
+                <div>
+                    <div><img src="http://2.bp.blogspot.com/-SrmzBUpJoLE/ViPjPbojnTI/AAAAAAAACM8/b2lyC3x_foA/s1600-r/34699460121-1384472018.jpg" alt=""></div>
+                    <h1>Arte Fisico</h1>
+                </div>
+            </a>
+            <a href="grupos.html">
+                <div>
+                    <div><img src="https://pbs.twimg.com/profile_images/487375857871097858/3AiDlIPf.png" alt=""></div>
+                    <h1>Oregon Project</h1>
+                </div>
+            </a>
+            <a>
+                <div>
+                    <div><img src="http://100-pics.net/images/answers/fr/logosdesport/logosdesport_24249_469238.png" alt=""></div>
+                    <h1>Asics Team</h1>
+                </div>
+            </a>
+            <a>
+                <div>
+                    <div><img src="http://vegankicks.com/wp-content/uploads/2009/11/New-Balance-Logo-2008.JPG" alt=""></div>
+                    <h1>New Balance Team</h1>
+                </div>
+            </a>
+        </div>
+    </div>
+
+
     <!--Encabezado-->
     <header id="principal">
-        <img id="icon-logo" src="imagenes/logotipo.png">
-        </img>
+        <img id="icon-logo" src="imagenes/logotipo.png" />
+
     </header>
     <!--Menu del Perfil-->
+
     <div id="menu-bar">
         <a href="#" id="btn-menu"><span class="icon-menu"></span>Menu</a>
         <div id="logo-bar" align="center">
@@ -33,7 +71,8 @@
             <hr id="linea2" />
             <h4 class="subtitulos-menu"><span class="icon-xing2"></span>Personal</h4>
             <ul id="menu">
-                <li class="activado"><a href=""><span class="icon-stack"></span>Perfil<span class="icon-circle-down" id="more"></span</a>
+                <li class="activado">
+                    <a href=""><span class="icon-stack"></span>Perfil<span class="icon-circle-down" id="more"></span></a>
                     <ul class="children">
                         <li><a href="" class="subitems"><span class="icon-users"></span>Seguidores</a></li>
 
@@ -78,34 +117,42 @@
         </ul>
     </div>
     <div id="opciones" aling="center">
-
-
-        <div id="divMuro" class="divsPrincipales">
-            <h1 class="hoverMouse">Ver Publicaciones</h1>
-            <div id="capa">
-                <h1>Ver Publicaciones</h1>
+        <a href="publicaciones.html">
+            <div id="divMuro" class="divsPrincipales">
+                <h1 class="hoverMouse">Ver Publicaciones</h1>
+                <div id="capa">
+                    <h1>Ver Publicaciones</h1>
+                </div>
             </div>
-        </div>
+        </a>
 
 
-        <div id="divRegistro" class="divsPrincipales">
-            <h1 class="hoverMouse">Registrar Tiempos</h1>
-            <div id="capa2">
-                <h1>Registrar Tiempos</h1>
+        <a href="publicaciones.html">
+            <div id="divRegistro" class="divsPrincipales">
+                <h1 class="hoverMouse">Registrar Tiempos</h1>
+                <div id="capa2">
+                    <h1>Registrar Tiempos</h1>
+                </div>
             </div>
-        </div>
+        </a>
 
 
-        <div id="divGrupos" class="divsPrincipales">
-            <h1 class="hoverMouse">Grupos</h1>
-            <div id="capa3">
-                <h1>Grupos</h1>
+        <a href="#modal" id="link-modal">
+            <div id="divGrupos" class="divsPrincipales">
+                <h1 class="hoverMouse">Grupos</h1>
+                <div id="capa3">
+                    <h1>Grupos</h1>
+                </div>
             </div>
-        </div>
+        </a>
 
     </div>
+
+
     <script src="http://code.jquery.com/jquery-latest.js"></script>
     <script src="js/menu.js"></script>
+    <script src="particulas/particles.js"></script>
+    <script src="particulas/config-particulas.js"></script>
     <!---->
 </body>
 

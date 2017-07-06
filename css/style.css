@@ -16,6 +16,12 @@ header {
     margin-right: auto;
 }
 
+#particulas {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+
 #fondo {
     position: fixed;
     min-width: 100%;
@@ -26,13 +32,14 @@ header {
     z-index: -1;
 }
 
-main {
+#main {
     padding-bottom: 6%;
     margin-right: 38%;
     margin-left: 38%;
     margin-top: 8%;
     background: rgba(0, 0, 0, 0.5);
     border-radius: 15px;
+    position: relative;
 }
 
 #user {
@@ -107,26 +114,23 @@ h1 {
 }
 
 
-
 /*--------------------Pricipal----------------------*/
 
-#principal {
+#cuerpoPrincipal {
+    overflow-y: scroll;
+    background: #2e2e2e;
 }
 
-#cuerpoPrincipal
-{
-    overflow-y: scroll;
-    background: #424949;
-}
 
 /*Columna Menu*/
 
 #divPerfil {
     width: 180px;
-    height: 100%;
+    height: 84%;
     padding-bottom: 5%;
     background: #2E2E2E;
     position: absolute;
+    overflow: hidden;
     z-index: 2;
 }
 
@@ -161,7 +165,7 @@ h1 {
 }
 
 #menu li {
-    padding: 5%;
+    padding: 4%;
 }
 
 #menu li span {
@@ -174,6 +178,7 @@ h1 {
 #menu-bar {
     margin-left: 50;
     display: none;
+    position: absolute;
 }
 
 
@@ -254,7 +259,7 @@ nav ul li ul li:hover {
     font-family: 'Orbitron';
 }
 
-#more{
+#more {
     margin-left: 50%;
 }
 
@@ -271,32 +276,27 @@ nav ul li ul li:hover {
     /*margin-right: -0.77%;*/
     overflow: hidden;
     z-index: 1;
-     -webkit-box-shadow: 0px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 8px 9px -1px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 8px 9px -1px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 8px 9px -1px rgba(0, 0, 0, 0.75);
 }
 
 .slider ul {
     display: flex;
-    padding: 0;
     width: 500%;
     animation: cambio 20s infinite alternate;
-   
 }
 
 .slider li {
     width: 100%;
     height: 100%;
     list-style: none;
-     
 }
 
 .slider img {
     width: 100%;
     height: 100%;
-    
 }
-
 
 
 /*Animacion del Slider*/
@@ -333,33 +333,32 @@ nav ul li ul li:hover {
         margin-left: -400%;
     }
 }
+
+
 /*contiene los 3 div de opciones de la ventana*/
-#opciones{
+
+#opciones {
     /*margin-top: 31.5%;*/
     margin: 31.5% 5% 0% 5%;
-    display: flex;
 }
-#opciones>div{
-    margin-left: 6.05%;
-}
-#opciones>div>h1{
+
+#opciones>div>h1 {
     width: 98%;
     text-align: center;
     color: currentColor;
 }
 
-
-
-/*
-#opciones>ul>li>div{
-    display: block;
-    float: left; 
-     
+#opciones>a>div>h1 {
+    width: 98%;
+    font-size: 177%;
+    color: #000;
 }
-*/
 
+#opciones>a {
+    text-decoration: none;
+}
 
-.divsPrincipales{
+.divsPrincipales {
     /*Sombra*/
     -webkit-box-shadow: 0px 8px 9px -1px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 8px 9px -1px rgba(0, 0, 0, 0.75);
@@ -373,33 +372,55 @@ nav ul li ul li:hover {
     transform: scale(1);
     transition: 0.5s;
 }
-#divMuro{
+
+#divMuro {
     width: 25%;
     height: 23.9%;
+    float: left;
     overflow: hidden;
-    background-image: url("../imagenes/muro.jpg");
-    background-size: 100%;
-}
-#divRegistro{
-    width: 25%;
-    height: 23.9%;
-    background-image: url("../imagenes/registro.gif");
-    background-size: 100%;
-}
-#divGrupos{
-    width: 25%;
-    height: 23.9%;
-    overflow: hidden;
-    background-image: url("../imagenes/grupos.jpg");
+    background-image: url("../imagenes/muro.gif");
     background-size: 100%;
 }
 
-#capa,#capa2,#capa3{
+#divRegistro {
+    width: 25%;
+    height: 23.9%;
+    float: left;
+    background-image: url("../imagenes/registro.gif");
+    background-size: 100%;
+}
+
+#divGrupos {
+    width: 25%;
+    height: 23.9%;
+    float: left;
+    overflow: hidden;
+    background-image: url("../imagenes/grupos.gif");
+    background-size: 100%;
+}
+
+#divGrupos>h1 {
+    text-align: center;
+}
+
+#divMuro,
+#divRegistro,
+#divGrupos {
+    margin-left: 6.05%;
+}
+
+#divGrupos:hover {
+    cursor: pointer;
+}
+
+#capa,
+#capa2,
+#capa3 {
     width: 100%;
     height: 100%;
     overflow: hidden;
     border: none;
-    background-color: rgba(31,31,31,0.8);
+    background-color: rgba(31, 31, 31, 0.8);
     opacity: 0;
     /*efecto de suavidad al no tener el div enlace funcionando*/
     -webkit-transition: opacity 0.5s;
@@ -410,16 +431,19 @@ nav ul li ul li:hover {
 
 #divMuro:hover #capa,
 #divRegistro:hover #capa2,
-#divGrupos:hover #capa3{
- /*suavidad al pasar el mouse*/
+#divGrupos:hover #capa3 {
+    /*suavidad al pasar el mouse*/
     opacity: 1;
     -webkit-transition: opacity 0.5s;
     -moz-transition: opacity 0.5s;
     -o-transition: opacity 0.5s;
     -ms-transition: opacity 0.5s;
 }
+
+
 /*Animacion al pasar el mouse sobre los divs*/
-.divsPrincipales:hover{
+
+.divsPrincipales:hover {
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
     -o-transform: scale(1.1);
@@ -428,7 +452,7 @@ nav ul li ul li:hover {
     transition: 0.5s;
 }
 
-.divsPrincipales>.hoverMouse{
+.divsPrincipales>.hoverMouse {
     position: fixed;
     padding-top: 19.5%;
     padding-left: 1.8%;
@@ -437,27 +461,654 @@ nav ul li ul li:hover {
     font-size: 180%;
 }
 
-
-
-.divsPrincipales:hover .hoverMouse{
-   display: none;
+.divsPrincipales:hover .hoverMouse {
+    display: none;
 }
 
- #capa h1,#capa2 h1,#capa3 h1{
+#capa h1,
+#capa2 h1,
+#capa3 h1 {
     color: #3498DB;
     padding-top: 19.5%;
     padding-left: 1.8%;
     font-family: 'Orbitron';
     font-size: 180%;
     text-align: center;
-    
 }
 
 
+/*-------------------Publicaciones--------------------*/
+
+#contactos {
+    float: right;
+    width: 15%;
+    height: 94.3%;
+    position: relative;
+    background: #E5E7E9;
+}
+
+.titulo-contactos {
+    font-family: 'Orbitron';
+    text-align: center;
+    margin-top: 5%;
+    color: dodgerblue;
+}
+
+#listaContactos {
+    list-style: none;
+    margin-top: 5%
+}
+
+#listaContactos>li {
+    margin-bottom: 5%;
+    float: left;
+    width: 100%;
+    height: 4.5%;
+}
+
+#listaContactos>li>div {
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+    border-radius: 100%;
+    margin-left: 3%;
+    float: left;
+}
+
+#listaContactos>li>div>img {
+    width: 36px;
+    margin-left: -10%;
+}
+
+.nombres {
+    font-family: 'play';
+    font-size: 100%;
+    float: left;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+#cuerpoInfo {
+    float: left;
+    height: 94.3%;
+    width: 81%;
+    padding-left: 2%;
+    padding-right: 2%;
+    overflow-y: scroll;
+    position: relative;
+}
+
+.videos,
+.fotos,
+.mapeo {
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 88%;
+    height: 60%;
+    background: #fff;
+}
+
+.publicado {
+    width: 72%;
+    height: 100%;
+    background: #e6e6e6;
+    float: left;
+    position: relative;
+}
+
+.descripcion {
+    width: 28%;
+    height: 100%;
+    float: right;
+    background: #1e1e1e;
+}
+
+.publicado>ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: flex-end;
+}
+
+.publicado>ul>li>img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.publicado input[type="radio"] {
+    position: relative;
+    z-index: 1;
+    margin: 5px;
+}
+
+.publicado input[type="radio"]:checked~img {
+    opacity: 1;
+}
+
+.publicador {
+    height: 100%;
+}
+
+.publicador>div {
+    width: 35%;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    border: none;
+    border-radius: 100%;
+    /*Sombra*/
+    -webkit-box-shadow: 0px 8px 9px 5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 8px 9px 5px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 8px 9px 5px rgba(0, 0, 0, 0.75);
+
+}
+
+.publicador>div>img {
+    width: 100%;
+}
+
+.publicador h3 {
+    color: white;
+    text-align: center;
+    padding: 2.5%;
+    font-family: 'play';
+    /*Sombra*/
+    -webkit-box-shadow: 0px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: -2px 8px 9px -1px rgba(0, 0, 0, 0.75);
+}
+
+.publicador h4 {
+    color: dodgerblue;
+    padding: 2.5%;
+    text-align: center;
+    font-family: 'play';
+}
+
+.publicador p {
+    width: 80%;
+    height: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-family: 'play';
+    font-size: 75%;
+}
+
+#like,
+#comentario {
+    width: 14%;
+    height: 10%;
+    background: none;
+    border: none;
+    background-size: 100%;
+    margin-left: 8%;
+}
+
+#like {
+    background-size: 100%;
+    width: 11.5%;
+    height: 8.5%;
+    background-image: url(../imagenes/like1.png);
+}
+
+#like:hover {
+    background-image: url(../imagenes/like2.png);
+}
+
+#comentario {
+    background-image: url(../imagenes/comentario2.png);
+}
+
+#comentario:hover {
+    background-image: url(../imagenes/comentario1.png);
+}
+
+#muestraVideo {
+    height: 100%;
+}
+
+.publicado>iframe {
+    width: 100%;
+    height: 100%;
+}
 
 
-/*querys*/
+/*Modal*/
 
+#modal {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 5;
+    float: left;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+    visibility: hidden;
+}
+
+#modal>div {
+    margin: auto;
+    width: 24%;
+    height: 40%;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 5%;
+}
+
+#modal>div>a>div {
+    width: 90%;
+    height: 18%;
+    margin: auto;
+    margin-top: 4.5%;
+    /*background: #D0D3D4;*/
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    transition: 0.5s;
+}
+
+#modal>div>a>div:hover {
+    -webkit-transform: scale(1.07);
+    -moz-transform: scale(1.07);
+    -o-transform: scale(1.07);
+    -ms-transform: scale(1.07);
+    transform: scale(1.07);
+    transition: 0.15s;
+}
+
+#modal>div>a>div>div {
+    width: 15%;
+    height: 90%;
+    border-radius: 100%;
+    overflow: hidden;
+    float: left;
+    margin-left: 5%;
+    margin-top: 0.5%;
+}
+
+#modal>div>a>div>div>img {
+    height: 100%;
+    width: 100%;
+    margin-left: 0.2%;
+}
+
+#modal>div>a>div>h1 {
+    font-family: 'play';
+    float: left;
+    margin-top: 3.6%;
+    color: #D0D3D4;
+    font-size: 135%;
+    width: 100%;
+    margin-left: 5%;
+    position: absolute;
+    text-align: center;
+}
+
+#modal:target {
+    display: flex;
+    visibility: visible;
+}
+
+#cerrar-modal {
+    width: 10%;
+    height: 12.1%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 100%;
+    float: right;
+    margin-right: -4%;
+    margin-top: -4%;
+    border: none;
+    cursor: pointer;
+}
+
+#cerrar-modal>img {
+    width: 251%;
+    margin-left: -78%;
+    margin-top: -78%;
+}
+
+
+/*-----------Grupos--------------*/
+
+#cuerpoGrupo {
+    float: left;
+    height: 94.3%;
+    width: 85%;
+    overflow-y: hidden;
+}
+
+#conjunto {
+    height: 100%;
+    padding-left: 7%;
+    padding-right: 7%;
+    overflow-y: scroll;
+    position: relative;
+}
+
+#encabezado {
+    width: 100%;
+    height: 40%;
+    z-index: -1;
+    position: relative;
+}
+
+#datos {
+    width: 100%;
+    height: 100%;
+  /*  background: #D0D3D4;*/
+}
+
+#encabezado>div {
+    width: 16%;
+    height: 60%;
+    border-radius: 100%;
+    overflow: hidden;
+    margin-top: -21%;
+    margin-left: 2.5%;
+}
+
+#encabezado>div>img {
+    width: 105%;
+}
+
+#portada {
+    width: 100%;
+    height: 100%;
+}
+
+#encabezado>h1 {
+    width: 78%;
+    margin-left: 22%;
+    margin-top: -12.2%;
+    font-family: 'play';
+    color: dodgerblue;
+    font-size: 450%;
+}
+
+#menuH {
+    width: 75%;
+    border-top: 35px solid #2e2e2e;
+    border-right: 45px solid transparent;
+}
+
+#datos>div>ul {
+    list-style: none;
+    width: 110%;
+    margin-top: -5%;
+}
+
+#datos ul li {
+    display: inline-block;
+    margin: 1%;
+    font-family: 'play';
+    color: dodgerblue;
+    margin-left: 5.5%;
+}
+
+#contenidoGrupo {
+    width: 100%;
+    height: 94.5%;
+    display: inline;
+    overflow: hidden;
+}
+
+#publications {
+    width: 100%;
+    height: 94.5%;
+    display: block;
+    background: #B3B6B7;
+}
+
+#miembros{
+    width: 100%;
+    height: 94.5%;
+    display: block;
+    background: #B3B6B7;
+    overflow-y: scroll;
+}
+#fotos{
+    width: 100%;
+    height: 94.5%;
+    display: block;
+    background: #B3B6B7;
+    overflow-y: scroll;
+}
+#videos{
+    width: 100%;
+    height: 94.5%;
+    display: block;
+    background: #B3B6B7;
+    overflow-y: scroll;
+}
+#rutas{
+    width: 100%;
+    height: 94.5%;
+    display: block;
+    background: #B3B6B7;
+    overflow-y: scroll;
+}
+#retos {
+    width: 100%;
+    height: 94.5%;
+    background: #B3B6B7;
+    overflow-y: scroll;
+}
+
+.fotosPublicado{
+    width: 80%;
+    height: 50%;
+    margin: auto;
+    margin-top: 2%;
+}
+
+
+#publications>div{
+    width: 80%;
+    height: 48%
+}
+#publications{
+    overflow-y: scroll;
+}
+#datos{
+    overflow: hidden;
+    background: #2980B9;
+}
+
+#menuH>ul>li>a{
+    text-decoration: none;
+    color: dodgerblue;
+    font-weight:bold;
+}
+#menuH>ul>li{
+     -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    transition: 0.2s;
+}
+#menuH>ul>li:hover{
+     -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+    transition: 0.2s;
+}
+
+#miembros>div{
+    width: 18%;
+    height: 35%;
+    margin-top: 1.3%;
+    margin-left: 1.38%;
+    border-radius: 2%;
+    background-color: dimgrey;
+    float: left;
+}
+
+#miembros>div>div{
+   width: 47.5%;
+   height: 37.5%;
+    border-radius: 100%;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 5%;
+     /*Sombra*/
+    -webkit-box-shadow: 0px 5px 6px 2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 5px 6px 2px rgba(0, 0, 0, 0.75);
+    box-shadow: 5px 5px 6px 2px rgba(0, 0, 0, 0.75);
+
+}
+#miembros>div>div>img{
+    width: 100%;
+}
+
+#miembros>div>h1{
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+    font-family: 'play';
+    font-size: 115%;
+}
+
+#miembros>div>h5{
+    margin-top: 5%;
+    text-align: center;
+    font-family: 'play';
+}
+
+#miembros>div>button{
+   width: 50%;
+    height: 12%;
+    margin-top: 5%;
+   margin-left: 25%;
+    font-family: 'play';
+    font-size: 100%;
+    border-style: solid;
+    border-radius: 5%;
+}
+
+
+#fotos>div{
+    width: 31%;
+    height: 31%;
+    float: left;
+    margin-top: 1.5%;
+    margin-left: 1.6%;
+    margin-bottom: 1.5%;
+    overflow: hidden;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    transition: 0.5s;
+}
+
+#fotos>div:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+#fotos>div>img{
+    width: 100%;
+    
+}
+#videos>div{
+    width: 31%;
+    height: 31%;
+    float: left;
+    margin-top: 1.5%;
+    margin-left: 1.6%;
+    margin-bottom: 1.5%;
+    overflow: hidden;
+}
+#videos>div>iframe{
+    width: 100%;
+    height: 100%
+}
+
+#rutas>div{
+    width: 31%;
+    height: 31%;
+    float: left;
+    margin-top: 1.5%;
+    margin-left: 1.6%;
+    margin-bottom: 1.5%;
+    overflow: hidden;
+}
+#rutas>div>iframe{
+    width: 100%;
+    height: 100%;
+}
+
+#retos>div{
+     width: 31%;
+    height: 15%;
+    float: left;
+    margin-top: 1.5%;
+    margin-left: 1.6%;
+    margin-bottom: 1.5%;
+    overflow: hidden;
+    background-color: dimgrey;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    transition: 0.5s;
+}
+#retos>div:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+#retos>div>div{
+    width: 30%;
+    height: 100%;
+    overflow: hidden;
+    float: left;
+}
+#retos>div>h1{
+    text-align: center;
+    font-family: 'play';
+    color: dodgerblue;
+    font-size: 130%;
+    margin-top: 5%;
+}
+#retos>div>div>img{
+    width: 100%;
+    height: 100%;
+}
+
+#retos>div>button{
+    width: 30%;
+    height: 30%;
+    margin-top: 2%;
+    margin-left: 20%;
+    font-family: 'play';
+    font-weight: bold;
+}
 /*Esto ayuda en el momento que se detecte la resolucion y cambie al menu*/
 
 @media screen and (max-width:560px) {
@@ -522,33 +1173,27 @@ nav ul li ul li:hover {
 }
 
 @media screen and (min-width:500px) {
-    
-    
-    .slider{
+    .slider {
         width: 100%;
     }
-    
-    #principal{
+    #principal {
         width: 99.29%;
     }
-    
-    #menu-bar{
+    #menu-bar {
         display: block;
-        width: 7%;;
+        width: 7%;
+        ;
         margin-top: -3%;
         padding: 0.39%;
         font-size: 150%;
-        margin-left:0%;
+        margin-left: 0%;
     }
-    
-    #menu-bar img{
+    #menu-bar img {
         display: none;
     }
-    
-    #menu-bar a{
+    #menu-bar a {
         color: #fff;
         text-decoration: none;
         font-family: 'Orbitron';
     }
-    
 }

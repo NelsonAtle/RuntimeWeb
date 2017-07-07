@@ -33,26 +33,19 @@ header {
 }
 
 #main {
-    padding-bottom: 6%;
+    padding-bottom: 2%;
     margin-right: 38%;
     margin-left: 38%;
-    margin-top: 8%;
+    margin-top: 6%;
     background: rgba(0, 0, 0, 0.5);
     border-radius: 15px;
     position: relative;
 }
 
-#user {
+#main>div>input{
     margin-top: 5%;
-}
-
-#usuario {
-    margin-top: 5%;
-    /*padding-bottom: 1%;
-    padding-left: 12%; 
-    border-radius: 5px;
-   */
-    width: 70%;
+    margin-left: -2%;
+     width: 70%;
     border: 1px;
     font-size: 120%;
     font-family: Arial;
@@ -62,6 +55,14 @@ header {
     padding-bottom: 5px;
     border-radius: 4px;
 }
+
+
+#user {
+    margin-top: 5%;
+    
+}
+
+
 
 #password {
     margin-top: 2%;
@@ -77,7 +78,8 @@ header {
     border-radius: 4px;
 }
 
-#login {
+.login {
+    width: 30%;
     margin-top: 2%;
     margin-left: -0.5%;
     border: 1px;

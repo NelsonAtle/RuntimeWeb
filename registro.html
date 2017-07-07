@@ -10,32 +10,34 @@
     </head>
     <body id="cuerpoPrincipal">
        <div id="particulas"></div>
-        <header>
-            <img id="logo" src="imagenes/logotipo.png"/>
-            
-        </header>
+        
         <video autoplay="" id="fondo" loop="" src="videos/fondo.mp4">
         </video>
         <div id="main">
             <div align="center" id="titulo-sesion">
-                <h1>Iniciar Sesión</h1>
+              <img id="logo" src="imagenes/logotipo.png"/>
             </div>
             <div align="center">
             <img id="user" src="imagenes/user.png"/>
             </div>
             <div align="center">
+               
+                <input id="nombre" placeholder="Nombre" type="text"/>
+                <br>
+                <input id="Apellidos" placeholder="Apellidos" type="text"/>
+                <br>
+                <input id="correo" placeholder="Correo" type="text"/>
+                <br>
                 <input id="usuario" placeholder="Usuario" type="text"/>
                 <br>
                 <input id="password" placeholder="Contraseña" type="text"/>
+                <br>
+                <input id="passwordConfirm" placeholder="Confirmar Contraseña" type="text"/>
             </div>
             <div align="center">
                 <button class="login" >
-                    <font color=red><a id="link-principal" href="registro.html">Registrar</a></font>
+                    <font color=red><a id="link-principal" href="index.html">Registrar</a></font>
                 </button>
-                <button class="login" >
-                    <font color=red><a id="link-principal" href="principal.html">Iniciar</a></font>
-                </button>
-                
             </div>
         </div>
      

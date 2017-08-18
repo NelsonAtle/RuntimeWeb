@@ -1,0 +1,1931 @@
+@media screen and (device-width: 320px) and (device-height: 480px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    #btn-menu {
+        margin-top: -1%;
+    }
+    #icon-logo {
+        margin-top: -1%;
+    }
+    #menuTitle {
+        display: none;
+    }
+    #particulas {
+        display: none;
+    }
+    #cuerpoPrincipal {
+        background: #2E4053;
+    }
+    .fotos {
+        display: block;
+        width: 100%;
+        height: 60%;
+        background: #1e1e1e;
+        border-radius: 5px;
+    }
+    .videos,
+    .mapeo {
+        display: block;
+        width: 100%;
+        height: 65%;
+        background: #1e1e1e;
+        border-radius: 5px;
+    }
+    .videos .publicado,
+    .mapeo .publicado {
+        top: 35%;
+        height: 54.2%;
+        width: 100%;
+        float: none;
+        overflow: none;
+    }
+    .fotos .publicado {
+        top: 39%;
+        height: 49%;
+        width: 100%;
+        float: none;
+        overflow: none;
+    }
+    .descripcion {
+        display: block;
+        height: 40%;
+        width: 100%;
+        margin-top: -45%;
+        float: none;
+    }
+    .videos .descripcion,
+    .mapeo .descripcion {
+        margin-top: -57%;
+    }
+    .videos .publicador>div,
+    .mapeo .publicador>div {
+        margin-top: 2%;
+        float: left;
+        width: 11.5%;
+        height: 29%;
+        margin-left: 2%;
+    }
+    .fotos .publicador>div {
+        float: left;
+        width: 11.5%;
+        height: 31%;
+        margin-top: 0%;
+        margin-left: 2%;
+    }
+    .fotos .publicador h3 {
+        height: 20%;
+        color: white;
+        text-align: center;
+        font-family: 'play';
+        margin-top: -2%;
+        float: left;
+        font-size: 100%;
+        /*Sombra*/
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        display: block;
+    }
+    .videos .publicador h3,
+    .mapeo .publicador h3 {
+        height: 20%;
+        color: white;
+        text-align: center;
+        font-family: 'play';
+        margin-top: 0.2%;
+        float: left;
+        font-size: 100%;
+        /*Sombra*/
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        display: block;
+    }
+    .publicador h4 {
+        height: 20%;
+        font-size: 100%;
+        float: left;
+        margin-left: 13.5%;
+        margin-top: -9%;
+        width: 83%;
+        display: block;
+        color: dodgerblue;
+        font-family: 'play';
+        text-align: left;
+    }
+    .publicador p {
+        width: 99%;
+        height: 55%;
+        margin-left: 2px;
+        margin-right: 2px;
+        color: white;
+        font-family: 'play';
+        font-size: 75%;
+        float: left;
+        padding-left: 1%;
+        padding-right: 1%;
+        overflow: hidden;
+        overflow-y: scroll;
+    }
+    .fotos .publicador p {
+        margin-top: 1%;
+    }
+    .videos .publicador p,
+    .mapeo .publicador p {
+        height: 50.5%;
+    }
+    .fotos #like {
+        height: 30%;
+        margin: auto;
+         margin-left: -56.5%;
+        margin-top: 73.5%;
+    }
+    .videos #like {
+        height: 30%;
+        margin: auto;
+        margin-left: -10%;
+        margin-top: 90.9%;
+    }
+    .mapeo #like {
+        height: 30%;
+        margin-left: -11%;
+        margin-top: 90.8%;
+    }
+}
+
+@media screen and (device-width: 320px) and (device-height: 568px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    #btn-menu {
+        margin-top: -1%;
+    }
+    #icon-logo {
+        margin-top: -1%;
+    }
+    #menuTitle {
+        display: none;
+    }
+    #particulas {
+        display: none;
+    }
+    #cuerpoPrincipal {
+        background: #2E4053;
+    }
+    .fotos {
+        display: block;
+        width: 100%;
+        height: 60%;
+        background: #1e1e1e;
+        border-radius: 5px;
+    }
+    .videos,
+    .mapeo {
+        display: block;
+        width: 100%;
+        height: 65%;
+        background: #1e1e1e;
+        border-radius: 5px;
+    }
+    .fotos .publicado {
+        top: 39%;
+        height: 49%;
+        width: 100%;
+        float: none;
+        overflow: none;
+    }
+    .videos .publicado,
+    .mapeo .publicado {
+        top: 35%;
+        height: 54.2%;
+        width: 100%;
+        float: none;
+        overflow: none;
+    }
+    .descripcion {
+        display: block;
+        height: 40%;
+        width: 100%;
+        margin-top: -54%;
+        float: none;
+    }
+    .videos .descripcion,
+    .mapeo .descripcion {
+        margin-top: -67%;
+    }
+    .videos .publicador>div,
+    .mapeo .publicador>div {
+        margin-top: 2%;
+        float: left;
+        width: 11.5%;
+        height: 24.5%;
+        margin-left: 2%;
+    }
+    .fotos .publicador>div {
+        float: left;
+        width: 11.5%;
+        height: 26.5%;
+        margin-top: 0%;
+        margin-left: 2%;
+    }
+    .fotos .publicador h3 {
+        height: 20%;
+        color: white;
+        text-align: center;
+        font-family: 'play';
+        margin-top: -2%;
+        float: left;
+        font-size: 100%;
+        /*Sombra*/
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        display: block;
+    }
+    .videos .publicador h3,
+    .mapeo .publicador h3 {
+        height: 20%;
+        color: white;
+        text-align: center;
+        font-family: 'play';
+        margin-top: 0.2%;
+        float: left;
+        font-size: 100%;
+        /*Sombra*/
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        display: block;
+    }
+    .publicador h4 {
+        height: 20%;
+        font-size: 100%;
+        float: left;
+        margin-left: 13.5%;
+        margin-top: -9%;
+        width: 83%;
+        display: block;
+        color: dodgerblue;
+        font-family: 'play';
+        text-align: left;
+    }
+    .publicador p {
+        width: 99%;
+        height: 55%;
+        margin-left: 2px;
+        margin-right: 2px;
+        color: white;
+        font-family: 'play';
+        font-size: 100%;
+        float: left;
+        padding-left: 1%;
+        padding-right: 1%;
+        overflow: hidden;
+        overflow-y: scroll;
+    }
+    .fotos .publicador p {
+        margin-top: 1%;
+    }
+    .videos .publicador p,
+    .mapeo .publicador p {
+        height: 50.5%;
+    }
+    .fotos #like {
+        height: 30%;
+        margin: auto;
+        margin-left: -56.5%;
+        margin-top: 90%;
+    }
+    .videos #like {
+        height: 25%;
+        margin: auto;
+        margin-left: -10%;
+        margin-top: 108.1%;
+    }
+    .mapeo #like {
+          height: 25%;
+        margin: auto;
+        margin-left: -11%;
+        margin-top: 108.1%;
+    }
+}
+
+@media screen and (device-width: 375px) and (device-height: 667px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    #btn-menu {
+        margin-top: -1%;
+    }
+    #icon-logo {
+        margin-top: -1%;
+    }
+    #menuTitle {
+        display: none;
+    }
+    #particulas {
+        display: none;
+    }
+    #cuerpoPrincipal {
+        background: #2E4053;
+    }
+    .fotos {
+        display: block;
+        width: 100%;
+        height: 60%;
+        background: #1e1e1e;
+        border-radius: 5px;
+    }
+    .videos,
+    .mapeo {
+        display: block;
+        width: 100%;
+        height: 65%;
+        background: #1e1e1e;
+        border-radius: 5px;
+    }
+    .videos .publicado,
+    .mapeo .publicado {
+        top: 35%;
+        height: 54.2%;
+        width: 100%;
+        float: none;
+        overflow: none;
+    }
+    .fotos .publicado {
+        top: 39%;
+        height: 49%;
+        width: 100%;
+        float: none;
+        overflow: none;
+    }
+    .descripcion {
+        display: block;
+        height: 40%;
+        width: 100%;
+        margin-top: -54%;
+        float: none;
+    }
+    .videos .descripcion,
+    .mapeo .descripcion {
+        margin-top: -67%;
+    }
+    .videos .publicador>div,
+    .mapeo .publicador>div {
+        margin-top: 2%;
+        float: left;
+        width: 11.5%;
+        height: 24%;
+        margin-left: 2%;
+    }
+    .fotos .publicador>div {
+        float: left;
+        width: 11.5%;
+        height: 26.2%;
+        margin-top: 0%;
+        margin-left: 2%;
+    }
+    .fotos .publicador h3 {
+        height: 20%;
+        color: white;
+        text-align: center;
+        font-family: 'play';
+        margin-top: -2%;
+        float: left;
+        font-size: 100%;
+        /*Sombra*/
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        display: block;
+    }
+    .videos .publicador h3,
+    .mapeo .publicador h3 {
+        height: 20%;
+        color: white;
+        text-align: center;
+        font-family: 'play';
+        margin-top: 0.2%;
+        float: left;
+        font-size: 100%;
+        /*Sombra*/
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        display: block;
+    }
+    .publicador h4 {
+        height: 20%;
+        font-size: 100%;
+        float: left;
+        margin-left: 13.5%;
+        margin-top: -9%;
+        width: 83%;
+        display: block;
+        color: dodgerblue;
+        font-family: 'play';
+        text-align: left;
+    }
+    .publicador p {
+        width: 99%;
+        height: 55%;
+        margin-left: 2px;
+        margin-right: 2px;
+        color: white;
+        font-family: 'play';
+        font-size: 100%;
+        float: left;
+        padding-left: 1%;
+        padding-right: 1%;
+        overflow: hidden;
+        overflow-y: scroll;
+    }
+    .fotos .publicador p {
+        margin-top: 1%;
+    }
+    .videos .publicador p,
+    .mapeo .publicador p {
+        height: 50.5%;
+    }
+    .fotos #like {
+        height: 28%;
+        margin: auto;
+        margin-left: -56%;
+        margin-top: 91.2%;
+    }
+    .videos #like {
+        height: 25%;
+        margin: auto;
+        margin-left: -4.5%;
+        margin-top: 108.5%;
+    }
+    .mapeo #like {
+          height: 25%;
+        margin: auto;
+        margin-left: -4.8%;
+        margin-top: 108.5%;
+    }
+}
+
+@media screen and (device-width: 414px) and (device-height: 736px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    #btn-menu {
+        margin-top: -1%;
+    }
+    #icon-logo {
+        margin-top: -1%;
+    }
+    #menuTitle {
+        display: none;
+    }
+    #particulas {
+        display: none;
+    }
+    #cuerpoPrincipal {
+        background: #2E4053;
+    }
+    .fotos {
+        display: block;
+        width: 100%;
+        height: 60%;
+        background: #1e1e1e;
+        border-radius: 5px;
+    }
+    .videos,
+    .mapeo {
+        display: block;
+        width: 100%;
+        height: 55%;
+        background: #1e1e1e;
+        border-radius: 5px;
+    }
+    .videos .publicado,
+    .mapeo .publicado {
+        top: 34%;
+        height: 54.2%;
+        width: 100%;
+        float: none;
+        overflow: none;
+    }
+    .fotos .publicado {
+        top: 39%;
+        height: 49%;
+        width: 100%;
+        float: none;
+        overflow: none;
+    }
+    .descripcion {
+        display: block;
+        height: 40%;
+        width: 100%;
+        margin-top: -54%;
+        float: none;
+    }
+    .videos .descripcion,
+    .mapeo .descripcion {
+        margin-top: -57%;
+    }
+    .videos .publicador>div,
+    .mapeo .publicador>div {
+        margin-top: 2%;
+        float: left;
+        width: 11.5%;
+        height: 29%;
+        margin-left: 2%;
+    }
+    .fotos .publicador>div {
+        float: left;
+        width: 11.5%;
+        height: 26%;
+        margin-top: 0%;
+        margin-left: 2%;
+    }
+    .fotos .publicador h3 {
+        height: 20%;
+        color: white;
+        text-align: center;
+        font-family: 'play';
+        margin-top: -2%;
+        float: left;
+        font-size: 100%;
+        /*Sombra*/
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        display: block;
+    }
+    .videos .publicador h3,
+    .mapeo .publicador h3 {
+        height: 20%;
+        color: white;
+        text-align: center;
+        font-family: 'play';
+        margin-top: 0.2%;
+        float: left;
+        font-size: 100%;
+        /*Sombra*/
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        display: block;
+    }
+    .publicador h4 {
+        height: 20%;
+        font-size: 100%;
+        float: left;
+        margin-left: 13.5%;
+        margin-top: -9%;
+        width: 83%;
+        display: block;
+        color: dodgerblue;
+        font-family: 'play';
+        text-align: left;
+    }
+    .publicador p {
+        width: 99%;
+        height: 55%;
+        margin-left: 2px;
+        margin-right: 2px;
+        color: white;
+        font-family: 'play';
+        font-size: 130%;
+        float: left;
+        padding-left: 1%;
+        padding-right: 1%;
+        overflow: hidden;
+        overflow-y: scroll;
+    }
+    .fotos .publicador p {
+        margin-top: 1%;
+    }
+    .videos .publicador p,
+    .mapeo .publicador p {
+        height: 50.5%;
+    }
+    .fotos #like {
+        height: 28%;
+        margin: auto;
+        margin-left: -56%;
+        margin-top: 91.8%;
+    }
+    .videos #like {
+        height: 26%;
+        margin: auto;
+        margin-left: -2%;
+        margin-top: 90.5%;
+    }
+    .mapeo #like {
+          height: 26%;
+        margin: auto;
+        margin-left: -3.5%;
+        margin-top: 90.5%;
+    }
+}
+
+
+@media screen and (device-width: 384px) and (device-height: 598px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    #btn-menu {
+        margin-top: -1%;
+    }
+    #icon-logo {
+        margin-top: -1%;
+    }
+    #menuTitle {
+        display: none;
+    }
+    #particulas {
+        display: none;
+    }
+    #cuerpoPrincipal {
+        background: #2E4053;
+    }
+    .fotos {
+        display: block;
+        width: 100%;
+        height: 60%;
+        background: #1e1e1e;
+        border-radius: 5px;
+    }
+    .videos,
+    .mapeo {
+        display: block;
+        width: 100%;
+        height: 62%;
+        background: #1e1e1e;
+        border-radius: 5px;
+    }
+    .videos .publicado,
+    .mapeo .publicado {
+        top: 34%;
+        height: 55%;
+        width: 100%;
+        float: none;
+        overflow: none;
+    }
+    .fotos .publicado {
+        top: 39%;
+        height: 49%;
+        width: 100%;
+        float: none;
+        overflow: none;
+    }
+    .descripcion {
+        display: block;
+        height: 40%;
+        width: 100%;
+        margin-top: -47.5%;
+        float: none;
+    }
+    .videos .descripcion,
+    .mapeo .descripcion {
+        margin-top: -57.3%;
+    }
+    .videos .publicador>div,
+    .mapeo .publicador>div {
+        margin-top: 2%;
+        float: left;
+        width: 11.5%;
+        height: 29%;
+        margin-left: 2%;
+    }
+    .fotos .publicador>div {
+        float: left;
+        width: 11.5%;
+        height: 29.5%;
+        margin-top: 0%;
+        margin-left: 2%;
+    }
+    .fotos .publicador h3 {
+        height: 20%;
+        color: white;
+        text-align: center;
+        font-family: 'play';
+        margin-top: -2%;
+        float: left;
+        font-size: 100%;
+        /*Sombra*/
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        display: block;
+    }
+    .videos .publicador h3,
+    .mapeo .publicador h3 {
+        height: 20%;
+        color: white;
+        text-align: center;
+        font-family: 'play';
+        margin-top: 0.2%;
+        float: left;
+        font-size: 100%;
+        /*Sombra*/
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        display: block;
+    }
+    .publicador h4 {
+        height: 20%;
+        font-size: 100%;
+        float: left;
+        margin-left: 13.5%;
+        margin-top: -9%;
+        width: 83%;
+        display: block;
+        color: dodgerblue;
+        font-family: 'play';
+        text-align: left;
+    }
+    .publicador p {
+        width: 99%;
+        height: 55%;
+        margin-left: 2px;
+        margin-right: 2px;
+        color: white;
+        font-family: 'play';
+        font-size: 130%;
+        float: left;
+        padding-left: 1%;
+        padding-right: 1%;
+        overflow: hidden;
+        overflow-y: scroll;
+    }
+    .fotos .publicador p {
+        margin-top: 1%;
+    }
+    .videos .publicador p,
+    .mapeo .publicador p {
+        height: 50.5%;
+    }
+    .fotos #like {
+        height: 28%;
+        margin: auto;
+        margin-left: -56%;
+        margin-top: 79%;
+    }
+    .videos #like {
+        height: 27%;
+        margin: auto;
+        margin-left: -3.95%;
+        margin-top: 89.8%;
+    }
+    .mapeo #like {
+          height: 27%;
+        margin: auto;
+        margin-left: -4%;
+        margin-top: 89.8%;
+    }
+}
+
+@media screen and (device-width: 360px) and (device-height: 598px) {
+     * {
+        margin: 0;
+        padding: 0;
+    }
+    #btn-menu {
+        margin-top: -1%;
+    }
+    #icon-logo {
+        margin-top: -1%;
+    }
+    #menuTitle {
+        display: none;
+    }
+    #particulas {
+        display: none;
+    }
+    #cuerpoPrincipal {
+        background: #2E4053;
+    }
+    .fotos {
+        display: block;
+        width: 100%;
+        height: 60%;
+        background: #1e1e1e;
+        border-radius: 5px;
+    }
+    .videos,
+    .mapeo {
+        display: block;
+        width: 100%;
+        height: 62%;
+        background: #1e1e1e;
+        border-radius: 5px;
+    }
+    .videos .publicado,
+    .mapeo .publicado {
+        top: 34%;
+        height: 55%;
+        width: 100%;
+        float: none;
+        overflow: none;
+    }
+    .fotos .publicado {
+        top: 39%;
+        height: 49%;
+        width: 100%;
+        float: none;
+        overflow: none;
+    }
+    .descripcion {
+        display: block;
+        height: 40%;
+        width: 100%;
+        margin-top: -50%;
+        float: none;
+    }
+    .videos .descripcion,
+    .mapeo .descripcion {
+        margin-top: -60.5%;
+    }
+    .videos .publicador>div,
+    .mapeo .publicador>div {
+        margin-top: 2%;
+        float: left;
+        width: 11.5%;
+        height: 27.5%;
+        margin-left: 2%;
+    }
+    .fotos .publicador>div {
+        float: left;
+        width: 11.5%;
+        height: 28%;
+        margin-top: 0%;
+        margin-left: 2%;
+    }
+    .fotos .publicador h3 {
+        height: 20%;
+        color: white;
+        text-align: center;
+        font-family: 'play';
+        margin-top: -2%;
+        float: left;
+        font-size: 100%;
+        /*Sombra*/
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        display: block;
+    }
+    .videos .publicador h3,
+    .mapeo .publicador h3 {
+        height: 20%;
+        color: white;
+        text-align: center;
+        font-family: 'play';
+        margin-top: 0.2%;
+        float: left;
+        font-size: 100%;
+        /*Sombra*/
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        display: block;
+    }
+    .publicador h4 {
+        height: 20%;
+        font-size: 100%;
+        float: left;
+        margin-left: 13.5%;
+        margin-top: -9%;
+        width: 83%;
+        display: block;
+        color: dodgerblue;
+        font-family: 'play';
+        text-align: left;
+    }
+    .publicador p {
+        width: 99%;
+        height: 55%;
+        margin-left: 2px;
+        margin-right: 2px;
+        color: white;
+        font-family: 'play';
+        font-size: 130%;
+        float: left;
+        padding-left: 1%;
+        padding-right: 1%;
+        overflow: hidden;
+        overflow-y: scroll;
+    }
+    .fotos .publicador p {
+        margin-top: 1%;
+    }
+    .videos .publicador p,
+    .mapeo .publicador p {
+        height: 50.5%;
+    }
+    .fotos #like {
+        height: 28%;
+        margin: auto;
+        margin-left: -56%;
+        margin-top: 83.5%;
+    }
+    .videos #like {
+        height: 27%;
+        margin: auto;
+        margin-left: -5%;
+        margin-top: 95.8%;
+    }
+    .mapeo #like {
+          height: 27%;
+        margin: auto;
+        margin-left: -6%;
+        margin-top: 95.8%;
+    }
+}
+
+@media screen and (device-width: 360px) and (device-height: 640px) {
+     * {
+        margin: 0;
+        padding: 0;
+    }
+    #btn-menu {
+        margin-top: -1%;
+    }
+    #icon-logo {
+        margin-top: -1%;
+    }
+    #menuTitle {
+        display: none;
+    }
+    #particulas {
+        display: none;
+    }
+    #cuerpoPrincipal {
+        background: #2E4053;
+    }
+    .fotos {
+        display: block;
+        width: 100%;
+        height: 60%;
+        background: #1e1e1e;
+        border-radius: 5px;
+    }
+    .videos,
+    .mapeo {
+        display: block;
+        width: 100%;
+        height: 62%;
+        background: #1e1e1e;
+        border-radius: 5px;
+    }
+    .videos .publicado,
+    .mapeo .publicado {
+        top: 34%;
+        height: 52%;
+        width: 100%;
+        float: none;
+        overflow: none;
+    }
+    .fotos .publicado {
+        top: 39%;
+        height: 49%;
+        width: 100%;
+        float: none;
+        overflow: none;
+    }
+    .descripcion {
+        display: block;
+        height: 40%;
+        width: 100%;
+        margin-top: -54%;
+        float: none;
+    }
+    .videos .descripcion,
+    .mapeo .descripcion {
+        margin-top: -60.5%;
+    }
+    .videos .publicador>div,
+    .mapeo .publicador>div {
+        margin-top: 1.8%;
+        float: left;
+          height: 39px;
+        width: 39px;
+        margin-left: 2%;
+    }
+    .fotos .publicador>div {
+        float: left;
+        width: 11.5%;
+        height: 39px;
+        width: 39px;
+        margin-top: 0%;
+        margin-left: 2%;
+    }
+    .fotos .publicador h3 {
+        height: 20%;
+        color: white;
+        text-align: center;
+        font-family: 'play';
+        margin-top: -2%;
+        float: left;
+        font-size: 100%;
+        /*Sombra*/
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        display: block;
+    }
+    .videos .publicador h3,
+    .mapeo .publicador h3 {
+        height: 20%;
+        color: white;
+        text-align: center;
+        font-family: 'play';
+        margin-top: 0.2%;
+        float: left;
+        font-size: 100%;
+        /*Sombra*/
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        display: block;
+    }
+    .publicador h4 {
+        height: 20%;
+        font-size: 100%;
+        float: left;
+        margin-left: 13.2%;
+        margin-top: -9%;
+        width: 83%;
+        display: block;
+        color: dodgerblue;
+        font-family: 'play';
+        text-align: left;
+    }
+    .publicador p {
+        width: 99%;
+        height: 55%;
+        margin-left: 2px;
+        margin-right: 2px;
+        color: white;
+        font-family: 'play';
+        font-size: 130%;
+        float: left;
+        padding-left: 1%;
+        padding-right: 1%;
+        overflow: hidden;
+        overflow-y: scroll;
+    }
+    .fotos .publicador p {
+        margin-top: 1%;
+    }
+    .videos .publicador p,
+    .mapeo .publicador p {
+        height: 50.5%;
+    }
+    .fotos #like {
+        height: 28%;
+        margin: auto;
+        margin-left: -56%;
+        margin-top: 91%;
+    }
+    .videos #like {
+        height: 27%;
+        margin: auto;
+        margin-left: -5%;
+        margin-top: 100%;
+    }
+    .mapeo #like {
+          height: 27%;
+        margin: auto;
+        margin-left: -6%;
+        margin-top: 100%;
+    }
+}
+
+@media screen and (device-width: 1024px) and (device-height: 768px) {}
+
+@media screen and (device-width: 600px) and (device-height: 1024px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    #btn-menu {
+        margin-top: 0%;
+        width: 25%;
+        height: 5%;
+        
+    }
+    .icon-menu{
+        font-size: 200%;
+    }
+    #icon-logo {
+        margin-top: -1%;
+        width: 50%;
+    }
+    #menuTitle {
+        display: none;
+    }
+    #particulas {
+        display: none;
+    }
+    #cuerpoPrincipal {
+        background: #2E4053;
+    }
+    .fotos {
+        display: block;
+        width: 100%;
+        height: 60%;
+        background: #1e1e1e;
+        border-radius: 5px;
+    }
+    .videos,
+    .mapeo {
+        display: block;
+        width: 100%;
+        height: 62%;
+        background: #1e1e1e;
+        border-radius: 5px;
+    }
+    .videos .publicado,
+    .mapeo .publicado {
+        top: 34%;
+        height: 52%;
+        width: 100%;
+        float: none;
+        overflow: none;
+    }
+    .fotos .publicado {
+        top: 39%;
+        height: 49%;
+        width: 100%;
+        float: none;
+        overflow: none;
+    }
+    .descripcion {
+        display: block;
+        height: 40%;
+        width: 100%;
+        margin-top: -54%;
+        float: none;
+    }
+    .videos .descripcion,
+    .mapeo .descripcion {
+        margin-top: -60.5%;
+    }
+    .videos .publicador>div,
+    .mapeo .publicador>div {
+        margin-top: 3.3%;
+        float: left;
+          height: 70px;
+        width: 70px;
+        margin-left: 2%;
+    }
+    .fotos .publicador>div {
+        float: left;
+        width: 11.5%;
+        height: 70px;
+        width: 70px;
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+    .fotos .publicador h3 {
+        height: 20%;
+        color: white;
+        text-align: center;
+        font-family: 'play';
+        margin-top: 1%;
+        float: left;
+        font-size: 160%;
+        /*Sombra*/
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        display: block;
+    }
+    .videos .publicador h3,
+    .mapeo .publicador h3 {
+        height: 20%;
+        color: white;
+        text-align: center;
+        font-family: 'play';
+        margin-top: 2%;
+        float: left;
+        font-size: 160%;
+        /*Sombra*/
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        display: block;
+    }
+    .publicador h4 {
+        height: 20%;
+        font-size: 150%;
+        float: left;
+        margin-left: 14%;
+        margin-top: -9%;
+        width: 83%;
+        display: block;
+        color: dodgerblue;
+        font-family: 'play';
+        text-align: left;
+    }
+    .publicador p {
+        width: 99%;
+        height: 55%;
+        margin-left: 2px;
+        margin-right: 2px;
+        color: white;
+        font-family: 'play';
+        font-size: 180%;
+        float: left;
+        padding-left: 1%;
+        padding-right: 1%;
+        overflow: hidden;
+        overflow-y: scroll;
+    }
+    .fotos .publicador p {
+        margin-top: 1%;
+    }
+    .videos .publicador p,
+    .mapeo .publicador p {
+        height: 50.5%;
+    }
+    .fotos #like {
+        height: 28%;
+        margin: auto;
+        margin-left: -52.7%;
+        margin-top: 91%;
+    }
+    .videos #like {
+        height: 27%;
+        margin: auto;
+        margin-left: -4.5%;
+        margin-top: 98.5%;
+    }
+    .mapeo #like {
+          height: 27%;
+        margin: auto;
+        margin-left: -6%;
+        margin-top: 98.5%;
+    }
+}
+
+@media screen and (device-width: 800px) and (device-height: 1280px) {
+  * {
+        margin: 0;
+        padding: 0;
+    }
+    #btn-menu {
+        margin-top: 0%;
+        width: 25%;
+        height: 5%;
+        
+    }
+    .icon-menu{
+        font-size: 260%;
+    }
+    #icon-logo {
+        margin-top: 0%;
+        width: 50%;
+    }
+    #menuTitle {
+        display: none;
+    }
+    #particulas {
+        display: none;
+    }
+    #cuerpoPrincipal {
+        background: #2E4053;
+    }
+    .fotos {
+        display: block;
+        width: 100%;
+        height: 60%;
+        background: #1e1e1e;
+        border-radius: 5px;
+    }
+    .videos,
+    .mapeo {
+        display: block;
+        width: 100%;
+        height: 62%;
+        background: #1e1e1e;
+        border-radius: 5px;
+    }
+    .videos .publicado,
+    .mapeo .publicado {
+        top: 34%;
+        height: 53.5%;
+        width: 100%;
+        float: none;
+        overflow: none;
+    }
+    .fotos .publicado {
+        top: 39%;
+        height: 49%;
+        width: 100%;
+        float: none;
+        overflow: none;
+    }
+    .descripcion {
+        display: block;
+        height: 40%;
+        width: 100%;
+        margin-top: -54%;
+        float: none;
+    }
+    .videos .descripcion,
+    .mapeo .descripcion {
+        margin-top: -60.5%;
+    }
+    .videos .publicador>div,
+    .mapeo .publicador>div {
+        margin-top: 7%;
+        float: left;
+          height: 100px;
+        width: 100px;
+        margin-left: 2%;
+    }
+    .fotos .publicador>div {
+        float: left;
+        width: 11.5%;
+        height: 100px;
+        width: 100px;
+        margin-top: 5%;
+        margin-left: 2%;
+    }
+    .fotos .publicador h3 {
+        height: 20%;
+        color: white;
+        text-align: center;
+        font-family: 'play';
+        margin-top: 4%;
+        float: left;
+        font-size: 220%;
+        /*Sombra*/
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        display: block;
+    }
+    .videos .publicador h3,
+    .mapeo .publicador h3 {
+        height: 20%;
+        color: white;
+        text-align: center;
+        font-family: 'play';
+        margin-top: 5.7%;
+        float: left;
+        font-size: 220%;
+        /*Sombra*/
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        display: block;
+    }
+    .publicador h4 {
+        height: 20%;
+        font-size: 220%;
+        float: left;
+        margin-left: 15%;
+        margin-top: -10%;
+        width: 83%;
+        display: block;
+        color: dodgerblue;
+        font-family: 'play';
+        text-align: left;
+    }
+    .publicador p {
+        width: 99%;
+        height: 55%;
+        margin-left: 2px;
+        margin-right: 2px;
+        color: white;
+        font-family: 'play';
+        font-size: 240%;
+        float: left;
+        padding-left: 1%;
+        padding-right: 1%;
+        margin-top: 1%;
+        overflow: hidden;
+        overflow-y: scroll;
+    }
+    .fotos .publicador p {
+        margin-top: 1%;
+    }
+    .videos .publicador p,
+    .mapeo .publicador p {
+        height: 50.5%;
+    }
+    .fotos #like {
+        height: 28%;
+        margin: auto;
+        margin-left: -11.5%;
+        margin-top: 89%;
+    }
+    .videos #like {
+        height: 27%;
+        margin: auto;
+        margin-left: -6.5%;
+        margin-top: 95%;
+    }
+    .mapeo #like {
+          height: 27%;
+        margin: auto;
+        margin-left: -7.5%;
+        margin-top: 95%;
+    }
+}
+
+@media screen and (device-width: 412px) and (device-height: 732px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    #btn-menu {
+        margin-top: -1%;
+    }
+    .icon-menu{
+        font-size: 160%;
+    }
+    #icon-logo {
+        margin-top:1%;
+    }
+    #menuTitle {
+        display: none;
+    }
+    #particulas {
+        display: none;
+    }
+    #cuerpoPrincipal {
+        background: #2E4053;
+    }
+    .fotos {
+        display: block;
+        width: 100%;
+        height: 60%;
+        background: #1e1e1e;
+        border-radius: 5px;
+    }
+    .videos,
+    .mapeo {
+        display: block;
+        width: 100%;
+        height: 62%;
+        background: #1e1e1e;
+        border-radius: 5px;
+    }
+    .videos .publicado,
+    .mapeo .publicado {
+        top: 34%;
+        height: 52%;
+        width: 100%;
+        float: none;
+        overflow: none;
+    }
+    .fotos .publicado {
+        top: 39%;
+        height: 49%;
+        width: 100%;
+        float: none;
+        overflow: none;
+    }
+    .descripcion {
+        display: block;
+        height: 40%;
+        width: 100%;
+        margin-top: -54%;
+        float: none;
+    }
+    .videos .descripcion,
+    .mapeo .descripcion {
+        margin-top: -60.5%;
+    }
+    .videos .publicador>div,
+    .mapeo .publicador>div {
+        margin-top: 1.8%;
+        float: left;
+          height: 45px;
+        width: 45px;
+        margin-left: 2%;
+    }
+    .fotos .publicador>div {
+        float: left;
+        width: 11.5%;
+        height: 45px;
+        width: 45px;
+        margin-top: 0%;
+        margin-left: 2%;
+    }
+    .fotos .publicador h3 {
+        height: 20%;
+        color: white;
+        text-align: center;
+        font-family: 'play';
+        margin-top: -2%;
+        float: left;
+        font-size: 120%;
+        /*Sombra*/
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        display: block;
+    }
+    .videos .publicador h3,
+    .mapeo .publicador h3 {
+        height: 20%;
+        color: white;
+        text-align: center;
+        font-family: 'play';
+        margin-top: 0.2%;
+        float: left;
+        font-size: 120%;
+        /*Sombra*/
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        display: block;
+    }
+    .publicador h4 {
+        height: 20%;
+        font-size: 120%;
+        float: left;
+        margin-left: 13.2%;
+        margin-top: -9%;
+        width: 83%;
+        display: block;
+        color: dodgerblue;
+        font-family: 'play';
+        text-align: left;
+    }
+    .publicador p {
+        width: 99%;
+        height: 55%;
+        margin-left: 2px;
+        margin-right: 2px;
+        color: white;
+        font-family: 'play';
+        font-size: 130%;
+        float: left;
+        padding-left: 1%;
+        padding-right: 1%;
+        overflow: hidden;
+        overflow-y: scroll;
+    }
+    .fotos .publicador p {
+        margin-top: 1%;
+    }
+    .videos .publicador p,
+    .mapeo .publicador p {
+        height: 50.5%;
+    }
+    .fotos #like {
+        height: 28%;
+        margin: auto;
+        margin-left: -56%;
+        margin-top: 92%;
+    }
+    .videos #like {
+        height: 27%;
+        margin: auto;
+        margin-left: -6%;
+        margin-top: 100%;
+    }
+    .mapeo #like {
+          height: 27%;
+        margin: auto;
+        margin-left: -7%;
+        margin-top: 100%;
+    }
+}
+
+@media screen and (device-width: 768px) and (device-height: 1024px) {
+   * {
+        margin: 0;
+        padding: 0;
+    }
+    #btn-menu {
+        margin-top: 0%;
+    }
+    .icon-menu{
+        font-size: 200%;
+    }
+    #icon-logo {
+        margin-top: 0%;
+        width: 35%;
+    }
+    #menuTitle {
+        display: none;
+    }
+    #particulas {
+        display: none;
+    }
+    #cuerpoPrincipal {
+        background: #2E4053;
+    }
+    .fotos {
+        display: block;
+        width: 100%;
+        height: 70%;
+        background: #1e1e1e;
+        border-radius: 5px;
+    }
+    .videos,
+    .mapeo {
+        display: block;
+        width: 100%;
+        height: 72%;
+        background: #1e1e1e;
+        border-radius: 5px;
+    }
+    .videos .publicado,
+    .mapeo .publicado {
+        top: 34%;
+        height: 55%;
+        width: 100%;
+        float: none;
+        overflow: none;
+    }
+    .fotos .publicado {
+        top: 39%;
+        height: 48%;
+        width: 100%;
+        float: none;
+        overflow: none;
+    }
+    .descripcion {
+        display: block;
+        height: 40%;
+        width: 100%;
+        margin-top: -46%;
+        float: none;
+    }
+    .videos .descripcion,
+    .mapeo .descripcion {
+        margin-top: -56.5%;
+    }
+    .videos .publicador>div,
+    .mapeo .publicador>div {
+        margin-top: 1.8%;
+        float: left;
+          height: 80px;
+        width: 80px;
+        margin-left: 2%;
+    }
+    .fotos .publicador>div {
+        float: left;
+        width: 11.5%;
+        height: 80px;
+        width: 80px;
+        margin-top: 0%;
+        margin-left: 2%;
+    }
+    .fotos .publicador h3 {
+        height: 20%;
+        color: white;
+        text-align: center;
+        font-family: 'play';
+        margin-top: -1%;
+        float: left;
+        font-size: 160%;
+        /*Sombra*/
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        display: block;
+    }
+    .videos .publicador h3,
+    .mapeo .publicador h3 {
+        height: 20%;
+        color: white;
+        text-align: center;
+        font-family: 'play';
+        margin-top: 0.2%;
+        float: left;
+        font-size: 160%;
+        /*Sombra*/
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        display: block;
+    }
+    .publicador h4 {
+        height: 20%;
+        font-size: 160%;
+        float: left;
+        margin-left: 12.7%;
+        margin-top: -9%;
+        width: 83%;
+        display: block;
+        color: dodgerblue;
+        font-family: 'play';
+        text-align: left;
+    }
+    .publicador p {
+        width: 99%;
+        height: 55%;
+        margin-left: 2px;
+        margin-right: 2px;
+        color: white;
+        font-family: 'play';
+        font-size: 210%;
+        float: left;
+        padding-left: 1%;
+        padding-right: 1%;
+        overflow: hidden;
+        overflow-y: scroll;
+    }
+    .fotos .publicador p {
+        margin-top: 1%;
+    }
+    .videos .publicador p,
+    .mapeo .publicador p {
+        height: 50.5%;
+    }
+    .fotos #like {
+        height: 32%;
+        margin: auto;
+        margin-left: -55.5%;
+        margin-top: 80.5%;
+    }
+    .videos #like {
+        height: 27%;
+        margin: auto;
+        margin-left: 2.5%;
+        margin-top: 89%;
+    }
+    .mapeo #like {
+          height: 27%;
+        margin: auto;
+        margin-left: 1.8%;
+        margin-top: 89%;
+    }
+}
+
+@media screen and (device-width: 1024px) and (device-height: 1366px) {}
+
+@media screen and (device-width: 480px) and (device-height: 800px) {
+   * {
+        margin: 0;
+        padding: 0;
+    }
+    #btn-menu {
+        margin-top: -1%;
+    }
+    .icon-menu{
+        font-size: 180%;
+    }
+    #icon-logo {
+        margin-top: -1%;
+        width: 55%;
+    }
+    #menuTitle {
+        display: none;
+    }
+    #particulas {
+        display: none;
+    }
+    #cuerpoPrincipal {
+        background: #2E4053;
+    }
+    .fotos {
+        display: block;
+        width: 100%;
+        height: 60%;
+        background: #1e1e1e;
+        border-radius: 5px;
+    }
+    .videos,
+    .mapeo {
+        display: block;
+        width: 100%;
+        height: 62%;
+        background: #1e1e1e;
+        border-radius: 5px;
+    }
+    .videos .publicado,
+    .mapeo .publicado {
+        top: 34%;
+        height: 51%;
+        width: 100%;
+        float: none;
+        overflow: none;
+    }
+    .fotos .publicado {
+        top: 39%;
+        height: 49%;
+        width: 100%;
+        float: none;
+        overflow: none;
+    }
+    .descripcion {
+        display: block;
+        height: 40%;
+        width: 100%;
+        margin-top: -51%;
+        float: none;
+    }
+    .videos .descripcion,
+    .mapeo .descripcion {
+        margin-top: -56.5%;
+    }
+    .videos .publicador>div,
+    .mapeo .publicador>div {
+        margin-top: 1.8%;
+        float: left;
+          height: 60px;
+        width: 60px;
+        margin-left: 2%;
+    }
+    .fotos .publicador>div {
+        float: left;
+        width: 11.5%;
+        height: 60px;
+        width: 60px;
+        margin-top: 0%;
+        margin-left: 2%;
+    }
+    .fotos .publicador h3 {
+        height: 20%;
+        color: white;
+        text-align: center;
+        font-family: 'play';
+        margin-top: -1%;
+        float: left;
+        font-size: 150%;
+        /*Sombra*/
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        display: block;
+    }
+    .videos .publicador h3,
+    .mapeo .publicador h3 {
+        height: 20%;
+        color: white;
+        text-align: center;
+        font-family: 'play';
+        margin-top: 0.8%;
+        float: left;
+        font-size: 150%;
+        /*Sombra*/
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        display: block;
+    }
+    .publicador h4 {
+        height: 20%;
+        font-size: 150%;
+        float: left;
+        margin-left: 15%;
+        margin-top: -9%;
+        width: 83%;
+        display: block;
+        color: dodgerblue;
+        font-family: 'play';
+        text-align: left;
+    }
+    .publicador p {
+        width: 99%;
+        height: 55%;
+        margin-left: 2px;
+        margin-right: 2px;
+        color: white;
+        font-family: 'play';
+        font-size: 130%;
+        float: left;
+        padding-left: 1%;
+        padding-right: 1%;
+        overflow: hidden;
+        overflow-y: scroll;
+    }
+    .fotos .publicador p {
+        margin-top: 1%;
+    }
+    .videos .publicador p,
+    .mapeo .publicador p {
+        height: 50.5%;
+    }
+    .fotos #like {
+        height: 28%;
+        margin: auto;
+        margin-left: -56%;
+        margin-top: 86%;
+    }
+    .videos #like {
+        height: 27%;
+        margin: auto;
+        margin-left: -11.2%;
+        margin-top: 94%;
+    }
+    .mapeo #like {
+          height: 27%;
+        margin: auto;
+        margin-left: -12.3%;
+        margin-top: 94%;
+    }
+}

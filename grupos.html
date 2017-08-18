@@ -4,14 +4,17 @@
     <title>
         RunTime Web
     </title>
-    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/styleGrupos.css" rel="stylesheet" type="text/css" />
+
     <link href="css/icons.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/styleMenu.css">
     <meta charset="UTF-8">
     <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
-    <!--Nos sirve para configurar la adaptacion de la pantalla-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/mediaScreenGrupos.css">
 
     <script languague="javascript">
         function mostrarPubli() {
@@ -103,32 +106,31 @@
             div5.style.display = 'none';
             div6.style.display = 'block';
         }
+
     </script>
 </head>
 
 <body id="cuerpoPrincipal">
-    
+
     <!--Encabezado-->
     <header id="principal">
+        <a href="#" id="btn-menu"><span class="icon-menu"></span><span id="menuTitle">Menu</span></a>
         <a href="principal.html"><img id="icon-logo" src="imagenes/logotipo.png" /></a>
 
     </header>
     <!--Menu del Perfil-->
-    <div id="menu-bar">
-        <a href="#" id="btn-menu"><span class="icon-menu"></span>Menu</a>
-        <div id="logo-bar" align="center">
-            <img src="imagenes/logotipo.png" />
-        </div>
-    </div>
-    <div id="divPerfil">
+
+    <div id="divPerfil" class="container">
         <nav>
-            <img id="foto" src="imagenes/nelson.jpg" />
+            <div align="center"><img id="foto" src="imagenes/nelson.jpg" /></div>
+
             <h2 id="nombre" align="center">Nelson Barrantes</h2>
             <hr id="linea1" />
             <hr id="linea2" />
             <h4 class="subtitulos-menu"><span class="icon-xing2"></span>Personal</h4>
             <ul id="menu">
-                <li class="activado"><a href=""><span class="icon-stack"></span>Perfil<span class="icon-circle-down" id="more"></span></a>
+                <li class="activado">
+                    <a href=""><span class="icon-stack"></span>Perfil<span class="icon-circle-down" id="more"></span></a>
                     <ul class="children">
                         <li><a href="seguidores.html" class="subitems"><span class="icon-users"></span>Seguidores</a></li>
 
@@ -164,101 +166,52 @@
         </nav>
     </div>
 
-    <div id="contactos">
-        <h4 class="titulo-contactos"><span class="icon-xing2"></span>Contactos</h4>
-        <ul id="listaContactos">
-            <li>
-                <div><img src="https://scontent.fsjo1-1.fna.fbcdn.net/v/t1.0-9/12391247_945704492187160_7789357485775964913_n.jpg?oh=24e475ad878dd8abdf02877e0e4da698&oe=59D5D75B"></div>
-                <h5 class="nombres">Cindia Rodriguez</h5>
-            </li>
-            <li>
-                <div><img src="https://scontent.fsjo1-1.fna.fbcdn.net/v/t1.0-9/14432959_10209400324220077_9170105677379692420_n.jpg?oh=422b29cea6481bf390eef00f080279da&oe=59D35AA4"></div>
-                <h5 class="nombres">J Carlos AG</h5>
-            </li>
-            <li>
-                <div><img src="https://scontent.fsjo1-1.fna.fbcdn.net/v/t1.0-9/12105872_920622134660193_6631382418836863102_n.jpg?oh=663076018208c9fccad840e2e569854a&oe=59C92A39"></div>
-                <h5 class="nombres">Anthony Solis</h5>
-            </li>
-            <li>
-                <div><img src="https://scontent.fsjo1-1.fna.fbcdn.net/v/t1.0-9/17523146_1892866087592228_550795137621536775_n.jpg?oh=61bc27e0c695bb5fe529350a5bd65f84&oe=59D2B969"></div>
-                <h5 class="nombres">Mon Peréz</h5>
-            </li>
-            <li>
-                <div><img src="https://scontent.fsjo1-1.fna.fbcdn.net/v/t1.0-9/18698380_10154358468781432_2881218494280402451_n.jpg?oh=939968c773d063b7b8d7a71860ea9aa8&oe=59D0F258"></div>
-                <h5 class="nombres">Jose Luis Zamora</h5>
-            </li>
-            <li>
-                <div><img src="https://scontent.fsjo1-1.fna.fbcdn.net/v/t1.0-9/17757559_1876575629222744_7170307501163855554_n.jpg?oh=066e84e81e360faf35d6ed1f4b905068&oe=59CF521E"></div>
-                <h5 class="nombres">Kerlin Beita</h5>
-            </li>
-            <li>
-                <div><img src="https://scontent.fsjo1-1.fna.fbcdn.net/v/t1.0-9/14212638_10210197069274012_5162951872761536712_n.jpg?oh=f4091cc7c10700a81e651f726ec239de&oe=59C7BEB9"></div>
-                <h5 class="nombres">Jonathan Ramirez</h5>
-            </li>
-            <li>
-                <div><img src="https://scontent.fsjo1-1.fna.fbcdn.net/v/t1.0-9/12715484_1070708646282552_6779774144301198053_n.jpg?oh=783f8c24c9c4e2a069139870afc155e6&oe=59DC5328"></div>
-                <h5 class="nombres">Luis Restrepo</h5>
-            </li>
-            <li>
-                <div><img src="https://scontent.fsjo1-1.fna.fbcdn.net/v/t1.0-9/14650065_1270188673001666_2201957785065682869_n.jpg?oh=ef3c9dd619a6c53add84f854ef87a09c&oe=59C5BD77"></div>
-                <h5 class="nombres">Josue Barrantes</h5>
-            </li>
-            <li>
-                <div><img src="https://scontent.fsjo1-1.fna.fbcdn.net/v/t1.0-9/18664355_1327335310647044_7729069886809832296_n.jpg?oh=50ef94beb086c2058e5ec81c287ffa0b&oe=59D548DF"></div>
-                <h5 class="nombres">Pedro Chacon</h5>
-            </li>
-            <li>
-                <div><img src="https://scontent.fsjo1-1.fna.fbcdn.net/v/t1.0-9/11665547_842968629127649_3228264414263287894_n.jpg?oh=c9a65e74cd12dfcdd15e13034a15776e&oe=59D8DE18"></div>
-                <h5 class="nombres">Andrey Arroyo </h5>
-            </li>
-            <li>
-                <div><img src="https://scontent.fsjo1-1.fna.fbcdn.net/v/t1.0-9/19224968_1754384911240100_8078035859640042209_n.jpg?oh=462e0f77babd70258c3ada257ae075fe&oe=59DDA344"></div>
-                <h5 class="nombres">Patricia Paniagua</h5>
-            </li>
-            <li>
-                <div><img src="https://scontent.fsjo1-1.fna.fbcdn.net/v/t1.0-9/13082677_525597220946519_7443350503543268753_n.jpg?oh=f6e637ef7bb50c388f961a47ee6519bd&oe=59D6A8FC"></div>
-                <h5 class="nombres">Sileny Araya</h5>
-            </li>
-            <li>
-                <div><img src="https://scontent.fsjo1-1.fna.fbcdn.net/v/t1.0-9/17904301_1497555543648835_118777021441604483_n.jpg?oh=674ac8ba8366fd3583513508da5522d2&oe=5A09F428"></div>
-                <h5 class="nombres">Catalina Zúñiga</h5>
-            </li>
-            <li>
-                <div><img src="https://scontent.fsjo1-1.fna.fbcdn.net/v/t1.0-9/12931187_960121787386367_7590095502347743510_n.jpg?oh=4eb4cd3a39adb7c74c28f452c39f8644&oe=5A0F4DA9"></div>
-                <h5 class="nombres">Melany Cambronero</h5>
-            </li>
-        </ul>
-    </div>
 
     <div id="cuerpoGrupo">
         <div id="conjunto">
             <div id="encabezado">
-               <div id="particulas"></div>
+                <div id="particulas"></div>
                 <img id="portada" src="imagenes/portada.png" alt="" />
-                <div id="fotoGrupo"><img src="http://timeasley.com/wp-content/uploads/2014/10/logo_newbalance.png" alt=""></div>
+                <div id="fotoGrupo">
+
+                    <img src="http://www.zapatillasnewbalanceoferta.es/images/new-balance.jpg" alt="">
+                </div>
                 <h1>New Balance Team</h1>
             </div>
             <div id="datos">
                 <div id="menuH">
                     <ul>
                         <li>
-                            <a href="javascript:mostrarPubli();">
-                                Publicaciones</a>
+                            <a href="javascript:mostrarPubli();"><span class="icon-stack icons"></span>
+                                <span class="textMenu">Publicaciones</span></a>
                         </li>
                         <li>
-                            <a href="javascript:mostrarMiembros();">Miembros</a></li>
-                        <li><a href="javascript:mostrarFotos();">Fotos</a></li>
-                        <li><a href="javascript:mostrarVideos();">Videos</a></li>
-                        <li><a href="javascript:mostrarRutas();">Rutas</a></li>
-                        <li><a href="javascript:mostrarRetos();">Retos</a></li>
+                            <a href="javascript:mostrarMiembros();"><span class="icon-users icons"></span><span class="textMenu">Miembros</span></a></li>
+                        <li><a href="javascript:mostrarFotos();"><span class="icon-camera icons"></span><span class="textMenu">Fotos</span></a></li>
+                        <li><a href="javascript:mostrarVideos();"><span class="icon-play icons"></span><span class="textMenu">Videos</span></a></li>
+                        <li><a href="javascript:mostrarRutas();"><span class="icon-map icons"></span><span class="textMenu">Rutas</span></a></li>
+                        <li><a href="javascript:mostrarRetos();"><span class="icon-fire icons"></span><span class="textMenu">Retos</span></a></li>
                     </ul>
                 </div>
                 <div id="contenidoGrupo">
                     <div id="publications">
 
                         <div class="fotos">
+                            <div class="descripcion">
+                                <div class="publicador">
+                                    <div><img src="https://scontent.fsjo1-1.fna.fbcdn.net/v/t1.0-9/12931187_960121787386367_7590095502347743510_n.jpg?oh=4eb4cd3a39adb7c74c28f452c39f8644&oe=5A0F4DA9" alt="">
+                                    </div>
+                                    <h3>Melany Cambronero</h3>
+                                    <h4>Marathon De Boston 2017</h4>
+                                    <p>Los corredores keniatas dominaron la edición 121 del maratón de Boston, con los triunfos de Geoffrey Kirui en hombres y Edna Kiplagat en mujeres, con tiempos impresionantes y destacables que seran reconocidos por la IAAF para los mundiales que se acercan.
+                                    </p>
+
+
+
+                                </div>
+                            </div>
                             <div class="publicado">
-                                <ul>
+                                <ul id="listaFotos">
                                     <li>
                                         <input type="radio" name="rbutton" checked>
 
@@ -277,23 +230,9 @@
                                         <img src="https://assets.metrolatam.com/pr/2017/04/17/APTOPIX-Boston-Marath_Figu-1200x800.jpg" alt=""></li>
                                 </ul>
                             </div>
-                            <div class="descripcion">
-                                <div class="publicador">
-                                    <div><img src="https://scontent.fsjo1-1.fna.fbcdn.net/v/t1.0-9/12931187_960121787386367_7590095502347743510_n.jpg?oh=4eb4cd3a39adb7c74c28f452c39f8644&oe=5A0F4DA9" alt="">
-                                    </div>
-                                    <h3>Melany Cambronero</h3>
-                                    <h4>Marathon De Boston 2017</h4>
-                                    <p>Los corredores keniatas dominaron la edición 121 del maratón de Boston, con los triunfos de Geoffrey Kirui en hombres y Edna Kiplagat en mujeres, con tiempos impresionantes y destacables.
-                                    </p>
-                                    <button id="like"></button>
-                                    <button id="comentario"></button>
-                                </div>
-                            </div>
+                            <button id="like"></button>
                         </div>
                         <div class="videos">
-                            <div class="publicado">
-                                <video id="muestraVideo" src="videos/video.mp4" controls/>
-                            </div>
                             <div class="descripcion">
                                 <div class="publicador">
                                     <div><img src="imagenes/nelson.jpg" alt="">
@@ -302,15 +241,15 @@
                                     <h4>JUDUCA 2016</h4>
                                     <p>Centroamericano universitario en la prueba 1500m en Honduras.
                                     </p>
-                                    <button id="like"></button>
-                                    <button id="comentario"></button>
+
                                 </div>
                             </div>
+                            <div class="publicado">
+                                <video id="muestraVideo" src="videos/video.mp4" controls/>
+                            </div>
+                            <button id="like"></button>
                         </div>
                         <div class="mapeo">
-                            <div class="publicado">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m24!1m12!1m3!1d31401.827703504758!2d-84.44740005893985!3d10.323592828295125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m9!3e6!4m3!3m2!1d10.3024249!2d-84.4265126!4m3!3m2!1d10.3493503!2d-84.4342625!5e0!3m2!1ses-419!2scr!4v1499183750960" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-                            </div>
                             <div class="descripcion">
                                 <div class="publicador">
                                     <div><img src="https://scontent.fsjo1-1.fna.fbcdn.net/v/t1.0-9/14212638_10210197069274012_5162951872761536712_n.jpg?oh=f4091cc7c10700a81e651f726ec239de&oe=59C7BEB9" alt="">
@@ -320,9 +259,12 @@
                                     <p>Fondo en grupo a medio dia.
                                     </p>
                                     <button id="like"></button>
-                                    <button id="comentario"></button>
                                 </div>
                             </div>
+                            <div class="publicado">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m24!1m12!1m3!1d31401.827703504758!2d-84.44740005893985!3d10.323592828295125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m9!3e6!4m3!3m2!1d10.3024249!2d-84.4265126!4m3!3m2!1d10.3493503!2d-84.4342625!5e0!3m2!1ses-419!2scr!4v1499183750960" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                            </div>
+                            <button id="like"></button>
                         </div>
                     </div>
                 </div>
@@ -330,71 +272,110 @@
                     <div>
                         <div><img src="https://scontent.fsjo1-1.fna.fbcdn.net/v/t1.0-9/12391247_945704492187160_7789357485775964913_n.jpg?oh=24e475ad878dd8abdf02877e0e4da698&oe=59D5D75B" alt=""></div>
                         <h1>Cindia Rodriguez</h1>
-                        <h5>Seguidos: 452</h5>
-                        <h5>Seguidores: 420</h5>
+                       
+                            <h5>Seguidos: 452</h5>
+                      
+                            <h5>Seguidores: 420</h5>
+
+
                         <button>Siguiendo</button>
                     </div>
                     <div>
                         <div><img src="https://scontent.fsjo1-1.fna.fbcdn.net/v/t1.0-9/11665547_842968629127649_3228264414263287894_n.jpg?oh=c9a65e74cd12dfcdd15e13034a15776e&oe=59D8DE18" alt=""></div>
                         <h1>Andrey Arroyo</h1>
-                        <h5>Seguidos: 566</h5>
-                        <h5>Seguidores: 450</h5>
+                       
+                            <h5>Seguidos: 566</h5>
+
+                            <h5>Seguidores: 450</h5>
+
                         <button>Seguir</button>
                     </div>
                     <div>
                         <div><img src="https://scontent.fsjo1-1.fna.fbcdn.net/v/t1.0-9/14212638_10210197069274012_5162951872761536712_n.jpg?oh=f4091cc7c10700a81e651f726ec239de&oe=59C7BEB9" alt=""></div>
                         <h1>Jonathan Ramirez</h1>
-                        <h5>Seguidos: 42</h5>
-                        <h5>Seguidores: 40</h5>
+                       
+                            <h5>Seguidos: 42</h5>
+
+                            <h5>Seguidores: 40</h5>
+
+                     
                         <button>Siguiendo</button>
                     </div>
                     <div>
                         <div><img src="https://scontent.fsjo1-1.fna.fbcdn.net/v/t1.0-9/17757559_1876575629222744_7170307501163855554_n.jpg?oh=066e84e81e360faf35d6ed1f4b905068&oe=59CF521E" alt=""></div>
                         <h1>Kerlin Beita</h1>
-                        <h5>Seguidos: 52</h5>
-                        <h5>Seguidores: 427</h5>
+                       
+                            <h5>Seguidos: 52</h5>
+
+                      
+                            <h5>Seguidores: 427</h5>
+
+                        
                         <button>Seguir</button>
                     </div>
                     <div>
                         <div><img src="https://scontent.fsjo1-1.fna.fbcdn.net/v/t1.0-9/12931187_960121787386367_7590095502347743510_n.jpg?oh=4eb4cd3a39adb7c74c28f452c39f8644&oe=5A0F4DA9" alt=""></div>
                         <h1>Melany Cambronero</h1>
-                        <h5>Seguidos: 400</h5>
-                        <h5>Seguidores: 440</h5>
+                        
+                            <h5>Seguidos: 400</h5>
+                      
+                            <h5>Seguidores: 440</h5>
+                        
                         <button>Siguiendo</button>
                     </div>
                     <div>
                         <div><img src="https://scontent.fsjo1-1.fna.fbcdn.net/v/t1.0-9/17904301_1497555543648835_118777021441604483_n.jpg?oh=674ac8ba8366fd3583513508da5522d2&oe=5A09F428" alt=""></div>
                         <h1>Catalina Zúñiga</h1>
-                        <h5>Seguidos: 262</h5>
-                        <h5>Seguidores: 210</h5>
+                      
+                            <h5>Seguidos: 262</h5>
+
+                            <h5>Seguidores: 210</h5>
+
+                      
                         <button>Siguiendo</button>
                     </div>
                     <div>
                         <div><img src="https://scontent.fsjo1-1.fna.fbcdn.net/v/t1.0-9/18664355_1327335310647044_7729069886809832296_n.jpg?oh=50ef94beb086c2058e5ec81c287ffa0b&oe=59D548DF" alt=""></div>
                         <h1>Pedro Chacon</h1>
-                        <h5>Seguidos: 455</h5>
-                        <h5>Seguidores: 421</h5>
+                       
+                            <h5>Seguidos: 455</h5>
+
+                        
+                       
+                            <h5>Seguidores: 421</h5>
+                       
                         <button>Seguir</button>
                     </div>
                     <div>
                         <div><img src="https://scontent.fsjo1-1.fna.fbcdn.net/v/t1.0-9/14432959_10209400324220077_9170105677379692420_n.jpg?oh=422b29cea6481bf390eef00f080279da&oe=59D35AA4" alt=""></div>
                         <h1>J Carlos AG</h1>
-                        <h5>Seguidos: 12</h5>
-                        <h5>Seguidores: 2</h5>
+                       
+                            <h5>Seguidos: 12</h5>
+
+                        <h5>Seguidores: 40</h5>
                         <button>Siguiendo</button>
                     </div>
                     <div>
                         <div><img src="https://scontent.fsjo1-1.fna.fbcdn.net/v/t1.0-9/12715484_1070708646282552_6779774144301198053_n.jpg?oh=783f8c24c9c4e2a069139870afc155e6&oe=59DC5328" alt=""></div>
                         <h1>Luis Restrepo</h1>
-                        <h5>Seguidos: 45</h5>
-                        <h5>Seguidores: 40</h5>
+                       
+                            <h5>Seguidos: 45</h5>
+
+                      
+                            <h5>Seguidores: 40</h5>
+
+                       
                         <button>Siguiendo</button>
                     </div>
                     <div>
                         <div><img src="https://scontent.fsjo1-1.fna.fbcdn.net/v/t1.0-9/19224968_1754384911240100_8078035859640042209_n.jpg?oh=462e0f77babd70258c3ada257ae075fe&oe=59DDA344" alt=""></div>
                         <h1>Patricia Paniagua</h1>
-                        <h5>Seguidos: 482</h5>
-                        <h5>Seguidores: 520</h5>
+                       
+                            <h5>Seguidos: 482</h5>
+
+                       
+                            <h5>Seguidores: 520</h5>
+
                         <button>Siguiendo</button>
                     </div>
 
@@ -455,34 +436,34 @@
                         <h1>Reto 5Km Top 10</h1>
                         <button>Unido</button></div>
                     <div>
-                       
+
                         <div>
                             <img src="http://sportteknologi.se/wp-content/uploads/sites/1542/2017/03/iStock-482484861-300x284.jpg" alt="">
                         </div>
                         <h1>Reto Maximos Km</h1>
                         <button>Unirme</button>
-                        </div>
+                    </div>
                     <div>
                         <div>
                             <img src="https://www.govisitcostarica.co.cr/images/photos/full-side-of-zarcero-church.jpg" alt="">
                         </div>
                         <h1>Reto CQ-Zarcero</h1>
                         <button>Unirme</button>
-                        </div>
+                    </div>
                     <div>
                         <div>
                             <img src="http://fincasylotesensancarloscostarica.com/Sivendemos/wp-content/uploads/2015/09/Parque.jpg" alt="">
                         </div>
                         <h1>Reto CQ-Florencia</h1>
                         <button>Unido</button>
-                        </div>
+                    </div>
                     <div>
                         <div>
                             <img src="https://pbs.twimg.com/profile_images/425538695442096128/kDv0iw4b_400x400.png" alt="">
                         </div>
                         <h1>Reto 21Km</h1>
                         <button>Unido</button>
-                        </div>
+                    </div>
                 </div>
             </div>
         </div>

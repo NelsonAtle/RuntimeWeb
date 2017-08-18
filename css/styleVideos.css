@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+html{
+ overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+
+#icon-logo {
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+#cuerpoPrincipal {
+    overflow-y: scroll;
+    background: #222220;
+    overflow-y: hidden;
+}
+
+#conjunto {
+    width: 80%;
+    margin: auto;
+    height: 100%;
+    position: relative;
+    
+}
+
+#encabezado {
+    width: 100%;
+    height: 40%;
+    z-index: -1;
+    position: relative;
+    overflow: hidden;
+}
+
+#encabezado>div>img {
+    width: 100%;
+    height: 100%;
+}
+
+#encabezado>h1 {
+    text-align: center;
+    width: 100%;
+    font-family: 'play';
+    color: dodgerblue;
+    font-size: 450%;
+}
+
+#videos {
+    width: 100%;
+    height: 94.5%;
+    display: block;
+    background: #B3B6B7;
+    overflow-y: scroll;
+}
+#videos>div {
+    width: 31%;
+    height: 31%;
+    float: left;
+    margin-top: 1.5%;
+    margin-left: 1.6%;
+    margin-bottom: 1.5%;
+    overflow: hidden;
+}
+
+#videos>div>video {
+    width: 100%;
+    height: 100%
+}
+#cuerpoVideos{
+    height: 100%;
+    width: 100%;
+}
+
+#cuerpoVideos #usuario {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin: auto;
+    margin-top: -45.5%;
+    
+}
+
+#portadaVideo {
+    width: 100%;
+    margin-top: -28%;
+}
+#usuario {
+    width: 12%;
+    height: 47%;
+    border-radius: 100%;
+    overflow: hidden;
+    margin: auto;
+    margin-top: -48%;
+}
+
+#cuerpoVideo #usuario{
+      margin-top: -35%;
+}
+
+#cuerpoVideos h1{
+    color:dodgerblue;
+}

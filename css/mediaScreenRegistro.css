@@ -1,0 +1,1454 @@
+@media screen and (device-width: 360px) and (device-height: 640px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    #fondo {
+        display: none;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url("/Imagenes/deviceResponsive2.png");
+        background-size: 100%;
+        overflow-y: hidden;
+    }
+    #particulas {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        z-index: -1;
+    }
+    #main {
+        width: 80%;
+        height: 65%;
+        margin: auto;
+        margin-top: 25%;
+        overflow: hidden;
+        margin-left: 10%;
+        position: fixed;
+    }
+    .formulario>input {
+        margin: auto;
+        width: 90%;
+        height: 64%;
+        margin-top: 2%;
+        font-size: 280%;
+    }
+    .btn {
+        width: 50%;
+        height: 20%;
+        display: block;
+        margin: auto;
+        font-family: verdana;
+        font-size: 240%;
+        margin-right: 25%;
+        padding-bottom: 2%;
+        margin-top: 5%;
+    }
+    #user {
+        margin-top: 2%;
+    }
+}
+
+@media screen and (device-width: 600px) and (device-height: 1024px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    #fondo {
+        display: none;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url("/Imagenes/deviceResponsive2.png");
+        background-size: 100%;
+        overflow-y: hidden;
+    }
+    #particulas {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        z-index: -1;
+    }
+    #main {
+        width: 80%;
+        height: 65%;
+        margin: auto;
+        margin-top: 25%;
+        overflow: hidden;
+        margin-left: 10%;
+        position: fixed;
+    }
+    .formulario>input {
+        margin: auto;
+        width: 90%;
+        height: 64%;
+        margin-top: 2%;
+        font-size: 280%;
+    }
+    .btn {
+        width: 50%;
+        height: 20%;
+        display: block;
+        margin: auto;
+        font-family: verdana;
+        font-size: 240%;
+        margin-right: 25%;
+        padding-bottom: 2%;
+        margin-top: 5%;
+    }
+    #user {
+        margin-top: 2%;
+    }
+}
+
+@media screen and (device-width: 384px) and (device-height: 640px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    #fondo {
+        display: none;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url("/Imagenes/deviceResponsive2.png");
+        background-size: 100%;
+        overflow-y: hidden;
+    }
+    #particulas {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        z-index: -1;
+    }
+    #main {
+        width: 80%;
+        height: 65%;
+        margin: auto;
+        margin-top: 25%;
+        overflow: hidden;
+        margin-left: 10%;
+        position: fixed;
+    }
+    .formulario>input {
+        margin: auto;
+        width: 90%;
+        height: 64%;
+        margin-top: 2%;
+        font-size: 280%;
+    }
+    .btn {
+        width: 50%;
+        height: 20%;
+        display: block;
+        margin: auto;
+        font-family: verdana;
+        font-size: 240%;
+        margin-right: 25%;
+        padding-bottom: 2%;
+        margin-top: 5%;
+    }
+    #user {
+        margin-top: 2%;
+    }
+}
+
+@media screen and (device-width: 800px) and (device-height: 1280px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    #fondo {
+        display: none;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url("/Imagenes/deviceResponsive2.png");
+        background-size: 100%;
+        overflow-y: hidden;
+    }
+    #particulas {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        z-index: -1;
+    }
+    #main {
+        width: 80%;
+        height: 65%;
+        margin: auto;
+        margin-top: 25%;
+        overflow: hidden;
+        margin-left: 10%;
+        position: fixed;
+    }
+    .formulario>input {
+        margin: auto;
+        width: 90%;
+        height: 64%;
+        margin-top: 2%;
+        font-size: 280%;
+    }
+    .btn {
+        width: 50%;
+        height: 20%;
+        display: block;
+        margin: auto;
+        font-family: verdana;
+        font-size: 240%;
+        margin-right: 25%;
+        padding-bottom: 2%;
+        margin-top: 5%;
+    }
+    #user {
+        margin-top: 2%;
+    }
+}
+
+@media screen and (device-width: 412px) and (device-height: 732px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    #fondo {
+        display: none;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url("/Imagenes/deviceResponsive2.png");
+        background-size: 100%;
+        overflow-y: hidden;
+    }
+    #particulas {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        z-index: -1;
+    }
+    #main {
+        width: 80%;
+        height: 65%;
+        margin: auto;
+        margin-top: 25%;
+        overflow: hidden;
+        margin-left: 10%;
+        position: fixed;
+    }
+    .formulario>input {
+        margin: auto;
+        width: 90%;
+        height: 64%;
+        margin-top: 2%;
+        font-size: 280%;
+    }
+    .btn {
+        width: 50%;
+        height: 20%;
+        display: block;
+        margin: auto;
+        font-family: verdana;
+        font-size: 240%;
+        margin-right: 25%;
+        padding-bottom: 2%;
+        margin-top: 5%;
+    }
+    #user {
+        margin-top: 2%;
+    }
+}
+
+@media screen and (device-width: 600px) and (device-height: 960px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    #fondo {
+        display: none;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url("/Imagenes/deviceResponsive2.png");
+        background-size: 100%;
+        overflow-y: hidden;
+    }
+    #particulas {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        z-index: -1;
+    }
+    #main {
+        width: 80%;
+        height: 65%;
+        margin: auto;
+        margin-top: 25%;
+        overflow: hidden;
+        margin-left: 10%;
+        position: fixed;
+    }
+    .formulario>input {
+        margin: auto;
+        width: 90%;
+        height: 64%;
+        margin-top: 2%;
+        font-size: 280%;
+    }
+    .btn {
+        width: 50%;
+        height: 20%;
+        display: block;
+        margin: auto;
+        font-family: verdana;
+        font-size: 240%;
+        margin-right: 25%;
+        padding-bottom: 2%;
+        margin-top: 5%;
+    }
+    #user {
+        margin-top: 2%;
+    }
+}
+
+@media screen and (device-width: 320px) and (device-height: 533px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    #fondo {
+        display: none;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url("/Imagenes/deviceResponsive2.png");
+        background-size: 100%;
+        overflow-y: hidden;
+    }
+    #particulas {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        z-index: -1;
+    }
+    #main {
+        width: 80%;
+        height: 65%;
+        margin: auto;
+        margin-top: 25%;
+        overflow: hidden;
+        margin-left: 10%;
+        position: fixed;
+    }
+    .formulario>input {
+        margin: auto;
+        width: 90%;
+        height: 64%;
+        margin-top: 2%;
+        font-size: 280%;
+    }
+    .btn {
+        width: 50%;
+        height: 20%;
+        display: block;
+        margin: auto;
+        font-family: verdana;
+        font-size: 240%;
+        margin-right: 25%;
+        padding-bottom: 2%;
+        margin-top: 5%;
+    }
+    #user {
+        margin-top: 2%;
+    }
+}
+
+@media screen and (device-width: 768px) and (device-height: 1024px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    #fondo {
+        display: none;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url("/Imagenes/deviceResponsive2.png");
+        background-size: 100%;
+        overflow-y: hidden;
+    }
+    #particulas {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        z-index: -1;
+    }
+    #main {
+        width: 80%;
+        height: 85%;
+        margin: auto;
+        margin-top: 10%;
+        overflow: hidden;
+        margin-left: 10%;
+        position: fixed;
+    }
+    .formulario>input {
+        margin: auto;
+        width: 90%;
+        height: 64%;
+        margin-top: 2%;
+        font-size: 280%;
+    }
+    .btn {
+        width: 50%;
+        height: 20%;
+        display: block;
+        margin: auto;
+        font-family: verdana;
+        font-size: 240%;
+        margin-right: 25%;
+        padding-bottom: 2%;
+        margin-top: 5%;
+    }
+    #user {
+        margin-top: 2%;
+    }
+}
+
+@media screen and (device-width: 320px) and (device-height: 480px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    #fondo {
+        display: none;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url("/Imagenes/deviceResponsive2.png");
+        background-size: 100%;
+        overflow-y: hidden;
+    }
+    #particulas {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        z-index: -1;
+    }
+    #main {
+        width: 80%;
+        height: 75%;
+        margin: auto;
+        margin-top: 15%;
+        overflow: hidden;
+        margin-left: 10%;
+        position: fixed;
+    }
+    .formulario>input {
+        margin: auto;
+        width: 90%;
+        height: 64%;
+        margin-top: 2%;
+        font-size: 280%;
+    }
+    .btn {
+        width: 50%;
+        height: 20%;
+        display: block;
+        margin: auto;
+        font-family: verdana;
+        font-size: 240%;
+        margin-right: 25%;
+        padding-bottom: 2%;
+        margin-top: 5%;
+    }
+    #user {
+        margin-top: 2%;
+    }
+}
+
+@media screen and (device-width: 320px) and (device-height: 568px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    #fondo {
+        display: none;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url("/Imagenes/deviceResponsive2.png");
+        background-size: 100%;
+        overflow-y: hidden;
+    }
+    #particulas {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        z-index: -1;
+    }
+    #main {
+        width: 80%;
+        height: 65%;
+        margin: auto;
+        margin-top: 25%;
+        overflow: hidden;
+        margin-left: 10%;
+        position: fixed;
+    }
+    .formulario>input {
+        margin: auto;
+        width: 90%;
+        height: 64%;
+        margin-top: 2%;
+        font-size: 280%;
+    }
+    .btn {
+        width: 50%;
+        height: 20%;
+        display: block;
+        margin: auto;
+        font-family: verdana;
+        font-size: 240%;
+        margin-right: 25%;
+        padding-bottom: 2%;
+        margin-top: 5%;
+    }
+    #user {
+        margin-top: 2%;
+    }
+}
+
+@media screen and (device-width: 375px) and (device-height: 667px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    #fondo {
+        display: none;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url("/Imagenes/deviceResponsive2.png");
+        background-size: 100%;
+        overflow-y: hidden;
+    }
+    #particulas {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        z-index: -1;
+    }
+    #main {
+        width: 80%;
+        height: 65%;
+        margin: auto;
+        margin-top: 25%;
+        overflow: hidden;
+        margin-left: 10%;
+        position: fixed;
+    }
+    .formulario>input {
+        margin: auto;
+        width: 90%;
+        height: 64%;
+        margin-top: 2%;
+        font-size: 280%;
+    }
+    .btn {
+        width: 50%;
+        height: 20%;
+        display: block;
+        margin: auto;
+        font-family: verdana;
+        font-size: 240%;
+        margin-right: 25%;
+        padding-bottom: 2%;
+        margin-top: 5%;
+    }
+    #user {
+        margin-top: 2%;
+    }
+}
+
+@media screen and (device-width: 414px) and (device-height: 736px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    #fondo {
+        display: none;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url("/Imagenes/deviceResponsive2.png");
+        background-size: 100%;
+        overflow-y: hidden;
+    }
+    #particulas {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        z-index: -1;
+    }
+    #main {
+        width: 80%;
+        height: 65%;
+        margin: auto;
+        margin-top: 25%;
+        overflow: hidden;
+        margin-left: 10%;
+        position: fixed;
+    }
+    .formulario>input {
+        margin: auto;
+        width: 90%;
+        height: 64%;
+        margin-top: 2%;
+        font-size: 280%;
+    }
+    .btn {
+        width: 50%;
+        height: 20%;
+        display: block;
+        margin: auto;
+        font-family: verdana;
+        font-size: 240%;
+        margin-right: 25%;
+        padding-bottom: 2%;
+        margin-top: 5%;
+    }
+    #user {
+        margin-top: 2%;
+    }
+}
+
+@media screen and (device-width: 480px) and (device-height: 800px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    #fondo {
+        display: none;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url("/Imagenes/deviceResponsive2.png");
+        background-size: 100%;
+        overflow-y: hidden;
+    }
+    #particulas {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        z-index: -1;
+    }
+    #main {
+        width: 80%;
+        height: 65%;
+        margin: auto;
+        margin-top: 25%;
+        overflow: hidden;
+        margin-left: 10%;
+        position: fixed;
+    }
+    .formulario>input {
+        margin: auto;
+        width: 90%;
+        height: 64%;
+        margin-top: 2%;
+        font-size: 280%;
+    }
+    .btn {
+        width: 50%;
+        height: 20%;
+        display: block;
+        margin: auto;
+        font-family: verdana;
+        font-size: 240%;
+        margin-right: 25%;
+        padding-bottom: 2%;
+        margin-top: 5%;
+    }
+    #user {
+        margin-top: 2%;
+    }
+}
+
+
+
+
+
+@media screen and (device-width: 640px) and (device-height: 360px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    #fondo {
+        display: none;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url("/Imagenes/deviceResponsive2.png");
+        background-size: 100%;
+        overflow-y: hidden;
+    }
+    #particulas {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        z-index: -1;
+    }
+    #main {
+        width: 90%;
+        height: 90%;
+        margin: auto;
+        margin-top: 3%;
+        margin-left: 5%;
+        overflow: hidden;
+        position: fixed;
+        overflow-y: scroll;
+    }
+    .formulario>input {
+        
+        margin: auto;
+        width: 80%;
+        display: inline-block;
+        height: 64%;
+        margin-top: 2%;
+        font-size: 280%;
+    }
+    .btn {
+        width: 50%;
+        height: 20%;
+        display: block;
+        margin: auto;
+        font-family: verdana;
+        font-size: 240%;
+        margin-right: 25%;
+        padding-bottom: 2%;
+        margin-top: 3%;
+    }
+    #user {
+        margin-top: 2%;
+        width: 90px;
+        height: 90px;
+    }
+}
+
+@media screen and (device-width: 1024px) and (device-height: 600px) {
+     * {
+        margin: 0;
+        padding: 0;
+    }
+    #fondo {
+        display: none;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url("/Imagenes/deviceResponsive2.png");
+        background-size: 100%;
+        overflow-y: hidden;
+    }
+    #particulas {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        z-index: -1;
+    }
+    #main {
+        width: 90%;
+        height: 90%;
+        margin: auto;
+        margin-top: 3%;
+        margin-left: 5%;
+        overflow: hidden;
+        position: fixed;
+        overflow-y: scroll;
+    }
+    .formulario>input {
+        
+        margin: auto;
+        width: 80%;
+        display: inline-block;
+        height: 64%;
+        margin-top: 2%;
+        font-size: 280%;
+    }
+    .btn {
+        width: 50%;
+        height: 20%;
+        display: block;
+        margin: auto;
+        font-family: verdana;
+        font-size: 240%;
+        margin-right: 25%;
+        padding-bottom: 2%;
+        margin-top: 3%;
+    }
+    #user {
+        margin-top: 2%;
+        width: 90px;
+        height: 90px;
+    }
+}
+
+@media screen and (device-width: 640px) and (device-height: 384px) {
+      * {
+        margin: 0;
+        padding: 0;
+    }
+    #fondo {
+        display: none;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url("/Imagenes/deviceResponsive2.png");
+        background-size: 100%;
+        overflow-y: hidden;
+    }
+    #particulas {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        z-index: -1;
+    }
+    #main {
+        width: 90%;
+        height: 90%;
+        margin: auto;
+        margin-top: 3%;
+        margin-left: 5%;
+        overflow: hidden;
+        position: fixed;
+        overflow-y: scroll;
+    }
+    .formulario>input {
+        
+        margin: auto;
+        width: 80%;
+        display: inline-block;
+        height: 64%;
+        margin-top: 2%;
+        font-size: 280%;
+    }
+    .btn {
+        width: 50%;
+        height: 20%;
+        display: block;
+        margin: auto;
+        font-family: verdana;
+        font-size: 240%;
+        margin-right: 25%;
+        padding-bottom: 2%;
+        margin-top: 3%;
+    }
+    #user {
+        margin-top: 2%;
+        width: 90px;
+        height: 90px;
+    }
+}
+
+@media screen and (device-width: 1280px) and (device-height: 800px) {
+      * {
+        margin: 0;
+        padding: 0;
+    }
+    #fondo {
+        display: none;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url("/Imagenes/deviceResponsive2.png");
+        background-size: 100%;
+        overflow-y: hidden;
+    }
+    #particulas {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        z-index: -1;
+    }
+    #main {
+        width: 90%;
+        height: 90%;
+        margin: auto;
+        margin-top: 3%;
+        margin-left: 5%;
+        overflow: hidden;
+        position: fixed;
+        overflow-y: scroll;
+    }
+    .formulario>input {
+        
+        margin: auto;
+        width: 80%;
+        display: inline-block;
+        height: 64%;
+        margin-top: 2%;
+        font-size: 280%;
+    }
+    .btn {
+        width: 50%;
+        height: 20%;
+        display: block;
+        margin: auto;
+        font-family: verdana;
+        font-size: 240%;
+        margin-right: 25%;
+        padding-bottom: 2%;
+        margin-top: 3%;
+    }
+    #user {
+        margin-top: 2%;
+        width: 90px;
+        height: 90px;
+    }
+}
+
+@media screen and (device-width: 732px) and (device-height: 412px) {
+     * {
+        margin: 0;
+        padding: 0;
+    }
+    #fondo {
+        display: none;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url("/Imagenes/deviceResponsive2.png");
+        background-size: 100%;
+        overflow-y: hidden;
+    }
+    #particulas {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        z-index: -1;
+    }
+    #main {
+        width: 90%;
+        height: 90%;
+        margin: auto;
+        margin-top: 3%;
+        margin-left: 5%;
+        overflow: hidden;
+        position: fixed;
+        overflow-y: scroll;
+    }
+    .formulario>input {
+        
+        margin: auto;
+        width: 80%;
+        display: inline-block;
+        height: 64%;
+        margin-top: 2%;
+        font-size: 280%;
+    }
+    .btn {
+        width: 50%;
+        height: 20%;
+        display: block;
+        margin: auto;
+        font-family: verdana;
+        font-size: 240%;
+        margin-right: 25%;
+        padding-bottom: 2%;
+        margin-top: 3%;
+    }
+    #user {
+        margin-top: 2%;
+        width: 90px;
+        height: 90px;
+    }
+}
+
+@media screen and (device-width: 960px) and (device-height: 600px) {
+     * {
+        margin: 0;
+        padding: 0;
+    }
+    #fondo {
+        display: none;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url("/Imagenes/deviceResponsive2.png");
+        background-size: 100%;
+        overflow-y: hidden;
+    }
+    #particulas {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        z-index: -1;
+    }
+    #main {
+        width: 90%;
+        height: 90%;
+        margin: auto;
+        margin-top: 3%;
+        margin-left: 5%;
+        overflow: hidden;
+        position: fixed;
+        overflow-y: scroll;
+    }
+    .formulario>input {
+        
+        margin: auto;
+        width: 80%;
+        display: inline-block;
+        height: 64%;
+        margin-top: 2%;
+        font-size: 280%;
+    }
+    .btn {
+        width: 50%;
+        height: 20%;
+        display: block;
+        margin: auto;
+        font-family: verdana;
+        font-size: 240%;
+        margin-right: 25%;
+        padding-bottom: 2%;
+        margin-top: 3%;
+    }
+    #user {
+        margin-top: 2%;
+        width: 90px;
+        height: 90px;
+    }
+}
+
+@media screen and (device-width: 533px) and (device-height: 320px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    #fondo {
+        display: none;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url("/Imagenes/deviceResponsive2.png");
+        background-size: 100%;
+        overflow-y: hidden;
+    }
+    #particulas {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        z-index: -1;
+    }
+    #main {
+        width: 90%;
+        height: 90%;
+        margin: auto;
+        margin-top: 3%;
+        margin-left: 5%;
+        overflow: hidden;
+        position: fixed;
+        overflow-y: scroll;
+    }
+    .formulario>input {
+        
+        margin: auto;
+        width: 80%;
+        display: inline-block;
+        height: 64%;
+        margin-top: 2%;
+        font-size: 280%;
+    }
+    .btn {
+        width: 50%;
+        height: 20%;
+        display: block;
+        margin: auto;
+        font-family: verdana;
+        font-size: 240%;
+        margin-right: 25%;
+        padding-bottom: 2%;
+        margin-top: 3%;
+    }
+    #user {
+        margin-top: 2%;
+        width: 90px;
+        height: 90px;
+    }
+}
+
+@media screen and (device-width: 1024px) and (device-height: 768px) {
+      * {
+        margin: 0;
+        padding: 0;
+    }
+    #fondo {
+        display: none;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url("/Imagenes/deviceResponsive2.png");
+        background-size: 100%;
+        overflow-y: hidden;
+    }
+    #particulas {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        z-index: -1;
+    }
+    #main {
+        width: 90%;
+        height: 90%;
+        margin: auto;
+        margin-top: 3%;
+        margin-left: 5%;
+        overflow: hidden;
+        position: fixed;
+        overflow-y: scroll;
+    }
+    .formulario>input {
+        
+        margin: auto;
+        width: 80%;
+        display: inline-block;
+        height: 64%;
+        margin-top: 2%;
+        font-size: 280%;
+    }
+    .btn {
+        width: 50%;
+        height: 20%;
+        display: block;
+        margin: auto;
+        font-family: verdana;
+        font-size: 240%;
+        margin-right: 25%;
+        padding-bottom: 2%;
+        margin-top: 3%;
+    }
+    #user {
+        margin-top: 2%;
+        width: 90px;
+        height: 90px;
+    }
+}
+
+@media screen and (device-width: 480px) and (device-height: 320px) {
+      * {
+        margin: 0;
+        padding: 0;
+    }
+    #fondo {
+        display: none;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url("/Imagenes/deviceResponsive2.png");
+        background-size: 100%;
+        overflow-y: hidden;
+    }
+    #particulas {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        z-index: -1;
+    }
+    #main {
+        width: 90%;
+        height: 90%;
+        margin: auto;
+        margin-top: 3%;
+        margin-left: 5%;
+        overflow: hidden;
+        position: fixed;
+        overflow-y: scroll;
+    }
+    .formulario>input {
+        
+        margin: auto;
+        width: 80%;
+        display: inline-block;
+        height: 64%;
+        margin-top: 2%;
+        font-size: 280%;
+    }
+    .btn {
+        width: 50%;
+        height: 20%;
+        display: block;
+        margin: auto;
+        font-family: verdana;
+        font-size: 240%;
+        margin-right: 25%;
+        padding-bottom: 2%;
+        margin-top: 3%;
+    }
+    #user {
+        margin-top: 2%;
+        width: 90px;
+        height: 90px;
+    }
+}
+
+@media screen and (device-width: 568px) and (device-height: 320px) {
+     * {
+        margin: 0;
+        padding: 0;
+    }
+    #fondo {
+        display: none;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url("/Imagenes/deviceResponsive2.png");
+        background-size: 100%;
+        overflow-y: hidden;
+    }
+    #particulas {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        z-index: -1;
+    }
+    #main {
+        width: 90%;
+        height: 90%;
+        margin: auto;
+        margin-top: 3%;
+        margin-left: 5%;
+        overflow: hidden;
+        position: fixed;
+        overflow-y: scroll;
+    }
+    .formulario>input {
+        
+        margin: auto;
+        width: 80%;
+        display: inline-block;
+        height: 64%;
+        margin-top: 2%;
+        font-size: 280%;
+    }
+    .btn {
+        width: 50%;
+        height: 20%;
+        display: block;
+        margin: auto;
+        font-family: verdana;
+        font-size: 240%;
+        margin-right: 25%;
+        padding-bottom: 2%;
+        margin-top: 3%;
+    }
+    #user {
+        margin-top: 2%;
+        width: 90px;
+        height: 90px;
+    }
+}
+
+@media screen and (device-width: 667px) and (device-height: 375px) {
+      * {
+        margin: 0;
+        padding: 0;
+    }
+    #fondo {
+        display: none;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url("/Imagenes/deviceResponsive2.png");
+        background-size: 100%;
+        overflow-y: hidden;
+    }
+    #particulas {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        z-index: -1;
+    }
+    #main {
+        width: 90%;
+        height: 90%;
+        margin: auto;
+        margin-top: 3%;
+        margin-left: 5%;
+        overflow: hidden;
+        position: fixed;
+        overflow-y: scroll;
+    }
+    .formulario>input {
+        
+        margin: auto;
+        width: 80%;
+        display: inline-block;
+        height: 64%;
+        margin-top: 2%;
+        font-size: 280%;
+    }
+    .btn {
+        width: 50%;
+        height: 20%;
+        display: block;
+        margin: auto;
+        font-family: verdana;
+        font-size: 240%;
+        margin-right: 25%;
+        padding-bottom: 2%;
+        margin-top: 3%;
+    }
+    #user {
+        margin-top: 2%;
+        width: 90px;
+        height: 90px;
+    }
+}
+
+@media screen and (device-width: 736px) and (device-height: 414px) {
+      * {
+        margin: 0;
+        padding: 0;
+    }
+    #fondo {
+        display: none;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url("/Imagenes/deviceResponsive2.png");
+        background-size: 100%;
+        overflow-y: hidden;
+    }
+    #particulas {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        z-index: -1;
+    }
+    #main {
+        width: 90%;
+        height: 90%;
+        margin: auto;
+        margin-top: 3%;
+        margin-left: 5%;
+        overflow: hidden;
+        position: fixed;
+        overflow-y: scroll;
+    }
+    .formulario>input {
+        
+        margin: auto;
+        width: 80%;
+        display: inline-block;
+        height: 64%;
+        margin-top: 2%;
+        font-size: 280%;
+    }
+    .btn {
+        width: 50%;
+        height: 20%;
+        display: block;
+        margin: auto;
+        font-family: verdana;
+        font-size: 240%;
+        margin-right: 25%;
+        padding-bottom: 2%;
+        margin-top: 3%;
+    }
+    #user {
+        margin-top: 2%;
+        width: 90px;
+        height: 90px;
+    }
+}
+
+@media screen and (device-width: 800px) and (device-height: 480px) {
+      * {
+        margin: 0;
+        padding: 0;
+    }
+    #fondo {
+        display: none;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url("/Imagenes/deviceResponsive2.png");
+        background-size: 100%;
+        overflow-y: hidden;
+    }
+    #particulas {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        z-index: -1;
+    }
+    #main {
+        width: 90%;
+        height: 90%;
+        margin: auto;
+        margin-top: 3%;
+        margin-left: 5%;
+        overflow: hidden;
+        position: fixed;
+        overflow-y: scroll;
+    }
+    .formulario>input {
+        
+        margin: auto;
+        width: 80%;
+        display: inline-block;
+        height: 64%;
+        margin-top: 2%;
+        font-size: 280%;
+    }
+    .btn {
+        width: 50%;
+        height: 20%;
+        display: block;
+        margin: auto;
+        font-family: verdana;
+        font-size: 240%;
+        margin-right: 25%;
+        padding-bottom: 2%;
+        margin-top: 3%;
+    }
+    #user {
+        margin-top: 2%;
+        width: 90px;
+        height: 90px;
+    }
+}
+
+
+
+
+
+
+
+

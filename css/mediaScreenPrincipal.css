@@ -1,0 +1,1199 @@
+
+
+
+@media screen and (device-width: 360px) and (device-height: 640px) {
+    #btn-menu{
+        margin-top: 0%;
+    }
+     #menuTitle {
+        display: none;
+    }
+    .slider {
+        height: 21%;
+    }
+    #pu_re_gru {
+        margin-top: 42%;
+    }
+    #divMuro,
+    #divRegistro,
+    #divGrupos {
+        width: 87.5%;
+        height: 20%;
+        margin-top: 1.5%;
+    }
+    #pu_re_gru h1 {
+        font-size: 150%;
+        margin-top: 2%;
+    }
+    #divPerfil {
+        height: 94%;
+    }
+    #divPerfil li {
+        font-size: 90%;
+    }
+    #modal>div {
+        width: 84%;
+        height: 45%;
+        border-radius: 5px;
+    }
+   
+}
+
+@media screen and (device-width: 600px) and (device-height: 1024px) {
+    .slider {
+        width: 100%;
+        height: 22%;
+    }
+     #menuTitle {
+        display: none;
+    }
+    #pu_re_gru {
+        width: 90%;
+        margin-top: 45%;
+        margin-left: 3%;
+    }
+    #divMuro,
+    #divRegistro,
+    #divGrupos {
+        width: 92%;
+        height: 20%;
+        margin-top: 1.5%;
+    }
+    #pu_re_gru h1 {
+        font-size: 240%;
+    }
+    #divPerfil {
+        height: 95%;
+        margin-top: -0.2%;
+    }
+    #divPerfil li {
+        font-size: 95%;
+    }
+    #btn-menu {
+        font-size: 250%;
+    }
+    #icon-logo {
+        width: 48%;
+        margin-left: 27%;
+    }
+    #modal>div {
+        width: 60%;
+        height: 35%;
+    }
+    #modal>div>a>div>div {
+        width: 68px;
+        height: 68px;
+    }
+    #modal>div>a>div {
+    width: 400px;
+    height: 60px;
+   margin-top: 5%;
+   }
+    #modal>div>a>div>h1 {
+    margin-top: 6%;
+ }
+    #cerrar-modal {
+    width: 40px;
+        height: 40px;
+    }
+}
+
+@media screen and (device-width: 384px) and (device-height: 640px) {
+    .slider {
+        height: 21%;
+    }
+    #pu_re_gru {
+        margin-top: 42%;
+    }
+     #menuTitle {
+        display: none;
+    }
+    #divMuro,
+    #divRegistro,
+    #divGrupos {
+        width: 87.5%;
+        height: 20%;
+        margin-top: 1.5%;
+    }
+    #pu_re_gru h1 {
+        font-size: 150%;
+        margin-top: 2%;
+    }
+    #divPerfil {
+        height: 94%;
+    }
+    #divPerfil li {
+        font-size: 90%;
+    }
+    #modal>div {
+        width: 84%;
+        height: 45%;
+    }
+}
+
+@media screen and (device-width: 640px) and (device-height: 360px) {
+    header{
+        height: 10%;
+    }
+    #btn-menu{
+        margin-top: -0.5%;
+    }
+    .slider {
+        height: 50%;
+    }
+     #menuTitle {
+        display: none;
+    }
+    #pu_re_gru {
+        margin-top: 30%;
+        margin-left: -2%;
+        margin-right: 0%;
+        width: 100%;
+        height: 35%;
+    }
+    #divMuro,
+    #divRegistro,
+    #divGrupos {
+        width: 30%;
+        height: 70%;
+        display: inline-block;
+        margin-top: 1.5%;
+        margin-left: 0%;
+    }
+    #pu_re_gru h1 {
+        font-size: 150%;
+        margin-top: -1%;%;
+    }
+    #divPerfil {
+        height: 94%;
+    }
+    #divPerfil li {
+        font-size: 90%;
+    }
+    #modal>div {
+        width: 40%;
+        height: 70%;
+    }
+    #modal>div>a>div>div {
+        width: 38px;
+        height: 38px;
+    }
+    #modal>div>a>div {
+    width: 400px;
+    height: 40px;
+   margin-top: 5%;
+   }
+    #modal>div>a>div>h1 {
+        width: 67%;
+    margin-top: 2%;
+ }
+    #cerrar-modal {
+    width: 40px;
+        height: 40px;
+    }
+}
+
+@media screen and (device-width: 800px) and (device-height: 1280px) {
+    .slider {
+        width: 100%;
+        height: 22%;
+    } #menuTitle {
+        display: none;
+    }
+    #pu_re_gru {
+        width: 90%;
+        margin-top: 45%;
+        margin-left: 3%;
+    }
+    #divMuro,
+    #divRegistro,
+    #divGrupos {
+        width: 92%;
+        height: 20%;
+        margin-top: 1.5%;
+    }
+    #pu_re_gru h1 {
+        font-size: 240%;
+    }
+    #divPerfil {
+        height: 95%;
+        margin-top: -0.2%;
+    }
+    #divPerfil li {
+        font-size: 95%;
+    }
+    #btn-menu {
+        font-size: 250%;
+    }
+    #icon-logo {
+        width: 48%;
+        margin-left: 27%;
+    }
+     #modal>div {
+        width: 60%;
+        height: 30%;
+    }
+    #modal>div>a>div>div {
+        width: 70px;
+        height: 70px;
+    }
+    #modal>div>a>div {
+    width: 400px;
+    height: 50px;
+   margin-top: 6.5%;
+   }
+    #modal>div>a>div>h1 {
+        width: 100%;
+    margin-top: 4.5%;
+        margin-left: 10%;
+        font-size: 190%;
+ }
+    #cerrar-modal {
+    width: 60px;
+        height: 60px;
+    }
+}
+
+@media screen and (device-width: 600px) and (device-height: 960px) {
+    .slider {
+        width: 100%;
+        height: 22%;
+    } 
+    
+    #menuTitle {
+        display: none;
+    }
+    
+    #pu_re_gru {
+        width: 90%;
+        margin-top: 45%;
+        margin-left: 3%;
+    }
+    #divMuro,
+    #divRegistro,
+    #divGrupos {
+        width: 92%;
+        height: 20%;
+        margin-top: 1.5%;
+    }
+    #pu_re_gru h1 {
+        font-size: 240%;
+    }
+    #divPerfil {
+        height: 95%;
+        margin-top: -0.2%;
+    }
+    #divPerfil li {
+        font-size: 95%;
+    }
+    #btn-menu {
+        font-size: 250%;
+    }
+    #icon-logo {
+        width: 48%;
+        margin-left: 27%;
+    }
+     #modal>div {
+        width: 70%;
+        height: 40%;
+    }
+    #modal>div>a>div>div {
+        width: 70px;
+        height: 70px;
+    }
+    #modal>div>a>div {
+    width: 400px;
+    height: 50px;
+   margin-top: 6.5%;
+   }
+    #modal>div>a>div>h1 {
+        width: 100%;
+    margin-top: 4.5%;
+        margin-left: 10%;
+        font-size: 190%;
+ }
+    #cerrar-modal {
+    width: 60px;
+        height: 60px;
+    }
+}
+
+@media screen and (device-width: 320px) and (device-height: 533px) {
+    .slider {
+        height: 23%;
+    }
+    #pu_re_gru {
+        margin-top: 45%;
+    } #menuTitle {
+        display: none;
+    }
+    #divMuro,
+    #divRegistro,
+    #divGrupos {
+        width: 87.5%;
+        height: 20%;
+        margin-top: 1.5%;
+    }
+    #pu_re_gru h1 {
+        font-size: 150%;
+        margin-top: 0%;
+    }
+    #modal>div {
+        width: 80%;
+        height: 50%;
+    }
+    #modal>div>a>div>div {
+        width: 50px;
+        height: 50px;
+    }
+    #modal>div>a>div {
+    width: 400px;
+    height: 60px;
+   margin-top: 2.5%;
+   }
+    #modal>div>a>div>h1 {
+        width: 70%;
+    margin-top: 4.5%;
+        font-size: 120%;
+ }
+    #cerrar-modal {
+    width: 30px;
+        height: 30px;
+    }
+}
+
+@media screen and (device-width: 768px) and (device-height: 1024px) {
+    .slider {
+        height: 22%;
+    }
+    #icon-logo{
+        margin-top: -1%;
+    }
+    #pu_re_gru {
+        width: 90%;
+        margin-top: 35%;
+        margin-left: 3%;
+    } #menuTitle {
+        display: none;
+    }
+    #divMuro,
+    #divRegistro,
+    #divGrupos {
+        width: 92%;
+        height: 20%;
+        margin-top: 1.5%;
+    }
+    #pu_re_gru h1 {
+        font-size: 200%;
+    }
+    #divPerfil {
+        width: 40%;
+        height: 95%;
+        margin-top: -0.2%;
+    }
+    #divPerfil li {
+        font-size: 160%;
+    }
+    #btn-menu {
+        font-size: 250%;
+    }
+    #icon-logo {
+        width: 48%;
+        margin-left: 27%;
+    }
+    #linea2 {
+        margin-top: -3%;
+    }
+    h4 {
+        font-size: 250%;
+    }
+    .subtitulos-menu {
+        margin-top: 15%;
+    }
+    #nombre {
+        font-size: 200%;
+    }
+    #modal{
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-bottom: 25%;
+    }
+    #modal>div {
+        width: 80%;
+        height: 20%;
+    }
+    #modal>div>a>div>div {
+        width: 60px;
+        height: 60px;
+        margin-left: 15%;
+    }
+    #modal>div>a>div {
+    width: 400px;
+    height: 60px;
+   margin-top: 5%;
+   }
+    #modal>div>a>div>h1 {
+        width: 100%;
+    margin-top: 4.5%;
+        font-size: 120%;
+ }
+    #cerrar-modal {
+    width: 40px;
+        height: 40px;
+    }
+}
+
+@media screen and (device-width: 320px) and (device-height: 480px) {
+    .slider {
+        height: 25%;
+    }
+    #pu_re_gru {
+        margin-top: 41%;
+    }
+    #menuTitle {
+        display: none;
+    }
+    #btn-menu{
+        margin-top: -0.5%;
+    }
+    #icon-logo{
+        margin-top: -2%;
+    }
+    #divMuro,
+    #divRegistro,
+    #divGrupos {
+        width: 87%;
+        height: 20%;
+        margin-top: 1.5%;
+    }
+    #pu_re_gru h1 {
+        font-size: 150%;
+        margin-top: 0%;
+    }
+     #modal{
+        padding-left: 12%;
+        padding-right: 12%;
+    }
+    #modal>div {
+        width: 100%;
+        height: 50%;
+        padding-top: 4%;
+    }
+    #modal>div>a>div>div {
+        width: 40px;
+        height: 40px;
+        margin-left: 8%;
+    }
+    #modal>div>a>div {
+        width: 400px;
+        height: 60px;
+        margin-top: -2%;
+    }
+    #modal>div>a>div>h1 {
+        width: 65%;
+        margin-top: 4.5%;
+        font-size: 100%;
+    }
+    #cerrar-modal {
+        margin-top: -10%;
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media screen and (device-width: 412px) and (device-height: 732px) {
+    .slider {
+        height: 22%;
+    } #menuTitle {
+        display: none;
+    }
+    #pu_re_gru {
+        width: 90%;
+        margin-top: 45%;
+        margin-left: 3%;
+    }
+    #divMuro,
+    #divRegistro,
+    #divGrupos {
+        width: 92%;
+        height: 20%;
+        margin-top: 1.5%;
+    }
+    #pu_re_gru h1 {
+        font-size: 200%;
+    }
+    #divPerfil {
+        height: 95%;
+        margin-top: -0.2%;
+    }
+    #divPerfil li {
+        font-size: 95%;
+    }
+    #btn-menu {
+        font-size: 180%;
+    }
+    #icon-logo {
+        width: 48%;
+        margin-left: 27%;
+    }
+    #modal>div {
+        width: 84%;
+        height: 45%;
+    }
+}
+
+@media screen and (device-width: 320px) and (device-height: 568px) {
+    .slider {
+        height: 23%;
+    }
+    #pu_re_gru {
+        margin-top: 50%;
+    } #menuTitle {
+        display: none;
+    }
+    #divMuro,
+    #divRegistro,
+    #divGrupos {
+        width: 87.5%;
+        height: 20%;
+        margin-top: 1.5%;
+    }
+    #pu_re_gru h1 {
+        font-size: 150%;
+        margin-top: 0%;
+    }
+    #modal>div {
+        width: 84%;
+        height: 45%;
+    }
+}
+
+@media screen and (device-width: 375px) and (device-height: 667px) {
+    .slider {
+        height: 23%;
+    }
+    #pu_re_gru {
+        margin-top: 50%;
+    } #menuTitle {
+        display: none;
+    }
+    #divMuro,
+    #divRegistro,
+    #divGrupos {
+        width: 87.5%;
+        height: 20%;
+        margin-top: 1.5%;
+    }
+    #pu_re_gru h1 {
+        font-size: 150%;
+        margin-top: 0%;
+    }
+    #divPerfil {
+        height: 94%;
+    }
+    #modal>div {
+        width: 84%;
+        height: 45%;
+    }
+}
+
+@media screen and (device-width: 414px) and (device-height: 736px) {
+    .slider {
+        height: 21%;
+    } #menuTitle {
+        display: none;
+    }
+    #pu_re_gru {
+        margin-top: 48%;
+    }
+    #divMuro,
+    #divRegistro,
+    #divGrupos {
+        width: 87.5%;
+        height: 20%;
+        margin-top: 1.5%;
+    }
+    #pu_re_gru h1 {
+        font-size: 150%;
+        margin-top: 2%;
+    }
+    #divPerfil {
+        height: 94%;
+    }
+    #modal>div {
+        width: 84%;
+        height: 45%;
+    }
+}
+
+@media screen and (device-width: 480px) and (device-height: 800px) {
+    .slider {
+        height: 21%;
+    } #menuTitle {
+        display: none;
+    }
+    #pu_re_gru {
+        margin-top: 42.5%;
+    }
+    #divMuro,
+    #divRegistro,
+    #divGrupos {
+        width: 87.5%;
+        height: 20%;
+        margin-top: 1.5%;
+    }
+    #pu_re_gru h1 {
+        font-size: 150%;
+        margin-top: 2%;
+    }
+    #divPerfil {
+        height: 94%;
+    }
+    #modal>div {
+        width: 84%;
+        height: 45%;
+    }
+    #cerrar-modal {
+    width: 50px;
+        height: 50px;
+    }
+}
+
+
+@media screen and (device-width: 1024px) and (device-height: 600px) {
+    
+    #pu_re_gru {
+        width: 100%;
+        margin-top: 37%;
+        margin-left: 0%;
+    }
+    #menuTitle {
+        display: none;
+    }
+    #divMuro,
+    #divRegistro,
+    #divGrupos {
+        width: 28.5%;
+        height: 20%;
+        margin-top: 1.5%;
+    }
+    #pu_re_gru h1 {
+        font-size: 150%;
+        margin-top: 1%;
+    }
+    
+    #modal>div{
+        height: 45%;
+    }
+   
+}
+
+@media screen and (device-width: 640px) and (device-height: 384px) {
+    header{
+        height: 30px;
+    }
+    #btn-menu{
+        margin-top: -0.5%;
+    }
+    #icon-logo{
+        margin-top: -1.5%;
+    }
+     #pu_re_gru {
+        width: 100%;
+        margin-top: 37%;
+        margin-left: 0%;
+    }
+    #menuTitle {
+        display: none;
+    }
+    #divMuro,
+    #divRegistro,
+    #divGrupos {
+        width: 28.5%;
+        height: 20%;
+        margin-top: 1.5%;
+    }
+    #pu_re_gru h1 {
+        font-size: 130%;
+        margin-top: -6%;
+    }
+    
+    #modal>div{
+        height: 68%;
+    }
+    
+}
+
+@media screen and (device-width: 1280px) and (device-height: 800px) {
+    
+    #pu_re_gru {
+        width: 90%;
+        margin-top: 40%;
+        margin-left: 3%;
+    }
+     #divMuro,
+    #divRegistro,
+    #divGrupos {
+        width: 28%;
+        height: 20%;
+        margin-top: 1.5%;
+    }
+    #modal>div {
+        width: 40%;
+        height: 50%;
+    }
+    #modal>div>a>div>div {
+        width: 70px;
+        height: 70px;
+    }
+    #modal>div>a>div {
+    width: 400px;
+    height: 50px;
+   margin-top: 6.5%;
+   }
+    #modal>div>a>div>h1 {
+        width: 100%;
+    margin-top: 4.5%;
+        margin-left: 10%;
+        font-size: 190%;
+ }
+    #cerrar-modal {
+    width: 60px;
+        height: 60px;
+    }
+}
+
+@media screen and (device-width: 732px) and (device-height: 412px) {
+    header{
+        height: 40px;
+    }
+    
+    #icon-logo{
+        width: 25%;
+    } #menuTitle {
+        display: none;
+    }
+    #pu_re_gru {
+        width: 100%;
+        margin-top: 35%;
+        margin-left: -1.5%;
+    }
+    
+    #divMuro,
+    #divRegistro,
+    #divGrupos {
+        width: 30%;
+        height: 20%;
+        margin-top: 1.5%;
+    }
+    
+    #pu_re_gru h1 {
+        font-size: 110%;
+        margin-top: 0%;
+    }
+    #icon-logo {
+        margin-left: 38%;
+    }
+    #modal>div{
+        height: 65%;
+        padding-left: 2%;
+    }
+}
+
+@media screen and (device-width: 960px) and (device-height: 600px) {
+    
+    #menuTitle {
+        display: none;
+    }
+    
+    #pu_re_gru {
+        width: 100%;
+        margin-top: 40%;
+        margin-left: -1.5%;
+    }
+    #pu_re_gru h1 {
+        font-size: 150%;
+        margin-top: 0%;
+    }
+    #divMuro,
+    #divRegistro,
+    #divGrupos {
+        width: 30%;
+        height: 20%;
+        margin-top: 1.5%;
+    }
+     #modal>div {
+        width: 35%;
+        height: 51%;
+    }
+    #modal>div>a>div>div {
+        width: 50px;
+        height: 50px;
+    }
+    #modal>div>a>div {
+    width: 400px;
+    height: 50px;
+   margin-top: 6.5%;
+   }
+    #modal>div>a>div>h1 {
+        width: 80%;
+    margin-top: 4.3%;
+        margin-left: 10%;
+        font-size: 150%;
+ }
+    #cerrar-modal {
+    width: 60px;
+        height: 60px;
+    }
+}
+
+@media screen and (device-width: 533px) and (device-height: 320px) {
+    header{
+        height: 30px;
+    }
+    #pu_re_gru {
+        margin-top: 38%;
+        width: 100%;
+        margin-left: -5%;
+    } 
+    #menuTitle {
+        display: none;
+    }
+    #btn-menu{
+        margin-top: -0.5%;
+    }
+    #icon-logo{
+        margin-top: -2%;
+    }
+    #divMuro,
+    #divRegistro,
+    #divGrupos {
+        width: 32%;
+        height: 20%;
+        margin-top: 1.5%;
+    }
+    #pu_re_gru h1 {
+        font-size: 100%;
+        margin-top: 0%;
+    }
+    #modal>div {
+        width: 50%;
+        height: 70%;
+        padding-top: 2%;
+    }
+    #modal>div>a>div>div {
+        width: 40px;
+        height: 40px;
+    }
+    #modal>div>a>div {
+    width: 400px;
+    height: 60px;
+   margin-top: -2%;
+   }
+    #modal>div>a>div>h1 {
+        width: 70%;
+    margin-top: 3.5%;
+        font-size: 120%;
+ }
+    #cerrar-modal {
+    width: 30px;
+        margin-top: -8%;
+        height: 30px;
+    }
+}
+
+@media screen and (device-width: 1024px) and (device-height: 768px) {
+    .slider {
+        height: 40%;
+    }
+    header{
+        height: 50px;
+    }
+    #icon-logo{
+        width: 25%;
+        margin-left: 38%;
+        margin-top: -1%;
+    }
+    #pu_re_gru {
+        width: 100%;
+        margin-top: 35%;
+        margin-left: -4%;
+    } #menuTitle {
+        display: none;
+    }
+    #divMuro,
+    #divRegistro,
+    #divGrupos {
+        width: 32%;
+        height: 20%;
+        margin-top: 1.5%;
+    }
+    #pu_re_gru h1 {
+        font-size: 200%;
+    }
+    #divPerfil {
+        width: 40%;
+        height: 95%;
+        margin-top: -0.2%;
+    }
+    #divPerfil li {
+        font-size: 160%;
+    }
+    #btn-menu {
+        font-size: 250%;
+    }
+    
+    #linea2 {
+        margin-top: -3%;
+    }
+    h4 {
+        font-size: 250%;
+    }
+    .subtitulos-menu {
+        margin-top: 15%;
+    }
+    #nombre {
+        font-size: 200%;
+    }
+    
+    #modal>div {
+        width: 40%;
+        height: 45%;
+    }
+    #modal>div>a>div>div {
+        width: 60px;
+        height: 60px;
+        margin-left: 15%;
+    }
+    #modal>div>a>div {
+    width: 400px;
+    height: 60px;
+   margin-top: 5%;
+   }
+    #modal>div>a>div>h1 {
+        width: 100%;
+    margin-top: 4.5%;
+        margin-left: 10%;
+        font-size: 140%;
+ }
+    #cerrar-modal {
+    width: 40px;
+        height: 40px;
+    }
+}
+
+@media screen and (device-width: 480px) and (device-height: 320px) {
+    header{
+        height: 30px;
+    }
+    .slider{
+        height: 50%;
+    }
+    #btn-menu{
+        margin-top: -0.5%;
+    }
+    #icon-logo{
+        margin-top: -1.5%;
+    }
+     #pu_re_gru {
+        width: 100%;
+        margin-top: 37%;
+        margin-left: -2.5%;
+    }
+    #menuTitle {
+        display: none;
+    }
+    #divMuro,
+    #divRegistro,
+    #divGrupos {
+        width: 30%;
+        height: 20%;
+        margin-top: 1.5%;
+    }
+    #pu_re_gru h1 {
+        font-size: 100%;
+        margin-top: -5%;
+    }
+    
+    #modal>div{
+        height: 80%;
+        width: 57%;
+    }
+    
+}
+
+@media screen and (device-width: 568px) and (device-height: 320px) {
+    header{
+        height: 30px;
+    }
+    #pu_re_gru {
+        margin-top: 35%;
+        width: 100%;
+        margin-left: -5%;
+    } 
+    #menuTitle {
+        display: none;
+    }
+    #btn-menu{
+        margin-top: -0.5%;
+    }
+    #icon-logo{
+        margin-top: -2%;
+    }
+    #divMuro,
+    #divRegistro,
+    #divGrupos {
+        width: 32%;
+        height: 20%;
+        margin-top: 1.5%;
+    }
+    #pu_re_gru h1 {
+        font-size: 100%;
+        margin-top: 0%;
+    }
+    #modal>div {
+        width: 50%;
+        height: 70%;
+        padding-top: 2%;
+    }
+    #modal>div>a>div>div {
+        width: 40px;
+        height: 40px;
+    }
+    #modal>div>a>div {
+    width: 400px;
+    height: 60px;
+   margin-top: -2%;
+   }
+    #modal>div>a>div>h1 {
+        width: 70%;
+    margin-top: 3.5%;
+        font-size: 120%;
+ }
+    #cerrar-modal {
+    width: 30px;
+        margin-top: -8%;
+        height: 30px;
+    }
+}
+
+@media screen and (device-width: 667px) and (device-height: 375px) {
+    header{
+        height: 30px;
+    }
+    #btn-menu{
+        margin-top: -0.5%;
+    }
+    #icon-logo{
+        margin-top: -1.5%;
+    }
+     #pu_re_gru {
+        width: 100%;
+        margin-top: 37%;
+        margin-left: 0%;
+    }
+    #menuTitle {
+        display: none;
+    }
+    #divMuro,
+    #divRegistro,
+    #divGrupos {
+        width: 28.5%;
+        height: 20%;
+        margin-top: 1.5%;
+    }
+    #pu_re_gru h1 {
+        font-size: 130%;
+        margin-top: -6%;
+    }
+    
+    #modal>div{
+        height: 68%;
+    }
+    
+}
+
+@media screen and (device-width: 736px) and (device-height: 414px) {
+    header{
+        height: 40px;
+    }
+    
+    #icon-logo{
+        width: 25%;
+    } #menuTitle {
+        display: none;
+    }
+    #pu_re_gru {
+        width: 100%;
+        margin-top: 35%;
+        margin-left: -1.5%;
+    }
+    
+    #divMuro,
+    #divRegistro,
+    #divGrupos {
+        width: 30%;
+        height: 20%;
+        margin-top: 1.5%;
+    }
+    
+    #pu_re_gru h1 {
+        font-size: 110%;
+        margin-top: 0%;
+    }
+    #icon-logo {
+        margin-left: 38%;
+    }
+    #modal>div{
+        height: 65%;
+        padding-left: 2%;
+    }
+}
+
+@media screen and (device-width: 800px) and (device-height: 480px) {
+    header{
+        height: 40px;
+    }
+    
+    #icon-logo{
+        width: 25%;
+        margin-top: -0.5%;
+    } 
+    #menuTitle {
+        display: none;
+    }
+    #pu_re_gru {
+        width: 100%;
+        margin-top: 38%;
+        margin-left: -1.5%;
+    }
+    
+    #divMuro,
+    #divRegistro,
+    #divGrupos {
+        width: 30%;
+        height: 20%;
+        margin-top: 1.5%;
+    }
+    
+    #pu_re_gru h1 {
+        font-size: 110%;
+        margin-top: 0%;
+    }
+    #icon-logo {
+        margin-left: 38%;
+    }
+    #modal>div{
+        height: 56%;
+        padding-left: 2%;
+    }
+    #cerrar-modal{
+        height: 35px;
+        width: 35px;
+    }
+}
+
+
+
+
+

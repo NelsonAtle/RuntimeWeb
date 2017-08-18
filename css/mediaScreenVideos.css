@@ -1,0 +1,1226 @@
+@media screen and (device-width: 360px) and (device-height: 640px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    #conjunto{
+     width: 100%;
+        height: 100%;
+    }
+    #encabezado {
+    width: 100%;
+    height: 136px;
+        z-index: -1;
+    position: relative;
+    overflow: hidden;
+    } 
+    
+    #menuTitle {
+        display: none;
+    }
+    #videos{
+        padding: 1.5%;
+        padding-bottom: 8%;
+         height: 75%;
+    }
+    #videos>div {
+    width: 96.5%;
+    height: 210px;
+    display: inline-block;
+   }
+    #cuerpoVideos #usuario {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin: auto;
+    margin-top: -44%;
+    }
+    #encabezado>h1 {
+    text-align: center;
+    width: 100%;
+    font-family: 'play';
+    color: dodgerblue;
+    font-size: 200%;
+        margin-top: 0;
+}
+}
+@media screen and (device-width: 600px) and (device-height: 1024px) {
+     * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    #conjunto{
+     width: 100%;
+        height: 100%;
+    }
+    #encabezado {
+    width: 100%;
+    height: 230px;
+        z-index: -1;
+    position: relative;
+    overflow: hidden;
+    } 
+    #menuTitle {
+        display: none;
+    }
+   #videos{
+        padding: 1.5%;
+        padding-bottom: 8%;
+         height: 75%;
+    }
+    #videos>div {
+    width: 96.5%;
+    height: 330px;
+    display: inline-block;
+   }
+    #cuerpoVideos #usuario {
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin: auto;
+    margin-top: -44%;
+    }
+    #encabezado>h1 {
+    text-align: center;
+    width: 100%;
+    font-family: 'play';
+    color: dodgerblue;
+    font-size: 320%;
+        margin-top: 0;
+    }
+}
+@media screen and (device-width: 384px) and (device-height: 640px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    #conjunto{
+     width: 100%;
+        height: 100%;
+    }
+    #encabezado {
+    width: 100%;
+    height: 136px;
+        z-index: -1;
+    position: relative;
+    overflow: hidden;
+    } 
+    
+    #menuTitle {
+        display: none;
+    }
+    #videos{
+        padding: 1.5%;
+        padding-bottom: 8%;
+         height: 75%;
+    }
+    #videos>div {
+    width: 96.5%;
+    height: 210px;
+    display: inline-block;
+   }
+    #cuerpoVideos #usuario {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin: auto;
+    margin-top: -44%;
+    }
+    #encabezado>h1 {
+    text-align: center;
+    width: 100%;
+    font-family: 'play';
+    color: dodgerblue;
+    font-size: 200%;
+        margin-top: 0;
+}
+}
+@media screen and (device-width: 800px) and (device-height: 1280px) {
+     * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    #conjunto{
+     width: 100%;
+        height: 100%;
+    }
+    #encabezado {
+    width: 100%;
+    height: 320px;
+        z-index: -1;
+    position: relative;
+    overflow: hidden;
+    } 
+    #menuTitle {
+        display: none;
+    }
+   #videos{
+        padding: 1.5%;
+        padding-bottom: 8%;
+         height: 79%;
+    }
+    #videos>div {
+    width: 96.5%;
+    height: 440px;
+    display: inline-block;
+   }
+    #cuerpoVideos #usuario {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin: auto;
+    margin-top: -44%;
+    }
+    #encabezado>h1 {
+    text-align: center;
+    width: 100%;
+    font-family: 'play';
+    color: dodgerblue;
+    font-size: 440%;
+        margin-top: 0;
+    }
+}
+@media screen and (device-width: 412px) and (device-height: 732px) {
+     * {
+        margin: 0;
+        padding: 0;
+    }
+    #conjunto{
+     width: 100%;
+        height: 100%;
+    }
+    #encabezado {
+    width: 100%;
+    height: 136px;
+        z-index: -1;
+    position: relative;
+    overflow: hidden;
+    } 
+    
+    #menuTitle {
+        display: none;
+    }
+    #videos{
+        padding: 1.5%;
+        padding-bottom: 8%;
+         height: 76%;
+    }
+    #videos>div {
+    width: 96.5%;
+    height: 215px;
+    display: inline-block;
+   }
+    #cuerpoVideos #usuario {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin: auto;
+    margin-top: -44%;
+    }
+    #encabezado>h1 {
+    text-align: center;
+    width: 100%;
+    font-family: 'play';
+    color: dodgerblue;
+    font-size: 200%;
+        margin-top: 0;
+}
+}
+@media screen and (device-width: 600px) and (device-height: 960px) {
+      * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    #conjunto{
+     width: 100%;
+        height: 100%;
+    }
+    #encabezado {
+    width: 100%;
+    height: 230px;
+        z-index: -1;
+    position: relative;
+    overflow: hidden;
+    } 
+    #menuTitle {
+        display: none;
+    }
+   #videos{
+        padding: 1.5%;
+        padding-bottom: 8%;
+         height: 75%;
+    }
+    #videos>div {
+    width: 96.5%;
+    height: 330px;
+    display: inline-block;
+   }
+    #cuerpoVideos #usuario {
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin: auto;
+    margin-top: -44%;
+    }
+    #encabezado>h1 {
+    text-align: center;
+    width: 100%;
+    font-family: 'play';
+    color: dodgerblue;
+    font-size: 320%;
+        margin-top: 0;
+    }
+}
+@media screen and (device-width: 320px) and (device-height: 533px) {
+   * {
+        margin: 0;
+        padding: 0;
+    }
+    #conjunto{
+     width: 100%;
+        height: 100%;
+    }
+    #encabezado {
+    width: 100%;
+    height: 136px;
+        z-index: -1;
+    position: relative;
+    overflow: hidden;
+    } 
+    
+    #menuTitle {
+        display: none;
+    }
+    #videos{
+        padding: 1.5%;
+        padding-bottom: 8%;
+         height: 71%;
+    }
+    #videos>div {
+    width: 96.5%;
+    height: 209px;
+    display: inline-block;
+   }
+    #cuerpoVideos #usuario {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin: auto;
+    margin-top: -44%;
+    }
+    #encabezado>h1 {
+    text-align: center;
+    width: 100%;
+    font-family: 'play';
+    color: dodgerblue;
+    font-size: 200%;
+        margin-top: 0;
+}
+}
+@media screen and (device-width: 768px) and (device-height: 1024px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    #conjunto{
+     width: 100%;
+        height: 100%;
+    }
+    #encabezado {
+    width: 100%;
+    height: 230px;
+        z-index: -1;
+    position: relative;
+    overflow: hidden;
+    } 
+    #menuTitle {
+        display: none;
+    }
+   #videos{
+        padding: 1.5%;
+        padding-bottom: 8%;
+         height: 75%;
+    }
+    #videos>div {
+    width: 47.5%;
+    height: 200px;
+    display: inline-block;
+   }
+    #cuerpoVideos #usuario {
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin: auto;
+    margin-top: -44%;
+    }
+    #encabezado>h1 {
+    text-align: center;
+    width: 100%;
+    font-family: 'play';
+    color: dodgerblue;
+    font-size: 320%;
+        margin-top: 0;
+    }
+}
+@media screen and (device-width: 320px) and (device-height: 480px) {
+   * {
+        margin: 0;
+        padding: 0;
+    }
+    #conjunto{
+     width: 100%;
+        height: 100%;
+    }
+    #encabezado {
+    width: 100%;
+    height: 136px;
+        z-index: -1;
+    position: relative;
+    overflow: hidden;
+    } 
+    
+    #menuTitle {
+        display: none;
+    }
+    #videos{
+        padding: 1.5%;
+        padding-bottom: 8%;
+         height: 65%;
+    }
+    #videos>div {
+    width: 96.5%;
+    height: 170px;
+    display: inline-block;
+   }
+    #cuerpoVideos #usuario {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin: auto;
+    margin-top: -44%;
+    }
+    #encabezado>h1 {
+    text-align: center;
+    width: 100%;
+    font-family: 'play';
+    color: dodgerblue;
+    font-size: 200%;
+        margin-top: 0;
+}
+}
+@media screen and (device-width: 320px) and (device-height: 568px) {
+   * {
+        margin: 0;
+        padding: 0;
+    }
+    #conjunto{
+     width: 100%;
+        height: 100%;
+    }
+    #encabezado {
+    width: 100%;
+    height: 136px;
+        z-index: -1;
+    position: relative;
+    overflow: hidden;
+    } 
+    
+    #menuTitle {
+        display: none;
+    }
+    #videos{
+        padding: 1.5%;
+        padding-bottom: 8%;
+         height: 71%;
+    }
+    #videos>div {
+    width: 96.5%;
+    height: 209px;
+    display: inline-block;
+   }
+    #cuerpoVideos #usuario {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin: auto;
+    margin-top: -44%;
+    }
+    #encabezado>h1 {
+    text-align: center;
+    width: 100%;
+    font-family: 'play';
+    color: dodgerblue;
+    font-size: 200%;
+        margin-top: 0;
+}
+}
+@media screen and (device-width: 375px) and (device-height: 667px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    #conjunto{
+     width: 100%;
+        height: 100%;
+    }
+    #encabezado {
+    width: 100%;
+    height: 136px;
+        z-index: -1;
+    position: relative;
+    overflow: hidden;
+    } 
+    
+    #menuTitle {
+        display: none;
+    }
+    #videos{
+        padding: 1.5%;
+        padding-bottom: 8%;
+         height: 75%;
+    }
+    #videos>div {
+    width: 96.5%;
+    height: 210px;
+    display: inline-block;
+   }
+    #cuerpoVideos #usuario {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin: auto;
+    margin-top: -44%;
+    }
+    #encabezado>h1 {
+    text-align: center;
+    width: 100%;
+    font-family: 'play';
+    color: dodgerblue;
+    font-size: 200%;
+        margin-top: 0;
+}
+}
+@media screen and (device-width: 414px) and (device-height: 736px) {
+  * {
+        margin: 0;
+        padding: 0;
+    }
+    #conjunto{
+     width: 100%;
+        height: 100%;
+    }
+    #encabezado {
+    width: 100%;
+    height: 136px;
+        z-index: -1;
+    position: relative;
+    overflow: hidden;
+    } 
+    
+    #menuTitle {
+        display: none;
+    }
+    #videos{
+        padding: 1.5%;
+        padding-bottom: 8%;
+         height: 76%;
+    }
+    #videos>div {
+    width: 96.5%;
+    height: 215px;
+    display: inline-block;
+   }
+    #cuerpoVideos #usuario {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin: auto;
+    margin-top: -44%;
+    }
+    #encabezado>h1 {
+    text-align: center;
+    width: 100%;
+    font-family: 'play';
+    color: dodgerblue;
+    font-size: 200%;
+        margin-top: 0;
+}
+}
+@media screen and (device-width: 480px) and (device-height: 800px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    #conjunto{
+     width: 100%;
+        height: 100%;
+    }
+    #encabezado {
+    width: 100%;
+    height: 136px;
+        z-index: -1;
+    position: relative;
+    overflow: hidden;
+    } 
+    
+    #menuTitle {
+        display: none;
+    }
+    #videos{
+        padding: 1.5%;
+        padding-bottom: 8%;
+         height: 78%;
+    }
+    #videos>div {
+    width: 96.5%;
+    height: 250px;
+    display: inline-block;
+   }
+    #cuerpoVideos #usuario {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin: auto;
+    margin-top: -44%;
+    }
+    #encabezado>h1 {
+    text-align: center;
+    width: 100%;
+    font-family: 'play';
+    color: dodgerblue;
+    font-size: 200%;
+        margin-top: 0;
+}
+}
+
+@media screen and (device-width: 640px) and (device-height: 360px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    #conjunto{
+     width: 100%;
+        height: 100%;
+    }
+    #encabezado {
+    width: 100%;
+    height: 136px;
+        z-index: -1;
+    position: relative;
+    overflow: hidden;
+    } 
+    
+    #menuTitle {
+        display: none;
+    }
+    #videos{
+        padding: 1.5%;
+        padding-bottom: 8%;
+         height: 65%;
+    }
+    #videos>div {
+    width: 47.5%;
+    height: 210px;
+    display: inline-block;
+   }
+    #cuerpoVideos #usuario {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin: auto;
+    margin-top: -44%;
+    }
+    #encabezado>h1 {
+    text-align: center;
+    width: 100%;
+    font-family: 'play';
+    color: dodgerblue;
+    font-size: 200%;
+        margin-top: 0;
+}
+}
+@media screen and (device-width: 1024px) and (device-height: 600px) {
+     * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    #conjunto{
+     width: 100%;
+        height: 100%;
+    }
+    #encabezado {
+    width: 100%;
+    height: 230px;
+        z-index: -1;
+    position: relative;
+    overflow: hidden;
+    } 
+    #menuTitle {
+        display: none;
+    }
+    #videos{
+        padding: 1.5%;
+        padding-bottom: 8%;
+         height: 65%;
+    }
+    #videos>div {
+    width: 47.5%;
+    height: 270px;
+    display: inline-block;
+   }
+    #cuerpoVideos #usuario {
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin: auto;
+    margin-top: -44%;
+    }
+    #encabezado>h1 {
+    text-align: center;
+    width: 100%;
+    font-family: 'play';
+    color: dodgerblue;
+    font-size: 320%;
+        margin-top: 0;
+    }
+}
+@media screen and (device-width: 640px) and (device-height: 384px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    #conjunto{
+     width: 100%;
+        height: 100%;
+    }
+    #encabezado {
+    width: 100%;
+    height: 136px;
+        z-index: -1;
+    position: relative;
+    overflow: hidden;
+    } 
+    
+    #menuTitle {
+        display: none;
+    }
+    #videos{
+        padding: 1.5%;
+        padding-bottom: 8%;
+         height: 65%;
+    }
+    #videos>div {
+    width: 47.5%;
+    height: 210px;
+    display: inline-block;
+   }
+    #cuerpoVideos #usuario {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin: auto;
+    margin-top: -44%;
+    }
+    #encabezado>h1 {
+    text-align: center;
+    width: 100%;
+    font-family: 'play';
+    color: dodgerblue;
+    font-size: 200%;
+        margin-top: 0;
+}
+}
+@media screen and (device-width: 1280px) and (device-height: 800px) {
+     * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    #conjunto{
+     width: 100%;
+        height: 100%;
+    }
+    #encabezado {
+    width: 100%;
+    height: 320px;
+        z-index: -1;
+    position: relative;
+    overflow: hidden;
+    } 
+    #menuTitle {
+        display: none;
+    }
+    #videos{
+        padding: 1.5%;
+        padding-bottom: 8%;
+         height: 65%;
+    }
+    #videos>div {
+    width: 47.5%;
+    height: 340px;
+    display: inline-block;
+   }
+    #cuerpoVideos #usuario {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin: auto;
+    margin-top: -44%;
+    }
+    #encabezado>h1 {
+    text-align: center;
+    width: 100%;
+    font-family: 'play';
+    color: dodgerblue;
+    font-size: 440%;
+        margin-top: 0;
+    }
+}
+@media screen and (device-width: 732px) and (device-height: 412px) {
+     * {
+        margin: 0;
+        padding: 0;
+    }
+    #conjunto{
+     width: 100%;
+        height: 100%;
+    }
+    #encabezado {
+    width: 100%;
+    height: 136px;
+        z-index: -1;
+    position: relative;
+    overflow: hidden;
+    } 
+    
+    #menuTitle {
+        display: none;
+    }
+     #videos{
+        padding: 1.5%;
+        padding-bottom: 8%;
+         height: 65%;
+    }
+    #videos>div {
+    width: 47.5%;
+    height: 210px;
+    display: inline-block;
+   }
+    #cuerpoVideos #usuario {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin: auto;
+    margin-top: -44%;
+    }
+    #encabezado>h1 {
+    text-align: center;
+    width: 100%;
+    font-family: 'play';
+    color: dodgerblue;
+    font-size: 200%;
+        margin-top: 0;
+}
+}
+@media screen and (device-width: 960px) and (device-height: 600px) {
+      * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    #conjunto{
+     width: 100%;
+        height: 100%;
+    }
+    #encabezado {
+    width: 100%;
+    height: 230px;
+        z-index: -1;
+    position: relative;
+    overflow: hidden;
+    } 
+    #menuTitle {
+        display: none;
+    }
+    #videos{
+        padding: 1.5%;
+        padding-bottom: 8%;
+         height: 65%;
+    }
+    #videos>div {
+    width: 47.5%;
+    height: 315px;
+    display: inline-block;
+   }
+    #cuerpoVideos #usuario {
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin: auto;
+    margin-top: -44%;
+    }
+    #encabezado>h1 {
+    text-align: center;
+    width: 100%;
+    font-family: 'play';
+    color: dodgerblue;
+    font-size: 320%;
+        margin-top: 0;
+    }
+}
+@media screen and (device-width: 533px) and (device-height: 320px) {
+   * {
+        margin: 0;
+        padding: 0;
+    }
+    #conjunto{
+     width: 100%;
+        height: 100%;
+    }
+    #encabezado {
+    width: 100%;
+    height: 100px;
+        z-index: -1;
+    position: relative;
+    overflow: hidden;
+    } 
+    
+    #menuTitle {
+        display: none;
+    }
+    #videos{
+        padding: 1.5%;
+        padding-bottom: 8%;
+         height: 65%;
+    }
+    #videos>div {
+    width: 47.5%;
+    height: 200px;
+    display: inline-block;
+   }
+    #cuerpoVideos #usuario {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin: auto;
+    margin-top: -46%;
+    }
+    #encabezado>h1 {
+    text-align: center;
+    width: 100%;
+    font-family: 'play';
+    color: dodgerblue;
+    font-size: 200%;
+        margin-top: 0;
+}
+}
+@media screen and (device-width: 1024px) and (device-height: 768px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    #conjunto{
+     width: 100%;
+        height: 100%;
+    }
+    #encabezado {
+    width: 100%;
+    height: 230px;
+        z-index: -1;
+    position: relative;
+    overflow: hidden;
+    } 
+    #menuTitle {
+        display: none;
+    }
+   #videos{
+        padding: 1.5%;
+        padding-bottom: 8%;
+         height: 65%;
+    }
+    #videos>div {
+    width: 47.5%;
+    height: 315px;
+    display: inline-block;
+   }
+    #cuerpoVideos #usuario {
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin: auto;
+    margin-top: -44%;
+    }
+    #encabezado>h1 {
+    text-align: center;
+    width: 100%;
+    font-family: 'play';
+    color: dodgerblue;
+    font-size: 320%;
+        margin-top: 0;
+    }
+}
+@media screen and (device-width: 480px) and (device-height: 320px) {
+   * {
+        margin: 0;
+        padding: 0;
+    }
+    #conjunto{
+     width: 100%;
+        height: 100%;
+    }
+    #encabezado {
+    width: 100%;
+    height: 100px;
+        z-index: -1;
+    position: relative;
+    overflow: hidden;
+    } 
+    
+    #menuTitle {
+        display: none;
+    }
+   #videos{
+        padding: 1.5%;
+        padding-bottom: 8%;
+         height: 65%;
+    }
+    #videos>div {
+    width: 47.5%;
+    height: 180px;
+    display: inline-block;
+   }
+    #cuerpoVideos #usuario {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin: auto;
+    margin-top: -46%;
+    }
+    #encabezado>h1 {
+    text-align: center;
+    width: 100%;
+    font-family: 'play';
+    color: dodgerblue;
+    font-size: 200%;
+        margin-top: 0;
+}
+}
+@media screen and (device-width: 568px) and (device-height: 320px) {
+   * {
+        margin: 0;
+        padding: 0;
+    }
+    #conjunto{
+     width: 100%;
+        height: 100%;
+    }
+    #encabezado {
+    width: 100%;
+    height: 100px;
+        z-index: -1;
+    position: relative;
+    overflow: hidden;
+    } 
+    
+    #menuTitle {
+        display: none;
+    }
+    #videos{
+        padding: 1.5%;
+        padding-bottom: 8%;
+         height: 65%;
+    }
+    #videos>div {
+    width: 47.5%;
+    height: 180px;
+    display: inline-block;
+   }
+    #cuerpoVideos #usuario {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin: auto;
+    margin-top: -46%;
+    }
+    #encabezado>h1 {
+    text-align: center;
+    width: 100%;
+    font-family: 'play';
+    color: dodgerblue;
+    font-size: 200%;
+        margin-top: 0;
+}
+}
+@media screen and (device-width: 667px) and (device-height: 375px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    #conjunto{
+     width: 100%;
+        height: 100%;
+    }
+    #encabezado {
+    width: 100%;
+    height: 100px;
+        z-index: -1;
+    position: relative;
+    overflow: hidden;
+    } 
+    
+    #menuTitle {
+        display: none;
+    }
+    #videos{
+        padding: 1.5%;
+        padding-bottom: 8%;
+         height: 65%;
+    }
+    #videos>div {
+    width: 47.5%;
+    height: 180px;
+    display: inline-block;
+   }
+    #cuerpoVideos #usuario {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin: auto;
+    margin-top: -46%;
+    }
+    #encabezado>h1 {
+    text-align: center;
+    width: 100%;
+    font-family: 'play';
+    color: dodgerblue;
+    font-size: 200%;
+        margin-top: 0;
+}
+}
+@media screen and (device-width: 736px) and (device-height: 414px) {
+  * {
+        margin: 0;
+        padding: 0;
+    }
+    #conjunto{
+     width: 100%;
+        height: 100%;
+    }
+    #encabezado {
+    width: 100%;
+    height: 136px;
+        z-index: -1;
+    position: relative;
+    overflow: hidden;
+    } 
+    
+    #menuTitle {
+        display: none;
+    }
+    #videos{
+        padding: 1.5%;
+        padding-bottom: 8%;
+         height: 65%;
+    }
+    #videos>div {
+    width: 47.5%;
+    height: 200px;
+    display: inline-block;
+   }
+    #cuerpoVideos #usuario {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin: auto;
+    margin-top: -46%;
+    }
+    #encabezado>h1 {
+    text-align: center;
+    width: 100%;
+    font-family: 'play';
+    color: dodgerblue;
+    font-size: 200%;
+        margin-top: 0;
+}
+}
+@media screen and (device-width: 800px) and (device-height: 480px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    #conjunto{
+     width: 100%;
+        height: 100%;
+    }
+    #encabezado {
+    width: 100%;
+    height: 136px;
+        z-index: -1;
+    position: relative;
+    overflow: hidden;
+    } 
+    
+    #menuTitle {
+        display: none;
+    }
+   #videos{
+        padding: 1.5%;
+        padding-bottom: 8%;
+         height: 65%;
+    }
+    #videos>div {
+    width: 47.5%;
+    height: 210px;
+    display: inline-block;
+   }
+    #cuerpoVideos #usuario {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin: auto;
+    margin-top: -46%;
+    }
+    #encabezado>h1 {
+    text-align: center;
+    width: 100%;
+    font-family: 'play';
+    color: dodgerblue;
+    font-size: 200%;
+        margin-top: 0;
+}
+}
+
+
+

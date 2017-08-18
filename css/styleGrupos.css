@@ -1,0 +1,514 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    width: 100%;
+    height: 5.8%;
+    padding: 5px;
+    background-color: black;
+}
+
+html {
+    overflow-y: hidden;
+}
+
+#icon-logo {
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+#cuerpoGrupo {
+    height: 94.3%;
+    width: 100%;
+    background: #222220;
+    
+}
+
+#particulas {
+    width: 1130px;
+    height: 253px;
+    position: absolute;
+}
+
+#conjunto {
+    height: 100%;
+    padding-left: 7%;
+    padding-right: 7%;
+    overflow-y: scroll;
+    position: relative;
+}
+.textMenu{
+    margin-left: 2%;
+}
+#encabezado {
+    width: 1130px;
+    height: 253px;
+    display: block;
+    
+}
+
+#datos {
+    width: 1130px;
+    height: 100%;
+    display: block;
+    /*  background: #D0D3D4;*/
+}
+
+
+
+#fotoGrupo {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin: auto;
+    margin-top: -22%;
+}
+#fotoGrupo img{
+    width: 100%;
+    height: 100%;
+}
+#portada {
+    width: 100%;
+    height: 100%;
+}
+#encabezado>h1 {
+    text-align: center;
+    width: 100%;
+    font-family: 'play';
+    color: dodgerblue;
+    font-size: 450%;
+}
+
+
+#menuH {
+    width: 85%;
+    border-top: 35px solid #2e2e2e;
+    border-right: 45px solid transparent;
+}
+
+#menuH>ul>li>a {
+    text-decoration: none;
+    color: dodgerblue;
+    font-weight: bold;
+    font-size: 115%;
+}
+
+#menuH>ul>li {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    transition: 0.2s;
+}
+
+#menuH>ul>li:hover {
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+    transition: 0.2s;
+}
+
+#datos>div>ul {
+    list-style: none;
+    width: 105%;
+    margin-top: -4%;
+    padding-left: 4%;
+}
+
+#datos ul li {
+    display: inline-block;
+    margin: 1%;
+    font-family: 'play';
+    color: dodgerblue;
+    margin-left: 2%;
+    width: 13%;
+}
+
+#datos {
+    height: 100%;
+    overflow: hidden;
+    background: #2980B9;
+}
+
+#contenidoGrupo {
+    width: 100%;
+    display: inline;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+#publications {
+    width: 100%;
+    height: 96%;
+    margin-top: -1%;
+    display: block;
+    background: #B3B6B7;
+    overflow-y: scroll;
+}
+
+.videos,
+.fotos,
+.mapeo {
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1020px;
+    height: 405px;
+    background: #fff;
+    overflow: hidden
+}
+
+.publicado {
+    width: 734px;
+    height: 406px;
+    background: #e6e6e6;
+    float: right;
+    display: block;
+    position: relative;
+}
+
+.descripcion {
+    width: 286px;
+    height: 406px;
+    float: left;
+    display: block;
+    background: #1e1e1e;
+    padding-top: 1.5%;
+}
+
+.publicado>ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: flex-end;
+}
+
+.publicado>ul>li>img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.publicado input[type="radio"] {
+    position: relative;
+    z-index: 1;
+    margin: 5px;
+}
+
+.publicado input[type="radio"]:checked~img {
+    opacity: 1;
+}
+
+.publicador {
+    height: 100%;
+}
+
+.publicador>div {
+    width: 35%;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-radius: 100%;
+    /*Sombra*/
+    -webkit-box-shadow: 0px 8px 9px 5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 8px 9px 5px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 8px 9px 5px rgba(0, 0, 0, 0.75);
+}
+
+.publicador>div>img {
+    width: 100%;
+}
+
+.publicador h3 {
+    color: white;
+    text-align: center;
+    padding: 2.5%;
+    font-family: 'play';
+    margin-top: -1%;
+    /*Sombra*/
+    -webkit-box-shadow: 0px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: -2px 8px 9px -1px rgba(0, 0, 0, 0.75);
+}
+
+.publicador h4 {
+    color: dodgerblue;
+    padding: 2.5%;
+    text-align: center;
+    font-family: 'play';
+}
+
+.publicador p {
+    width: 80%;
+    height: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-family: 'play';
+    font-size: 75%;
+}
+
+#like {
+    width: 50px;
+    height: 50px;
+    background: none;
+    border: none;
+    background-size: 100%;
+    position: relative;
+    margin-left: 118px;
+    margin-top: -10px;
+    background-image: url(../imagenes/like1.png);
+}
+
+#like:hover {
+    background-image: url(../imagenes/like2.png);
+}
+
+#muestraVideo {
+    height: 100%;
+}
+
+.publicado>iframe {
+    width: 100%;
+    height: 100%;
+}
+
+#miembros {
+    width: 100%;
+    height: 92.5%;
+    margin-top: -1%;
+    overflow-x: hidden;
+    background: #B3B6B7;
+    overflow-y: scroll;
+    position: relative;
+}
+
+#miembros>div {
+    margin-left: 2.2%;
+    margin-top: 2%;
+    width: 30%;
+    height: 90px;
+    display: inline-block;
+    border-radius: 0px;
+    background-color: #1e1e1e;
+}
+
+#miembros>div>div {
+    width: 55px;
+    height: 55px;
+    float: left;
+    margin: 0;
+    margin-left: 1%;
+    margin-top: 1%;
+    /*Sombra*/
+    overflow: hidden;
+    -webkit-box-shadow: 0px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: -2px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    border-radius: 100px;
+}
+
+#miembros>div>div>img {
+    width: 100%;
+    height: 100%;
+}
+
+#miembros>div>button {
+    width: 30%;
+    height: 26%;
+    margin-top: -13%;
+    margin-right: 7%;
+    font-family: 'play';
+    font-size: 100%;
+    border-style: solid;
+    border-radius: 2px;
+    float: right;
+}
+
+#miembros>div h1 {
+    color: dodgerblue;
+    text-align: center;
+    padding: 2.5%;
+    font-family: 'play';
+    margin-top: -1%;
+    font-size: 100%;
+    text-align: right;
+    margin-bottom: 4%;
+    /*Sombra*/
+    -webkit-box-shadow: 0px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: -2px 8px 9px -1px rgba(0, 0, 0, 0.75);
+}
+
+#miembros>div h5 {
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 0;
+    font-family: 'play';
+    margin-left: 20%;
+    text-align: left;
+}
+
+#fotos {
+    width: 100%;
+    height: 93.5%;
+    margin-top: -1%;
+    display: block;
+    background: #B3B6B7;
+    overflow-y: scroll;
+}
+
+#fotos>div {
+    width: 250px;
+    height: 145px;
+    display: inline-block;
+    margin-top: 1.5%;
+    margin-left: 1.85%;
+    margin-bottom: 1.5%;
+    overflow: hidden;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    transition: 0.5s;
+}
+
+#fotos>div:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+#fotos>div>img {
+    width: 100%;
+}
+
+#videos {
+    width: 100%;
+    height: 94.5%;
+    margin-top: -1%;
+    display: block;
+    background: #B3B6B7;
+    overflow-y: scroll;
+}
+
+#videos>div {
+    width: 255px;
+    height: 145px;
+    float: left;
+    margin-top: 1.5%;
+    margin-left: 1.62%;
+    margin-bottom: 1.5%;
+    overflow: hidden;
+}
+
+#videos>div>video {
+    width: 100%;
+    height: 100%
+}
+
+#rutas {
+    width: 100%;
+    height: 94.5%;
+    margin-top: -1%;
+    display: block;
+    background: #B3B6B7;
+    overflow-y: scroll;
+}
+
+
+
+#rutas>div {
+    width: 31%;
+    height: 31%;
+    float: left;
+    margin-top: 1.5%;
+    margin-left: 1.6%;
+    margin-bottom: 1.5%;
+    overflow: hidden;
+}
+
+#rutas>div>iframe {
+    width: 100%;
+    height: 100%;
+}
+#retos {
+    width: 100%;
+    height: 94.5%;
+    margin-top: -1%;
+    background: #B3B6B7;
+    overflow-y: scroll;
+}
+#retos>div {
+    width: 31%;
+    height: 15%;
+    float: left;
+    margin-top: 1.5%;
+    margin-left: 1.6%;
+    margin-bottom: 1.5%;
+    overflow: hidden;
+    background-color: dimgrey;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    transition: 0.5s;
+}
+
+#retos>div:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+#retos>div>div {
+    width: 30%;
+    height: 100%;
+    overflow: hidden;
+    float: left;
+}
+
+#retos>div>h1 {
+    text-align: center;
+    font-family: 'play';
+    color: dodgerblue;
+    font-size: 130%;
+    margin-top: 5%;
+}
+
+#retos>div>div>img {
+    width: 100%;
+    height: 100%;
+}
+
+#retos>div>button {
+    width: 30%;
+    height: 30%;
+    margin-top: 2%;
+    margin-left: 20%;
+    font-family: 'play';
+    font-weight: bold;
+}

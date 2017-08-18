@@ -1,47 +1,50 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>
-            RunTime Web
-        </title>
-        <link href="css/style.css" rel="stylesheet" type="text/css"/>
-        <link href="https://fonts.googleapis.com/css?family=Jockey+One" rel="stylesheet"/>       
+    <title>
+        RunTime Web
+    </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="css/styleRegistro.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Jockey+One" rel="stylesheet" />
     <meta charset="UTF-8">
-    </head>
-    <body id="cuerpoRegistro">
-       <div id="particulas"></div>
-        
-        <video autoplay="" id="fondo" loop="" src="videos/fondo2.mp4">
+    <link rel="stylesheet" type="text/css" href="css/mediaScreenRegistro.css">
+</head>
+
+<body>
+    <div id="particulas"></div>
+
+    <video autoplay="" id="fondo" loop="" src="videos/fondo2.mp4">
         </video>
-        <div id="main">
-            <div align="center" id="titulo-sesion">
-              <img id="logo" src="imagenes/logotipo.png"/>
-            </div>
-            <div align="center">
-            <img id="user" src="imagenes/user.png"/>
-            </div>
-            <div align="center">
-               
-                <input id="nombre" placeholder="Nombre" type="text"/>
-                <br>
-                <input id="Apellidos" placeholder="Apellidos" type="text"/>
-                <br>
-                <input id="correo" placeholder="Correo" type="text"/>
-                <br>
-                <input id="usuario" placeholder="Usuario" type="text"/>
-                <br>
-                <input id="password" placeholder="Contraseña" type="text"/>
-                <br>
-                <input id="passwordConfirm" placeholder="Confirmar Contraseña" type="text"/>
-            </div>
-            <div align="center">
-                <button id="login" >
-                    <font color=red><a id="link-principal" href="index.html">Registrar</a></font>
-                </button>
-            </div>
+    <div class="container" id="main">
+        <div align="center" id="titulo-logo" class="container">
+            <img id="logo" src="imagenes/logotipo.png" />
         </div>
-     
-        <script src="particulas/particles.js"></script>
-        <script src="particulas/config-particulas.js"></script>
-    </body>
+        <div align="center" class="container">
+            <img id="user" src="imagenes/user.png" />
+        </div>
+        <div align="center" class="container formulario">
+
+            <input class="form-control" placeholder="Nombre" type="text" />
+            <br>
+            <input class="form-control" placeholder="Apellidos" type="text" />
+            <br>
+            <input class="form-control" placeholder="Correo" type="text" />
+            <br>
+            <input class="form-control" placeholder="Usuario" type="text" />
+            <br>
+            <input class="form-control" placeholder="Contraseña" type="password" />
+            <br>
+            <input class="form-control" placeholder="Confirmar Contraseña" type="password" />
+        </div>
+        <div align="center" class="container">
+            <button class="btn btn-default" type="submit">
+                   <a id="link-principal" href="index.html">Registrar</a>
+                </button>
+        </div>
+    </div>
+
+    <script src="particulas/particles.js"></script>
+    <script src="particulas/config-particulas.js"></script>
+</body>
 </html>

@@ -1,0 +1,341 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+html { overflow-y:hidden; }
+header {
+    width: 100%;
+    height:5.8%;
+    padding: 5px;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#icon-logo {
+    width: 150px;   
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    
+    background: #222220;
+}
+#cuerpo{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+}
+/*-----------SLIDER------------*/
+
+.slider {
+    width: 100%;
+    height: 60%;
+    /*width: 1179px;
+    height: 355px;*/
+    position: absolute;
+    /*z-index: 1;*/
+    overflow: hidden;
+   
+    
+}
+
+.slider ul {
+    display: flex;
+    width: 500%;
+
+    animation: cambio 20s infinite alternate;
+     -webkit-box-shadow: 0px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 8px 9px -1px rgba(0, 0, 0, 0.75);
+box-shadow: 0px 8px 9px -1px rgba(0, 0, 0, 0.75);
+}
+
+.slider li {
+    width: 100%;
+    height: 100%;
+    list-style: none;
+}
+
+.slider img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/*Animacion del Slider*/
+
+@keyframes cambio {
+    0% {
+        margin-left: 0%;
+    }
+    20% {
+        margin-left: 0%;
+    }
+    25% {
+        margin-left: -100%;
+    }
+    40% {
+        margin-left: -100%;
+    }
+    45% {
+        margin-left: -200%;
+    }
+    60% {
+        margin-left: -200%;
+    }
+    65% {
+        margin-left: -300%;
+    }
+    80% {
+        margin-left: -300%;
+    }
+    85% {
+        margin-left: -400%;
+    }
+    100% {
+        margin-left: -400%;
+    }
+}
+
+
+/*contiene los 3 div de opciones de la ventana*/
+
+#opciones {
+    /*margin-top: 31.5%;*/
+    margin: 31.5% 5% 0% 5%;
+}
+
+#opciones>a>div>h1 {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 177%;
+    margin-top: 0;
+    margin-left: -15;
+
+}
+
+#pu_re_gru{
+    width: 100%;
+    margin-top: 32%;
+    padding-left: 11.5%;
+}
+
+#opciones>a {
+    text-decoration: none;
+}
+
+#divMuro,#divRegistro,#divGrupos {
+    /*Sombra*/
+    -webkit-box-shadow: 0px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    border: none;
+    /*Animacion al quitar el mouse*/
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    transition: 0.5s;
+    display: inline-block;
+    width: 338px;
+    height: 170px;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    
+}
+.container{
+    padding: 0;
+}
+
+#divMuro {
+    overflow: hidden;
+    background-image: url("../imagenes/muro.gif");
+    background-size: 100%;
+}
+
+#divRegistro {
+     overflow: hidden;
+    background-image: url("../imagenes/registro.gif");
+    background-size: 100%;
+}
+
+#divGrupos {
+    overflow: hidden;
+    background-image: url("../imagenes/grupos.gif");
+    background-size: 100%;
+}
+
+
+
+#divGrupos:hover {
+    cursor: pointer;
+}
+
+#capa,
+#capa2,
+#capa3 {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border: none;
+    background-color: rgba(31, 31, 31, 0.8);
+    opacity: 0;
+    /*efecto de suavidad al no tener el div enlace funcionando*/
+    -webkit-transition: opacity 0.5s;
+    -moz-transition: opacity 0.5s;
+    -o-transition: opacity 0.5s;
+    -ms-transition: opacity 0.5s;
+}
+
+#divMuro:hover #capa,
+#divRegistro:hover #capa2,
+#divGrupos:hover #capa3 {
+    /*suavidad al pasar el mouse*/
+    opacity: 1;
+    -webkit-transition: opacity 0.5s;
+    -moz-transition: opacity 0.5s;
+    -o-transition: opacity 0.5s;
+    -ms-transition: opacity 0.5s;
+}
+
+
+/*Animacion al pasar el mouse sobre los divs*/
+
+.divsPrincipales:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.divsPrincipales>.label1 {
+    position: fixed;
+    padding-top: 17%;
+    padding-left: 1.8%;
+    padding-bottom: 9%;
+    width: 100%;
+    font-family: 'Orbitron';
+    font-size: 180%;
+    text-align: center;
+}
+
+.divsPrincipales:hover .label1 {
+    display: none;
+}
+
+#capa h1,
+#capa2 h1,
+#capa3 h1 {
+    color: #3498DB;
+    padding-top: 17%;
+    padding-left: 1.8%;
+    font-family: 'Orbitron';
+    font-size: 180%;
+    text-align: center;
+}
+
+#modal {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 5;
+    float: left;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: none;
+    visibility: hidden;
+}
+#modal>div {
+    margin: auto;
+    width: 300px;
+    height: 40%;
+    padding: 0;
+    background: rgba(0, 0, 0, 1);
+    border-radius: 5px;
+}
+
+#modal>div>a>div {
+    width: 300px;
+    height: 50px;
+    margin: auto;
+    margin-top: 4%;
+    /*background: #D0D3D4;*/
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    transition: 0.5s;
+}
+
+#modal>div>a>div:hover {
+    -webkit-transform: scale(1.07);
+    -moz-transform: scale(1.07);
+    -o-transform: scale(1.07);
+    -ms-transform: scale(1.07);
+    transform: scale(1.07);
+    transition: 0.15s;
+}
+
+#modal>div>a>div>div {
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    overflow: hidden;
+    float: left;
+    margin-left: 5%;
+    margin-top: 0.5%;
+}
+
+#modal>div>a>div>div>img {
+    height: 100%;
+    width: 100%;
+   
+}
+
+#modal>div>a>div>h1 {
+    font-family: 'play';
+    float: right;
+    color: #D0D3D4;
+    font-size: 135%;
+    width: 100%;
+    height: 50%;
+    margin-top: 10;
+    justify-content: center;
+    margin-left: 5%;
+    position: absolute;
+    text-align: center;
+}
+
+#modal:target {
+    display: flex;
+    visibility: visible;
+}
+
+#cerrar-modal {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 100%;
+    float: right;
+    margin-right: -4%;
+    margin-top: -4%;
+    border: none;
+    cursor: pointer;
+}
+
+#cerrar-modal>img {
+    width: 100%;
+   
+}
+
+
+

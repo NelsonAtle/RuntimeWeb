@@ -1,0 +1,144 @@
+/*Columna Menu*/
+#btn-menu{
+    position: absolute;
+    font-family: 'orbitron';
+    font-size: 150%;
+    text-decoration: none;
+    color: dodgerblue;
+    cursor: pointer;
+}
+#logo{
+   margin: auto;
+}
+#divPerfil {
+    width: 180px;
+    /*height: 94.2%;*/
+    height: 100%;
+    padding-bottom: 5%;
+    background: #2E2E2E;
+    position: absolute;
+    overflow: hidden;
+    z-index: 2;
+    display: none;
+    padding-left: 0;
+    padding-right: 0;
+}
+/*Decoracion Menu*/
+
+#menu {
+    list-style: none;
+    width: 109%
+}
+
+
+#menu>li>a,
+#menu>li>ul>li>a {
+    text-decoration: none;
+    font-family: 'play';
+}
+
+#menu li a {
+    color: #fff;
+    font-size: 100%;
+}
+
+#menu>li:hover {
+    background: #3498DB;
+    transition: 0.8s;
+    /*efecto al pasar el mouse*/
+    -webkit-transition: 0.5s ease-in-out;
+}
+
+#menu li {
+    padding: 1.5%;
+    
+}
+
+#menu li span {
+    font-size: 130%;
+    margin-right: 5%;
+}
+
+/*Nav*/
+
+nav {
+    width: 100%;
+    padding-top: 15%;
+}
+
+
+/*sub menu*/
+
+#menu li ul {
+    display: none;
+    width: 104%;
+    margin-left: -10%;
+    padding-left: 12%;
+}
+
+nav ul li ul li:hover {
+    background: #2471A3;
+    -webkit-transition: 0.8s ease-in-out;
+}
+
+#menu li:hover ul {
+    display: block;
+    background: #2e2e2e;
+}
+
+#menu li:hover {
+    padding-left: 15px;
+}
+nav>div{
+    width: 101%;
+    margin-top: -11%;
+    margin-left: -1%;
+}
+#foto {
+    width: 70%;
+    border-radius: 100%;
+}
+#nombre {
+    width: 100%;
+    text-align: center;
+    font-family: 'orbitron';
+    margin-top: 4%;
+    font-size: 115%;
+    color: #fff;
+}
+#linea1 {
+    margin-top: 5%;
+    width: 70%;
+    height: 0.5%;
+    border: none;
+    float: left;
+    background: #3498DB;
+}
+
+#linea2 {
+     margin-top: -9%;
+    width: 70%;
+    height: 0.5%;
+    border: none;
+    background: #3498DB;
+    float: right;
+}
+
+.subtitulos-menu {
+    color: #3498DB;
+    margin-top: 5%;
+    width: 100%;
+    margin-left: 5%;
+    font-family: 'Orbitron';
+}
+
+.subItemsTitulos-menu {
+    color: #3498DB;
+    width: 95%;
+    margin-left: 5%;
+    font-family: 'Orbitron';
+}
+
+#more {
+    margin-left: 50%;
+}

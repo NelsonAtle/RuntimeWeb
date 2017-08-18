@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+html{
+ overflow-y: hidden
+}
+
+#particulas {
+    width: 80%;
+    height: 40%;
+    position: fixed;
+}
+
+#icon-logo {
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+#cuerpoPrincipal {
+    overflow-y: scroll;
+    background: #222220;
+    overflow-y: hidden;
+}
+
+#conjunto {
+    width: 80%;
+    margin: auto;
+    height: 100%;
+    position: relative;
+    
+}
+
+#encabezado {
+    width: 100%;
+    height: 40%;
+    z-index: -1;
+    position: relative;
+    overflow: hidden;
+}
+
+#encabezado>div>img {
+    width: 100%;
+    height: 100%;
+}
+
+#encabezado>h1 {
+    text-align: center;
+    width: 100%;
+    font-family: 'play';
+    color: dodgerblue;
+    font-size: 450%;
+}
+
+#miembros {
+    width: 100%;
+    height: 54%;
+    overflow-x: hidden;
+    background: #B3B6B7;
+    overflow-y: scroll;
+    position: relative;
+}
+
+#miembros>div {
+    margin-left: 4%;
+    margin-top: 2%;
+    width: 300px;
+    height: 100px;
+    display: inline-block;
+    border-radius: 0px;
+    background-color: #1e1e1e;
+}
+
+#miembros>div>div {
+    width: 55px;
+    height: 55px;
+    float: left;
+    margin: 0;
+    margin-left: 1%;
+    margin-top: 1%;
+    /*Sombra*/
+    overflow: hidden;
+    -webkit-box-shadow: 0px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: -2px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    border-radius: 100px;
+}
+
+#miembros>div>div>img {
+    width: 100%;
+    height: 100%;
+}
+
+#miembros>div>button {
+    width: 30%;
+    height: 26%;
+    margin-top: -14%;
+    margin-right: 7%;
+    font-family: 'play';
+    font-size: 100%;
+    border-style: solid;
+    border-radius: 2px;
+    float: right;
+}
+
+#miembros>div h1 {
+    color: dodgerblue;
+    text-align: center;
+    padding: 2.5%;
+    font-family: 'play';
+    margin-top: -1%;
+    font-size: 100%;
+    text-align: right;
+    margin-bottom: 4%;
+    /*Sombra*/
+    -webkit-box-shadow: 0px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: -2px 8px 9px -1px rgba(0, 0, 0, 0.75);
+}
+
+#miembros>div h5 {
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 0;
+    font-family: 'play';
+    margin-left: 20%;
+    text-align: left;
+}
+
+#cuerpoSeguidores {
+    height: 100%;
+    width: 100%;
+}
+
+#cuerpoSeguidores #usuario {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin: auto;
+    margin-top: -45%;
+    
+}
+
+#portadaFotos {
+    width: 100%;
+    margin-top: -20%;
+}

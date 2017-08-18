@@ -1,0 +1,5894 @@
+/********************320 x 480***********************/
+
+@media screen and (device-width: 320px) and (device-height: 480px) {
+    #conjunto {
+        padding: 0;
+    }
+    #btn-menu {
+        margin-top: -1%;
+    }
+    #icon-logo {
+        margin-top: -1%;
+    }
+    #menuTitle {
+        display: none;
+    }
+    #particulas {
+        width: 100%;
+        height: 120px;
+    }
+    #encabezado {
+        width: 100%;
+        height: 120px;
+        display: block;
+    }
+    #fotoGrupo {
+        width: 65px;
+        height: 65px;
+        margin-top: -35%;
+    }
+    #encabezado>h1 {
+        font-size: 200%;
+        margin-top: 1%;
+    }
+    .textMenu {
+        display: none;
+    }
+    #menuH {
+        width: 97%;
+    }
+    #datos ul li {
+        margin: 0%;
+        margin-left: 0.5%;
+        width: 14%;
+    }
+    #datos>div>ul {
+    width: 105%;
+    margin-top: -10.5%;
+    padding-left: 10%;
+       padding-right: -5%;
+}
+    #datos {
+        width: 100%;
+        height: 100%;
+        display: block;
+        /*  background: #D0D3D4;*/
+    }
+    #publications{
+        margin-top: -2.5%;
+        padding-bottom: 8%;
+    }
+    .videos,
+    .fotos,
+    .mapeo {
+        width: 95%;
+        height: 340px;
+        background: #fff;
+        overflow: hidden;
+        background: #1e1e1e;
+        border-radius: 7px;
+    }
+    .publicado {
+        width: 252px;
+        height: 171px;
+        background: #e6e6e6;
+        float: none;
+        display: block;
+        position: relative;
+    }
+    .fotos .publicado,
+    .mapeo .publicado {
+        width: 100%;
+    }
+    .descripcion {
+        width: 100%;
+        height: 130px;
+        float: none;
+        display: block;
+        background: #1e1e1e;
+        padding-top: 1.5%;
+        overflow: hidden;
+    }
+    .publicador>div {
+        width: 40px;
+        height: 40px;
+        float: left;
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+    .publicador h3,
+    .publicador h4 {
+        display: block;
+        width: 100%;
+        height: 30px;
+        font-size: 100%;
+        text-align: left;
+        padding-left: 17%;
+    }
+    .publicador h3 {
+        padding-top: 4.5%;
+    }
+    .publicador h4 {
+        margin-top: -5.5%;
+        height: 20px;
+    }
+    .publicador p {
+        width: 100%;
+        height: 57%;
+        padding-left: 1.5%;
+        padding-right: 1.5%;
+        font-size: 105%;
+        overflow-y: scroll;
+    }
+    #like {
+        width: 35px;
+        height: 35px;
+        margin: 0;
+        margin-left: 44%;
+    }
+    #miembros {
+    margin-top: -2.5%;
+        padding: 1%;
+    padding-bottom: 8%;
+        overflow-x: hidden;
+    }
+    #miembros>div {
+      
+    width: 97%;
+    height: 120px;
+    display: inline-block;
+    border-radius: 0px;
+    background-color: #1e1e1e;
+    }
+    #miembros>div>div {
+    width: 55px;
+    height: 55px;
+    float: left;
+    margin: 0;
+    margin-left: 1%;
+    margin-top: 1%;
+    }
+    #miembros>div>button {
+    width: 30%;
+    height: 22%;
+    margin-top: -15%;
+    margin-right: 7%;
+    font-family: 'play';
+    font-size: 100%;
+    border-style: solid;
+    border-radius: 5px;
+        float: right;
+}
+    #miembros>div h1{
+         color: dodgerblue;
+    text-align: center;
+    padding: 2.5%;
+    font-family: 'play';
+    margin-top: -1%;
+        text-align: right;
+        margin-bottom: 4%;
+    /*Sombra*/
+    -webkit-box-shadow: 0px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: -2px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    }
+    #miembros>div h5{
+        width: 100%;
+        color: white;
+        text-align: center;
+        padding: 0;
+        font-family: 'play';
+        margin-left: 20%;
+        text-align: left;
+       
+    }
+    #fotos{
+        padding: 1.5%;
+        padding-bottom: 8%;
+    }
+    #fotos>div {
+    width: 96%;
+    height: 155px;
+    display: inline-block;
+ 
+    overflow: hidden;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    transition: 0.5s;
+}
+    #videos {
+   padding: 1.5%;
+        padding-bottom: 8%;
+}
+    #videos>div {
+        width: 300px;
+        height: 190px;
+        float: none;
+        display: inline-block;
+        overflow: hidden;
+       
+   }
+    #rutas {
+       padding: 1.5%;
+        padding-bottom: 8%;
+    }
+    #rutas>div {
+        width: auto;
+        height: 190px;
+        float: none;
+        display: inline-block;
+    }
+    #retos {
+   padding: 1.5%;
+        padding-bottom: 8%;
+}
+    #retos>div {
+        background: #1e1e1e;
+        width:96%;
+        height: 95px;
+        float: none;
+        display: inline-block;
+    }
+}
+
+@media screen and (device-width: 480px) and (device-height: 320px) {
+   #conjunto {
+        padding: 0%;
+    }
+    header{
+        height:  30px;
+    }
+    #btn-menu {
+        margin-top: -1%;
+    }
+    #icon-logo {
+        margin-top: -1%;
+    }
+    #menuTitle {
+        display: none;
+    }
+    #particulas {
+        width: 100%;
+        height: 120px;
+    }
+    #encabezado {
+        width: 100%;
+        height: 120px;
+        display: block;
+    }
+    #fotoGrupo {
+        width: 65px;
+        height: 65px;
+        margin-top: -24%;
+    }
+    #encabezado>h1 {
+        font-size: 200%;
+        margin-top: 1%;
+    }
+    .textMenu {
+        display: none;
+    }
+    #menuH {
+        width: 97%;
+    }
+    #datos ul li {
+        margin: 0%;
+        margin-left: 0.5%;
+        width: 14%;
+    }
+    #datos>div>ul {
+    width: 105%;
+    margin-top: -6%;
+    padding-left: 10%;
+       padding-right: -5%;
+}
+    #datos {
+        width: 100%;
+        height: 100%;
+        display: block;
+        /*  background: #D0D3D4;*/
+    }
+    #publications{
+        padding-left:1%;
+        padding-right: 1%;
+        padding-bottom: 8%;
+    }
+    .videos,
+    .fotos,
+    .mapeo {
+        margin-top: 2%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: 395px;
+        background: #fff;
+        overflow: hidden;
+        background: #1e1e1e;
+        border-radius: 7px;
+    }
+    .publicado {
+        width: 252px;
+        height: 230px;
+        background: #e6e6e6;
+        float: none;
+        display: block;
+        position: relative;
+    }
+    .fotos .publicado,
+    .mapeo .publicado {
+        width: 100%;
+    }
+    .descripcion {
+        width: 100%;
+        height: 130px;
+        float: none;
+        display: block;
+        background: #1e1e1e;
+        padding-top: 1.5%;
+        overflow: hidden;
+    }
+    .publicador>div {
+        width: 40px;
+        height: 40px;
+        float: left;
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+    .publicador h3,
+    .publicador h4 {
+        display: block;
+        width: 100%;
+        height: 30px;
+        font-size: 100%;
+        text-align: left;
+        padding-left: 12%;
+       
+    }
+    .publicador h3 {
+        padding-top: 3%;
+    }
+    .publicador h4 {
+        margin-top: -5%;
+        height: 20px;
+    }
+    .publicador p {
+        width: 100%;
+        height: 57%;
+        padding-left: 1.5%;
+        padding-right: 1.5%;
+        font-size: 105%;
+        overflow-y: scroll;
+    }
+    .videos{
+        height: 425px;
+    }
+    .videos .descripcion {
+        height: 130px;
+    }
+    .videos .publicado {
+        height: 260px;
+    }
+    #like {
+        width: 35px;
+        height: 35px;
+        margin: 0;
+        margin-left: 46%;
+    }
+    #miembros {
+    margin-top: -1%;
+        padding: 1%;
+    padding-bottom: 8%;
+        overflow-x: hidden;
+    }
+    #miembros>div {
+      
+    width: 97%;
+    height: 120px;
+    display: inline-block;
+    border-radius: 0px;
+    background-color: #1e1e1e;
+    }
+    #miembros>div>div {
+    width: 55px;
+    height: 55px;
+    float: left;
+    margin: 0;
+    margin-left: 1%;
+    margin-top: 1%;
+    }
+    #miembros>div>button {
+        width: 30%;
+        height: 22%;
+        margin-top: -8%;
+        margin-right: 7%;
+        font-family: 'play';
+        font-size: 100%;
+        border-style: solid;
+        border-radius: 5px;
+        float: right;
+}
+    #miembros>div h1{
+        color: dodgerblue;
+        text-align: center;
+        padding: 2.5%;
+        font-family: 'play';
+        margin-top: -1%;
+        text-align: right;
+        margin-bottom: 5%;
+    /*Sombra*/
+    -webkit-box-shadow: 0px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: -2px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    }
+    #miembros>div h5{
+        width: 100%;
+        color: white;
+        text-align: center;
+        padding: 0;
+        font-family: 'play';
+        margin-left: 20%;
+        text-align: left;
+        margin-top: -1%;
+       
+    }
+    #fotos{
+        padding: 1.5%;
+        padding-bottom: 8%;
+    }
+    #fotos>div {
+    width: 96%;
+    height: 175px;
+    display: inline-block;
+ 
+    overflow: hidden;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    transition: 0.5s;
+}
+    #videos {
+   padding: 1.5%;
+        padding-bottom: 8%;
+        padding-top: -4%;
+}
+    #videos>div {
+        width: 450px;
+        height: 340px;
+        float: none;
+        display: inline-block;
+        overflow: hidden;
+       
+   }
+    #rutas {
+       padding: 1.5%;
+       padding-bottom: 8%;
+    }
+    #rutas>div {
+        width: 450;
+        height: 200px;
+        float: none;
+        display: inline-block;
+    }
+    #retos {
+   padding: 1.5%;
+        padding-bottom: 8%;
+}
+    #retos>div {
+        background: #1e1e1e;
+        width:96%;
+        height: 95px;
+        float: none;
+        display: inline-block;
+    }
+}
+
+
+/********************360 x 640***********************/
+
+@media screen and (device-width: 360px) and (device-height: 640px) {
+   #conjunto {
+        padding: 0;
+    }
+    #btn-menu {
+        margin-top: -1%;
+    }
+    #icon-logo {
+        margin-top: -1%;
+    }
+    #menuTitle {
+        display: none;
+    }
+    #particulas {
+        width: 100%;
+        height: 120px;
+    }
+    #encabezado {
+        width: 100%;
+        height: 120px;
+        display: block;
+    }
+    #fotoGrupo {
+        width: 65px;
+        height: 65px;
+        margin-top: -30%;
+    }
+    #encabezado>h1 {
+        font-size: 200%;
+        margin-top: 1%;
+    }
+    .textMenu {
+        display: none;
+    }
+    #menuH {
+        width: 97%;
+    }
+    #datos ul li {
+        margin: 0%;
+        margin-left: 0.5%;
+        width: 14%;
+    }
+    #datos>div>ul {
+    width: 105%;
+    margin-top: -9%;
+    padding-left: 10%;
+       padding-right: -5%;
+}
+    #datos {
+        width: 100%;
+        height: 100%;
+        display: block;
+        /*  background: #D0D3D4;*/
+    }
+    #publications{
+        margin-top: -1%;
+        padding: 1%;
+        padding-bottom: 8%;
+    }
+    .videos,
+    .fotos,
+    .mapeo {
+        margin-top: 2%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: 340px;
+        background: #fff;
+        overflow: hidden;
+        background: #1e1e1e;
+        border-radius: 7px;
+    }
+    .publicado {
+        width: 252px;
+        height: 171px;
+        background: #e6e6e6;
+        float: none;
+        display: block;
+        position: relative;
+    }
+    .fotos .publicado,
+    .mapeo .publicado {
+        width: 100%;
+    }
+    .videos{
+        height: 375px;
+    }
+    .videos .publicado {
+        height: 210px;
+    }
+    .descripcion {
+        width: 100%;
+        height: 130px;
+        float: none;
+        display: block;
+        background: #1e1e1e;
+        padding-top: 1.5%;
+        overflow: hidden;
+    }
+    .publicador>div {
+        width: 40px;
+        height: 40px;
+        float: left;
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+    .publicador h3,
+    .publicador h4 {
+        display: block;
+        width: 100%;
+        height: 30px;
+        font-size: 100%;
+        text-align: left;
+        padding-left: 15%;
+    }
+    .publicador h3 {
+        padding-top: 4%;
+    }
+    .publicador h4 {
+        margin-top: -5.5%;
+        height: 20px;
+    }
+    .publicador p {
+        width: 100%;
+        height: 57%;
+        padding-left: 1.5%;
+        padding-right: 1.5%;
+        font-size: 105%;
+        overflow-y: scroll;
+    }
+    #like {
+        width: 35px;
+        height: 35px;
+        margin: 0;
+        margin-top: 0.5%;
+        margin-left: 44.5%;
+    }
+      #miembros {
+    margin-top: -2.5%;
+        padding: 1%;
+    padding-bottom: 8%;
+        overflow-x: hidden;
+    }
+    #miembros>div {
+      
+    width: 97%;
+    height: 120px;
+    display: inline-block;
+    border-radius: 0px;
+    background-color: #1e1e1e;
+    }
+    #miembros>div>div {
+    width: 55px;
+    height: 55px;
+    float: left;
+    margin: 0;
+    margin-left: 1%;
+    margin-top: 1%;
+    }
+    #miembros>div>button {
+    width: 30%;
+    height: 22%;
+    margin-top: -15%;
+    margin-right: 7%;
+    font-family: 'play';
+    font-size: 100%;
+    border-style: solid;
+    border-radius: 5px;
+        float: right;
+}
+    #miembros>div h1{
+         color: dodgerblue;
+    text-align: center;
+    padding: 2.5%;
+    font-family: 'play';
+    margin-top: -1%;
+        text-align: right;
+        margin-bottom: 4%;
+    /*Sombra*/
+    -webkit-box-shadow: 0px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: -2px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    }
+    #miembros>div h5{
+        width: 100%;
+        color: white;
+        text-align: center;
+        padding: 0;
+        font-family: 'play';
+        margin-left: 20%;
+        text-align: left;
+       
+    }
+     #fotos{
+        padding: 1.5%;
+        padding-bottom: 8%;
+    }
+    #fotos>div {
+    width: 96%;
+    height: 155px;
+    display: inline-block;
+ 
+    overflow: hidden;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    transition: 0.5s;
+}
+     #videos {
+        padding: 1.5%;
+        padding-bottom: 8%;
+       
+}
+     #videos>div {
+        width: 337px;
+        height: 227px;
+        float: none;
+        display: inline-block;
+        overflow: hidden;
+       
+   }
+    #rutas {
+       padding: 1.5%;
+        padding-bottom: 8%;
+    }
+    #rutas>div {
+        width: 335;
+        height: 225px;
+        float: none;
+        display: inline-block;
+    }
+    #retos {
+   padding: 1.5%;
+        padding-bottom: 8%;
+}
+    #retos>div {
+        background: #1e1e1e;
+        width:96%;
+        height: 95px;
+        float: none;
+        display: inline-block;
+    }
+}
+
+@media screen and (device-width: 640px) and (device-height: 360px) {
+    #conjunto {
+        padding: 0%;
+    }
+    header{
+        height:  30px;
+    }
+    #btn-menu {
+        margin-top: -0.5%;
+    }
+    #icon-logo {
+        margin-top: -0.5%;
+    }
+    #menuTitle {
+        display: none;
+    }
+    #particulas {
+        width: 100%;
+        height: 120px;
+    }
+    #encabezado {
+        width: 100%;
+        height: 120px;
+        display: block;
+    }
+    #fotoGrupo {
+        width: 65px;
+        height: 65px;
+        margin-top: -18%;
+    }
+    #encabezado>h1 {
+        font-size: 200%;
+        margin-top: 1%;
+    }
+    .textMenu {
+        display: none;
+    }
+    #menuH {
+        width: 97%;
+    }
+    #datos ul li {
+        margin: 0%;
+        margin-left: 0.5%;
+        width: 14%;
+    }
+    #datos>div>ul {
+    width: 105%;
+    margin-top: -4.5%;
+    padding-left: 10%;
+       padding-right: -5%;
+}
+    #datos {
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+    #publications{
+        padding-left:1%;
+        padding-right: 1%;
+        padding-bottom: 8%;
+    }
+    .videos,
+    .fotos,
+    .mapeo {
+        margin-top: 2%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: 430px;
+        background: #fff;
+        overflow: hidden;
+        background: #1e1e1e;
+        border-radius: 7px;
+    }
+    .publicado {
+        width: 252px;
+        height: 265px;
+        background: #e6e6e6;
+        float: none;
+        display: block;
+        position: relative;
+    }
+    .fotos .publicado,
+    .mapeo .publicado {
+        width: 100%;
+    }
+    .descripcion {
+        width: 100%;
+        height: 130px;
+        float: none;
+        display: block;
+        background: #1e1e1e;
+        padding-top: 1.5%;
+        overflow: hidden;
+    }
+    .publicador>div {
+        width: 40px;
+        height: 40px;
+        float: left;
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+    .publicador h3,
+    .publicador h4 {
+        display: block;
+        width: 100%;
+        height: 30px;
+        font-size: 100%;
+        text-align: left;
+        padding-left: 9%;
+       
+    }
+    .publicador h3 {
+        padding-top: 2.5%;
+    }
+    .publicador h4 {
+        margin-top: -4%;
+        height: 20px;
+    }
+    .publicador p {
+        width: 100%;
+        height: 57%;
+        padding-left: 1.5%;
+        padding-right: 1.5%;
+        font-size: 105%;
+        overflow-y: scroll;
+    }
+    .videos{
+        height: 515px;
+    }
+    .videos .descripcion {
+        height: 130px;
+    }
+    .videos .publicado {
+        height: 345px;
+    }
+    #like {
+        width: 35px;
+        height: 35px;
+        margin: 0;
+        margin-left: 47%;
+    }
+    #miembros {
+    margin-top: -1%;
+        padding: 1%;
+    padding-bottom: 8%;
+        overflow-x: hidden;
+    }
+    #miembros>div {
+      
+    width: 97%;
+    height: 120px;
+    display: inline-block;
+    border-radius: 0px;
+    background-color: #1e1e1e;
+    }
+    #miembros>div>div {
+    width: 55px;
+    height: 55px;
+    float: left;
+    margin: 0;
+    margin-left: 1%;
+    margin-top: 1%;
+    }
+    #miembros>div>button {
+        width: 30%;
+        height: 22%;
+        margin-top: -8%;
+        margin-right: 7%;
+        font-family: 'play';
+        font-size: 100%;
+        border-style: solid;
+        border-radius: 5px;
+        float: right;
+}
+    #miembros>div h1{
+        color: dodgerblue;
+        text-align: center;
+        padding: 2.5%;
+        font-family: 'play';
+        margin-top: -1%;
+        text-align: right;
+        margin-bottom: 3%;
+    /*Sombra*/
+    -webkit-box-shadow: 0px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: -2px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    }
+    #miembros>div h5{
+        width: 100%;
+        color: white;
+        text-align: center;
+        padding: 0;
+        font-family: 'play';
+        margin-left: 20%;
+        text-align: left;
+        margin-top: 2%;
+       
+    }
+    #fotos{
+        padding: 1.5%;
+        padding-bottom: 8%;
+    }
+    #fotos>div {
+    width: 96%;
+    height: 325px;
+    display: inline-block;
+ 
+    overflow: hidden;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    transition: 0.5s;
+}
+    #videos {
+   padding: 1.5%;
+        padding-bottom: 8%;
+        padding-top: -4%;
+}
+    #videos>div {
+        width: 600px;
+        height: 490px;
+        float: none;
+        display: inline-block;
+        overflow: hidden;
+       
+   }
+    #rutas {
+       padding: 1.5%;
+       padding-bottom: 8%;
+    }
+    #rutas>div {
+        width: 600;
+        height: 490px;
+        float: none;
+        display: inline-block;
+    }
+    #retos {
+   padding: 1.5%;
+        padding-bottom: 8%;
+}
+    #retos>div {
+        background: #1e1e1e;
+        width:96%;
+        height: 95px;
+        float: none;
+        display: inline-block;
+    }
+    #retos>div>div{
+        width: 100px;
+        height: 100%;
+    }
+    #retos>div>button{
+        margin-top: -1%;
+        margin-left: 27%;
+    }
+}
+
+/********************384 x 640***********************/
+
+@media screen and (device-width: 384px) and (device-height: 640px) {
+   #conjunto {
+        padding: 0;
+    }
+    #btn-menu {
+        margin-top: -1%;
+    }
+    #icon-logo {
+        margin-top: -1%;
+    }
+    #menuTitle {
+        display: none;
+    }
+    #particulas {
+        width: 100%;
+        height: 120px;
+    }
+    #encabezado {
+        width: 100%;
+        height: 120px;
+        display: block;
+    }
+    #fotoGrupo {
+        width: 65px;
+        height: 65px;
+        margin-top: -30%;
+    }
+    #encabezado>h1 {
+        font-size: 200%;
+        margin-top: 1%;
+    }
+    .textMenu {
+        display: none;
+    }
+    #menuH {
+        width: 97%;
+    }
+    #datos ul li {
+        margin: 0%;
+        margin-left: 0.5%;
+        width: 14%;
+    }
+    #datos>div>ul {
+    width: 105%;
+    margin-top: -9%;
+    padding-left: 10%;
+       padding-right: -5%;
+}
+    #datos {
+        width: 100%;
+        height: 100%;
+        display: block;
+        /*  background: #D0D3D4;*/
+    }
+    #publications{
+        margin-top: -1%;
+        padding: 1%;
+        padding-bottom: 8%;
+    }
+    .videos,
+    .fotos,
+    .mapeo {
+        margin-top: 2%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: 340px;
+        background: #fff;
+        overflow: hidden;
+        background: #1e1e1e;
+        border-radius: 7px;
+    }
+    .publicado {
+        width: 252px;
+        height: 171px;
+        background: #e6e6e6;
+        float: none;
+        display: block;
+        position: relative;
+    }
+    .fotos .publicado,
+    .mapeo .publicado {
+        width: 100%;
+    }
+    .videos{
+        height: 390px;
+    }
+    .videos .publicado {
+        height: 220px;
+    }
+    .descripcion {
+        width: 100%;
+        height: 130px;
+        float: none;
+        display: block;
+        background: #1e1e1e;
+        padding-top: 1.5%;
+        overflow: hidden;
+    }
+    .publicador>div {
+        width: 40px;
+        height: 40px;
+        float: left;
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+    .publicador h3,
+    .publicador h4 {
+        display: block;
+        width: 100%;
+        height: 30px;
+        font-size: 100%;
+        text-align: left;
+        padding-left: 15%;
+    }
+    .publicador h3 {
+        padding-top: 4%;
+    }
+    .publicador h4 {
+        margin-top: -5.5%;
+        height: 20px;
+    }
+    .publicador p {
+        width: 100%;
+        height: 57%;
+        padding-left: 1.5%;
+        padding-right: 1.5%;
+        font-size: 105%;
+        overflow-y: scroll;
+    }
+    #like {
+        width: 35px;
+        height: 35px;
+        margin: 0;
+        margin-top: 0.5%;
+        margin-left: 44.5%;
+    }
+      #miembros {
+    margin-top: -2.5%;
+        padding: 1%;
+    padding-bottom: 8%;
+        overflow-x: hidden;
+    }
+    #miembros>div {
+      
+    width: 97%;
+    height: 120px;
+    display: inline-block;
+    border-radius: 0px;
+    background-color: #1e1e1e;
+    }
+    #miembros>div>div {
+    width: 55px;
+    height: 55px;
+    float: left;
+    margin: 0;
+    margin-left: 1%;
+    margin-top: 1%;
+    }
+    #miembros>div>button {
+    width: 30%;
+    height: 22%;
+    margin-top: -15%;
+    margin-right: 7%;
+    font-family: 'play';
+    font-size: 100%;
+    border-style: solid;
+    border-radius: 5px;
+        float: right;
+}
+    #miembros>div h1{
+         color: dodgerblue;
+    text-align: center;
+    padding: 2.5%;
+    font-family: 'play';
+    margin-top: -1%;
+        text-align: right;
+        margin-bottom: 4%;
+    /*Sombra*/
+    -webkit-box-shadow: 0px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: -2px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    }
+    #miembros>div h5{
+        width: 100%;
+        color: white;
+        text-align: center;
+        padding: 0;
+        font-family: 'play';
+        margin-left: 20%;
+        text-align: left;
+       
+    }
+     #fotos{
+        padding: 1.5%;
+        padding-bottom: 8%;
+    }
+    #fotos>div {
+    width: 96%;
+    height: 200px;
+    display: inline-block;
+ 
+    overflow: hidden;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    transition: 0.5s;
+}
+     #videos {
+   padding: 1.5%;
+        padding-bottom: 8%;
+}
+    #videos>div {
+        width: 357px;
+        height: 247px;
+        float: none;
+        display: inline-block;
+        overflow: hidden;
+       
+   }
+    #rutas {
+       padding: 1.5%;
+        padding-bottom: 8%;
+    }
+    #rutas>div {
+        width: 355;
+        height: 245px;
+        float: none;
+        display: inline-block;
+    }
+    #retos {
+   padding: 1.5%;
+        padding-bottom: 8%;
+}
+    #retos>div {
+        background: #1e1e1e;
+        width:96%;
+        height: 95px;
+        float: none;
+        display: inline-block;
+    }
+}
+
+@media screen and (device-width: 640px) and (device-height: 384px) {
+    #conjunto {
+        padding: 0%;
+    }
+    header{
+        height:  30px;
+    }
+    #btn-menu {
+        margin-top: -0.5%;
+    }
+    #icon-logo {
+        margin-top: -0.5%;
+    }
+    #menuTitle {
+        display: none;
+    }
+    #particulas {
+        width: 100%;
+        height: 120px;
+    }
+    #encabezado {
+        width: 100%;
+        height: 120px;
+        display: block;
+    }
+    #fotoGrupo {
+        width: 65px;
+        height: 65px;
+        margin-top: -18%;
+    }
+    #encabezado>h1 {
+        font-size: 200%;
+        margin-top: 1%;
+    }
+    .textMenu {
+        display: none;
+    }
+    #menuH {
+        width: 97%;
+    }
+    #datos ul li {
+        margin: 0%;
+        margin-left: 0.5%;
+        width: 14%;
+    }
+    #datos>div>ul {
+    width: 105%;
+    margin-top: -4.5%;
+    padding-left: 10%;
+       padding-right: -5%;
+}
+    #datos {
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+    #publications{
+        padding-left:1%;
+        padding-right: 1%;
+        padding-bottom: 8%;
+    }
+    .videos,
+    .fotos,
+    .mapeo {
+        margin-top: 2%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: 430px;
+        background: #fff;
+        overflow: hidden;
+        background: #1e1e1e;
+        border-radius: 7px;
+    }
+    .publicado {
+        width: 252px;
+        height: 265px;
+        background: #e6e6e6;
+        float: none;
+        display: block;
+        position: relative;
+    }
+    .fotos .publicado,
+    .mapeo .publicado {
+        width: 100%;
+    }
+    .descripcion {
+        width: 100%;
+        height: 130px;
+        float: none;
+        display: block;
+        background: #1e1e1e;
+        padding-top: 1.5%;
+        overflow: hidden;
+    }
+    .publicador>div {
+        width: 40px;
+        height: 40px;
+        float: left;
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+    .publicador h3,
+    .publicador h4 {
+        display: block;
+        width: 100%;
+        height: 30px;
+        font-size: 100%;
+        text-align: left;
+        padding-left: 9%;
+       
+    }
+    .publicador h3 {
+        padding-top: 2.5%;
+    }
+    .publicador h4 {
+        margin-top: -4%;
+        height: 20px;
+    }
+    .publicador p {
+        width: 100%;
+        height: 57%;
+        padding-left: 1.5%;
+        padding-right: 1.5%;
+        font-size: 105%;
+        overflow-y: scroll;
+    }
+    .videos{
+        height: 515px;
+    }
+    .videos .descripcion {
+        height: 130px;
+    }
+    .videos .publicado {
+        height: 345px;
+    }
+    #like {
+        width: 35px;
+        height: 35px;
+        margin: 0;
+        margin-left: 47%;
+    }
+    #miembros {
+    margin-top: -1%;
+        padding: 1%;
+    padding-bottom: 8%;
+        overflow-x: hidden;
+    }
+    #miembros>div {
+      
+    width: 97%;
+    height: 120px;
+    display: inline-block;
+    border-radius: 0px;
+    background-color: #1e1e1e;
+    }
+    #miembros>div>div {
+    width: 55px;
+    height: 55px;
+    float: left;
+    margin: 0;
+    margin-left: 1%;
+    margin-top: 1%;
+    }
+    #miembros>div>button {
+        width: 30%;
+        height: 22%;
+        margin-top: -8%;
+        margin-right: 7%;
+        font-family: 'play';
+        font-size: 100%;
+        border-style: solid;
+        border-radius: 5px;
+        float: right;
+}
+    #miembros>div h1{
+        color: dodgerblue;
+        text-align: center;
+        padding: 2.5%;
+        font-family: 'play';
+        margin-top: -1%;
+        text-align: right;
+        margin-bottom: 3%;
+    /*Sombra*/
+    -webkit-box-shadow: 0px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: -2px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    }
+    #miembros>div h5{
+        width: 100%;
+        color: white;
+        text-align: center;
+        padding: 0;
+        font-family: 'play';
+        margin-left: 20%;
+        text-align: left;
+        margin-top: 2%;
+       
+    }
+    #fotos{
+        padding: 1.5%;
+        padding-bottom: 8%;
+    }
+    #fotos>div {
+    width: 96%;
+    height: 325px;
+    display: inline-block;
+ 
+    overflow: hidden;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    transition: 0.5s;
+}
+    #videos {
+   padding: 1.5%;
+        padding-bottom: 8%;
+        padding-top: -4%;
+}
+    #videos>div {
+        width: 600px;
+        height: 490px;
+        float: none;
+        display: inline-block;
+        overflow: hidden;
+       
+   }
+    #rutas {
+       padding: 1.5%;
+       padding-bottom: 8%;
+    }
+    #rutas>div {
+        width: 600;
+        height: 490px;
+        float: none;
+        display: inline-block;
+    }
+    #retos {
+   padding: 1.5%;
+        padding-bottom: 8%;
+}
+    #retos>div {
+        background: #1e1e1e;
+        width:96%;
+        height: 95px;
+        float: none;
+        display: inline-block;
+    }
+    #retos>div>div{
+        width: 100px;
+        height: 100%;
+    }
+    #retos>div>button{
+        margin-top: -1%;
+        margin-left: 27%;
+    }
+}
+
+
+/********************800 x 1280***********************/
+
+@media screen and (device-width: 800px) and (device-height: 1280px) {
+   #conjunto {
+        padding: 0;
+    }
+    #btn-menu {
+        margin-top: -0.5%;
+         font-size: 150%;
+    }
+    #icon-logo {
+        margin-top: -1%;
+        width: 50%;
+    }
+    .icon-menu{
+        font-size: 280%;
+    }
+    #menuTitle {
+        display: none;
+    }
+    #particulas {
+        width: 100%;
+        height: 250px;
+    }
+    #encabezado {
+        width: 100%;
+        height: 250px;
+        display: block;
+    }
+    #fotoGrupo {
+        width: 135px;
+        height: 135px;
+        margin-top: -30%;
+    }
+    #encabezado>h1 {
+        font-size: 280%;
+        margin-top: 1%;
+    }
+    .textMenu {
+        display: none;
+    }
+    #menuH {
+        width: 97%;
+        border-top: 75px solid #2e2e2e;
+    }
+    
+    #datos ul li {
+        margin: 0%;
+        margin-left: 0.5%;
+        width: 14%;
+    }
+    #datos>div>ul {
+    width: 105%;
+    margin-top: -8.5%;
+    padding-left: 10%;
+       padding-right: -5%;
+}
+    #datos {
+        width: 100%;
+        height: 100%;
+        display: block;
+        /*  background: #D0D3D4;*/
+    }
+    #publications{
+        margin-top: -1%;
+        padding: 1%;
+        padding-bottom: 8%;
+    }
+    .videos,
+    .fotos,
+    .mapeo {
+        margin-top: 2%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: 608px;
+        background: #fff;
+        overflow: hidden;
+        background: #1e1e1e;
+        border-radius: 7px;
+    }
+    .publicado {
+        width: 252px;
+        height: 332px;
+        background: #e6e6e6;
+        float: none;
+        display: block;
+        position: relative;
+    }
+    .fotos .publicado,
+    .mapeo .publicado {
+        width: 100%;
+    }
+    .videos{
+        height: 713px;
+    }
+    .videos .publicado {
+        height: 430px;
+    }
+    .icons{
+        font-size: 280%;
+    }
+    .descripcion {
+        width: 100%;
+        height: 225px;
+        float: none;
+        display: block;
+        background: #1e1e1e;
+        padding-top: 1.5%;
+        overflow: hidden;
+    }
+    .publicador>div {
+        width: 80px;
+        height: 80px;
+        float: left;
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+    .publicador h3,
+    .publicador h4 {
+        display: block;
+        width: 100%;
+        height: 55px;
+        font-size: 190%;
+        text-align: left;
+        padding-left: 14%;
+    }
+    .publicador h3 {
+        padding-top: 3%;
+    }
+    .publicador h4 {
+        margin-top: -3.7%;
+        height: 20px;
+    }
+    .publicador p {
+        width: 100%;
+        height: 57%;
+        padding-left: 1.5%;
+        padding-right: 1.5%;
+        font-size: 210%;
+        overflow-y: scroll;
+    }
+    #like {
+        width: 47px;
+        height: 47px;
+        margin: 0;
+        margin-left: 47%;
+    }
+      #miembros {
+    margin-top: -1%;
+        padding: 1%;
+    padding-bottom: 8%;
+        overflow-x: hidden;
+    }
+    #miembros>div {
+      
+    width: 97%;
+    height: 180px;
+    display: inline-block;
+    border-radius: 0px;
+    background-color: #1e1e1e;
+    }
+    #miembros>div>div {
+    width: 85px;
+    height: 85px;
+    float: left;
+    margin: 0;
+    margin-left: 1%;
+    margin-top: 1%;
+    }
+    #miembros>div>button {
+    width: 30%;
+    height: 22%;
+    margin-top: -7%;
+    margin-right: 7%;
+    font-family: 'play';
+    font-size: 100%;
+    border-style: solid;
+    border-radius: 5px;
+        float: right;
+}
+    #miembros>div h1{
+         color: dodgerblue;
+    text-align: center;
+    padding: 2.5%;
+        font-size: 200%;
+    font-family: 'play';
+    margin-top: -1%;
+        text-align: right;
+        margin-bottom: 2%;
+    /*Sombra*/
+    -webkit-box-shadow: 0px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: -2px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    }
+    #miembros>div h5{
+        width: 100%;
+        color: white;
+        text-align: center;
+        padding: 0;
+        margin-top: -1%;
+        font-family: 'play';
+        margin-left: 20%;
+        text-align: left;
+        font-size: 200%;
+       
+    }
+     #fotos{
+        padding: 1.5%;
+        padding-bottom: 8%;
+    }
+    #fotos>div {
+    width: 96%;
+    height: 400px;
+    display: inline-block;
+ 
+    overflow: hidden;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    transition: 0.5s;
+}
+     #videos {
+   padding: 1.5%;
+        padding-bottom: 8%;
+}
+    #videos>div {
+        width: 357px;
+        height: 247px;
+        float: none;
+        display: inline-block;
+        overflow: hidden;
+       
+   }
+    #rutas {
+       padding: 1.5%;
+        padding-bottom: 8%;
+    }
+    #rutas>div {
+        width: 355;
+        height: 245px;
+        float: none;
+        display: inline-block;
+    }
+    #retos {
+   padding: 1.5%;
+        padding-bottom: 8%;
+}
+    #retos>div {
+        background: #1e1e1e;
+        width:96%;
+        height: 140px;
+        float: none;
+        display: inline-block;
+    }
+    #retos>div>div{
+        height: 100%;
+        width: 150px;
+    }
+    #retos>div>h1{
+        font-size:200%;
+        margin-top: 1%;
+    }
+    #retos>div>button{
+        margin-left: 25%;
+        font-size: 150%;
+    }
+}
+
+
+/********************412 x 732***********************/
+
+@media screen and (device-width: 412px) and (device-height: 732px) {
+   #conjunto {
+        padding: 0;
+    }
+    #btn-menu {
+        margin-top: -1%;
+    }
+    #icon-logo {
+        margin-top: -1%;
+    }
+    #menuTitle {
+        display: none;
+    }
+    #particulas {
+        width: 100%;
+        height: 120px;
+    }
+    #encabezado {
+        width: 100%;
+        height: 120px;
+        display: block;
+    }
+    #fotoGrupo {
+        width: 65px;
+        height: 65px;
+        margin-top: -27.5%;
+    }
+    #encabezado>h1 {
+        font-size: 200%;
+        margin-top: 1%;
+    }
+    .textMenu {
+        display: none;
+    }
+    #menuH {
+        width: 97%;
+    }
+    #datos ul li {
+        margin: 0%;
+        margin-left: 0.5%;
+        width: 14%;
+    }
+    #datos>div>ul {
+    width: 105%;
+    margin-top: -9%;
+    padding-left: 10%;
+       padding-right: -5%;
+}
+    #datos {
+        width: 100%;
+        height: 100%;
+        display: block;
+        /*  background: #D0D3D4;*/
+    }
+    #publications{
+        margin-top: -1%;
+        padding: 1%;
+        padding-bottom: 8%;
+    }
+     .videos,
+    .fotos,
+    .mapeo {
+        margin-top: 2%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: 340px;
+        background: #fff;
+        overflow: hidden;
+        background: #1e1e1e;
+        border-radius: 7px;
+    }
+    .publicado {
+        width: 252px;
+        height: 171px;
+        background: #e6e6e6;
+        float: none;
+        display: block;
+        position: relative;
+    }
+    .fotos .publicado,
+    .mapeo .publicado {
+        width: 100%;
+    }
+    .videos {
+        height: 390px;
+    }
+    .videos .publicado {
+        height: 220px;
+    }
+    .descripcion {
+        width: 100%;
+        height: 130px;
+        float: none;
+        display: block;
+        background: #1e1e1e;
+        padding-top: 1.5%;
+        overflow: hidden;
+    }
+    .publicador>div {
+        width: 40px;
+        height: 40px;
+        float: left;
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+    .publicador h3,
+    .publicador h4 {
+        display: block;
+        width: 100%;
+        height: 30px;
+        font-size: 120%;
+        text-align: left;
+        padding-left: 14%;
+    }
+    .publicador h3 {
+        padding-top: 2.5%;
+    }
+    .publicador h4 {
+        margin-top: -5%;
+        height: 20px;
+    }
+    .publicador p {
+        width: 100%;
+        height: 57%;
+        padding-left: 1.5%;
+        padding-right: 1.5%;
+        font-size: 140%;
+        overflow-y: scroll;
+    }
+    #like {
+        width: 35px;
+        height: 35px;
+        margin: 0;
+        margin-top: 0.5%;
+        margin-left: 45.5%;
+    }
+      #miembros {
+    margin-top: -2.5%;
+        padding: 1%;
+    padding-bottom: 8%;
+        overflow-x: hidden;
+    }
+    #miembros>div {
+      
+    width: 97%;
+    height: 120px;
+    display: inline-block;
+    border-radius: 0px;
+    background-color: #1e1e1e;
+    }
+    #miembros>div>div {
+    width: 55px;
+    height: 55px;
+    float: left;
+    margin: 0;
+    margin-left: 1%;
+    margin-top: 1%;
+    }
+    #miembros>div>button {
+    width: 30%;
+    height: 22%;
+    margin-top: -15%;
+    margin-right: 7%;
+    font-family: 'play';
+    font-size: 100%;
+    border-style: solid;
+    border-radius: 5px;
+        float: right;
+}
+    #miembros>div h1{
+         color: dodgerblue;
+    text-align: center;
+    padding: 2.5%;
+    font-family: 'play';
+    margin-top: -1%;
+        text-align: right;
+        margin-bottom: 4%;
+    /*Sombra*/
+    -webkit-box-shadow: 0px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: -2px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    }
+    #miembros>div h5{
+        width: 100%;
+        color: white;
+        text-align: center;
+        padding: 0;
+        font-family: 'play';
+        margin-left: 20%;
+        text-align: left;
+       
+    }
+     #fotos{
+        padding: 1.5%;
+        padding-bottom: 8%;
+    }
+    #fotos>div {
+    width: 96%;
+    height: 200px;
+    display: inline-block;
+ 
+    overflow: hidden;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    transition: 0.5s;
+}
+     #videos {
+   padding: 1.5%;
+         padding-left: 5%;
+        padding-bottom: 8%;
+}
+    #videos>div {
+        width: 357px;
+        height: 247px;
+        float: none;
+        display: inline-block;
+        overflow: hidden;
+       
+   }
+    #rutas {
+       padding: 1.5%;
+        padding-left: 5%;
+        padding-bottom: 8%;
+    }
+    #rutas>div {
+        width: 355;
+        height: 245px;
+        float: none;
+        display: inline-block;
+    }
+    #retos {
+   padding: 1.5%;
+        padding-bottom: 8%;
+}
+    #retos>div {
+        background: #1e1e1e;
+        width:96%;
+        height: 95px;
+        float: none;
+        display: inline-block;
+    }
+}
+
+@media screen and (device-width: 732px) and (device-height: 412px) {
+    #conjunto {
+        padding: 0%;
+    }
+    header{
+        height:  30px;
+    }
+    #btn-menu {
+        margin-top: -0.5%;
+    }
+    #icon-logo {
+        margin-top: -0.5%;
+    }
+    #menuTitle {
+        display: none;
+    }
+    #particulas {
+        width: 100%;
+        height: 120px;
+    }
+    #encabezado {
+        width: 100%;
+        height: 120px;
+        display: block;
+    }
+    #fotoGrupo {
+        width: 65px;
+        height: 65px;
+        margin-top: -15.5%;
+    }
+    #encabezado>h1 {
+        font-size: 200%;
+        margin-top: 1%;
+    }
+    .textMenu {
+        display: none;
+    }
+    #menuH {
+        width: 97%;
+    }
+    #datos ul li {
+        margin: 0%;
+        margin-left: 0.5%;
+        width: 14%;
+    }
+    #datos>div>ul {
+    width: 105%;
+    margin-top: -4%;
+    padding-left: 10%;
+       padding-right: -5%;
+}
+    #datos {
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+    #publications{
+        padding-left:2%;
+        padding-right: 2%;
+        padding-bottom: 8%;
+    }
+   .videos,
+    .fotos,
+    .mapeo {
+        margin-top: 2%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: 485px;
+        background: #fff;
+        overflow: hidden;
+        background: #1e1e1e;
+        border-radius: 7px;
+    }
+    .publicado {
+        width: 252px;
+        height: 320px;
+        background: #e6e6e6;
+        float: none;
+        display: block;
+        position: relative;
+    }
+    .fotos .publicado,
+    .mapeo .publicado {
+        width: 100%;
+    }
+    .descripcion {
+        width: 100%;
+        height: 130px;
+        float: none;
+        display: block;
+        background: #1e1e1e;
+        padding-top: 1.5%;
+        overflow: hidden;
+    }
+    .publicador>div {
+        width: 40px;
+        height: 40px;
+        float: left;
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+    .publicador h3,
+    .publicador h4 {
+        display: block;
+        width: 100%;
+        height: 30px;
+        font-size: 100%;
+        text-align: left;
+        padding-left: 9%;
+    }
+    .publicador h3 {
+        padding-top: 2.5%;
+    }
+    .publicador h4 {
+        margin-top: -4%;
+        height: 20px;
+    }
+    .publicador p {
+        width: 100%;
+        height: 57%;
+        padding-left: 1.5%;
+        padding-right: 1.5%;
+        font-size: 105%;
+        overflow-y: scroll;
+    }
+    .videos {
+        height: 555px;
+    }
+    .videos .descripcion {
+        height: 130px;
+    }
+    .videos .publicado {
+        height: 387px;
+    }
+    #like {
+        width: 35px;
+        height: 35px;
+        margin: 0;
+        margin-left: 47.5%;
+    }
+    #miembros {
+    margin-top: -1%;
+        padding: 1%;
+    padding-bottom: 8%;
+        overflow-x: hidden;
+    }
+    #miembros>div {
+      
+    width: 97%;
+    height: 120px;
+    display: inline-block;
+    border-radius: 0px;
+    background-color: #1e1e1e;
+    }
+    #miembros>div>div {
+    width: 55px;
+    height: 55px;
+    float: left;
+    margin: 0;
+    margin-left: 1%;
+    margin-top: 1%;
+    }
+    #miembros>div>button {
+        width: 30%;
+        height: 22%;
+        margin-top: -8%;
+        margin-right: 7%;
+        font-family: 'play';
+        font-size: 100%;
+        border-style: solid;
+        border-radius: 5px;
+        float: right;
+}
+    #miembros>div h1{
+        color: dodgerblue;
+        text-align: center;
+        padding: 2.5%;
+        font-family: 'play';
+        margin-top: -2%;
+        text-align: right;
+        margin-bottom: 3%;
+    /*Sombra*/
+    -webkit-box-shadow: 0px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: -2px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    }
+    #miembros>div h5{
+        width: 100%;
+        color: white;
+        text-align: center;
+        padding: 0;
+        font-family: 'play';
+        margin-left: 20%;
+        text-align: left;
+        margin-top: 2%;
+       
+    }
+    #fotos{
+        padding: 1.5%;
+        padding-bottom: 8%;
+    }
+    #fotos>div {
+    width: 96%;
+    height: 325px;
+    display: inline-block;
+ 
+    overflow: hidden;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    transition: 0.5s;
+}
+    #videos {
+   padding: 1.5%;
+        padding-left: 7%;
+        padding-bottom: 8%;
+        padding-top: -4%;
+}
+    #videos>div {
+        width: 600px;
+        height: 490px;
+        float: none;
+        display: inline-block;
+        overflow: hidden;
+       
+   }
+    #rutas {
+       padding: 1.5%;
+        padding-left: 7%;
+       padding-bottom: 8%;
+    }
+    #rutas>div {
+        width: 600;
+        height: 490px;
+        float: none;
+        display: inline-block;
+    }
+    #retos {
+   padding: 1.5%;
+        padding-bottom: 8%;
+}
+    #retos>div {
+        background: #1e1e1e;
+        width:96%;
+        height: 95px;
+        float: none;
+        display: inline-block;
+    }
+    #retos>div>div{
+        width: 100px;
+        height: 100%;
+    }
+    #retos>div>h1{
+        margin-top: 2.5%;
+    }
+    #retos>div>button{
+        margin-top: -1%;
+        margin-left: 27%;
+    }
+}
+
+
+/********************600 x 960***********************/
+
+@media screen and (device-width: 600px) and (device-height: 960px) {
+   #conjunto {
+        padding: 0;
+    }
+    #btn-menu {
+        margin-top: -0.5%;
+    }
+    .icon-menu{
+        
+        font-size: 180%;
+    }
+    #icon-logo {
+        margin-top: -0.5%;
+        width: 50%;
+    }
+    #menuTitle {
+        display: none;
+    }
+    #particulas {
+        width: 100%;
+        height: 180px;
+    }
+    #encabezado {
+        width: 100%;
+        height: 180px;
+        display: block;
+    }
+    #fotoGrupo {
+        width: 85px;
+        height: 85px;
+        margin-top: -27.5%;
+    }
+    #encabezado>h1 {
+        font-size: 220%;
+        margin-top: 1%;
+    }
+    .textMenu {
+        display: none;
+    }
+    #menuH {
+        width: 97%;
+        border-top: 55px solid #2e2e2e;
+    }
+    #datos ul li {
+        margin: 0%;
+        margin-top: 1.3%;
+        margin-left: 0.5%;
+        width: 14%;
+    }
+    .icons{
+        font-size: 150%;
+    }
+    #datos>div>ul {
+    width: 105%;
+    margin-top: -9%;
+    padding-left: 10%;
+       padding-right: -5%;
+}
+    #datos {
+        width: 100%;
+        height: 100%;
+        display: block;
+        /*  background: #D0D3D4;*/
+    }
+    #publications{
+        margin-top: -1%;
+        padding: 2%;
+    
+        padding-bottom: 8%;
+    }
+    .videos,
+    .fotos,
+    .mapeo {
+        margin-top: 2%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: 520px;
+        background: #fff;
+        overflow: hidden;
+        background: #1e1e1e;
+        border-radius: 7px;
+    }
+    .publicado {
+        width: 252px;
+        height: 280px;
+        background: #e6e6e6;
+        float: none;
+        display: block;
+        position: relative;
+    }
+    .fotos .publicado,
+    .mapeo .publicado {
+        width: 100%;
+    }
+    .videos {
+        height: 554px;
+    }
+    .videos .publicado {
+        height: 316px;
+    }
+    .descripcion {
+        width: 100%;
+        height: 180px;
+        float: none;
+        display: block;
+        background: #1e1e1e;
+        padding-top: 1.5%;
+        overflow: hidden;
+    }
+    .publicador>div {
+        width: 80px;
+        height: 80px;
+        float: left;
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+    .publicador h3,
+    .publicador h4 {
+        display: block;
+        width: 100%;
+        height: 50px;
+        font-size: 160%;
+        text-align: left;
+        padding-left: 17%;
+    }
+    .publicador h3 {
+        padding-top: 4%;
+    }
+    .publicador h4 {
+        margin-top: -3.7%;
+        height: 20px;
+    }
+    .publicador p {
+        width: 100%;
+        height: 57%;
+        padding-left: 1.5%;
+        padding-right: 1.5%;
+        font-size: 140%;
+        overflow-y: scroll;
+    }
+    #like {
+        width: 55px;
+        height: 55px;
+        margin: 0;
+        margin-top: 0.5%;
+        margin-left: 45.2%;
+    }
+    #miembros {
+    margin-top: -1%;
+        padding: 1%;
+    padding-bottom: 8%;
+        overflow-x: hidden;
+    }
+    #miembros>div {
+      
+    width: 97%;
+    height: 140px;
+    display: inline-block;
+    border-radius: 0px;
+    background-color: #1e1e1e;
+    }
+    #miembros>div>div {
+    width: 75px;
+    height: 75px;
+    float: left;
+    margin: 0;
+    margin-left: 1%;
+    margin-top: 1%;
+    }
+    #miembros>div>button {
+    width: 30%;
+    height: 22%;
+    margin-top: -10%;
+    margin-right: 7%;
+    font-family: 'play';
+    font-size: 100%;
+    border-style: solid;
+    border-radius: 5px;
+        float: right;
+}
+    #miembros>div h1{
+         color: dodgerblue;
+    text-align: center;
+    padding: 2.5%;
+    font-family: 'play';
+    margin-top: -1%;
+        text-align: right;
+        margin-bottom: 1%;
+        font-size: 200%;
+    /*Sombra*/
+    -webkit-box-shadow: 0px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: -2px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    }
+    #miembros>div h5{
+        width: 100%;
+        color: white;
+        text-align: center;
+        padding: 0;
+        font-family: 'play';
+        margin-left: 20%;
+        font-size: 180%;
+        margin-top: 0%;
+        text-align: left;
+       
+    }
+    #fotos{
+        padding: 1.5%;
+        padding-bottom: 8%;
+    }
+    #fotos>div {
+    width: 96%;
+    height: 300px;
+    display: inline-block;
+ 
+    overflow: hidden;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    transition: 0.5s;
+}
+     #videos {
+   padding: 1.5%;
+         padding-left: 5%;
+        padding-bottom: 8%;
+}
+    #videos>div {
+        width: 507px;
+        height: 397px;
+        float: none;
+        display: inline-block;
+        overflow: hidden;
+       
+   }
+    #rutas {
+       padding: 1.5%;
+        padding-left: 5%;
+        padding-bottom: 8%;
+    }
+    #rutas>div {
+        width: 520px;
+        height: 245px;
+        float: none;
+        display: inline-block;
+    }
+    #retos {
+   padding: 1.5%;
+        padding-bottom: 8%;
+}
+    #retos>div {
+        background: #1e1e1e;
+        width:96%;
+        height: 130px;
+        float: none;
+        display: inline-block;
+    }
+}
+
+@media screen and (device-width: 960px) and (device-height: 600px) {
+    #conjunto {
+        padding: 0%;
+    }
+    header{
+        height:  30px;
+    }
+    #btn-menu {
+        margin-top: -0.5%;
+    }
+    #icon-logo {
+        margin-top: -0.5%;
+    }
+    #menuTitle {
+        display: none;
+    }
+    .icons{
+        font-size: 150%;
+    }
+    #particulas {
+        width: 100%;
+        height: 150px;
+    }
+    #encabezado {
+        width: 100%;
+        height: 150px;
+        display: block;
+    }
+    #fotoGrupo {
+        width: 65px;
+        height: 65px;
+        margin-top: -13%;
+    }
+    #encabezado>h1 {
+        font-size: 200%;
+        margin-top: 1%;
+    }
+    .textMenu {
+        display: none;
+    }
+    #menuH {
+        width: 97%;
+         border-top: 45px solid #2e2e2e;
+    }
+    #datos ul li {
+        margin: 0%;
+        margin-left: 0.5%;
+        width: 14%;
+    }
+    #datos>div>ul {
+    width: 105%;
+    margin-top: -4%;
+    padding-left: 10%;
+       padding-right: -5%;
+}
+    #datos {
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+    #publications{
+        padding-left:2%;
+        padding-right: 2%;
+        padding-bottom: 8%;
+    }
+   .videos,
+    .fotos,
+    .mapeo {
+        margin-top: 2%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: 665px;
+        background: #fff;
+        overflow: hidden;
+        background: #1e1e1e;
+        border-radius: 7px;
+    }
+    .publicado {
+        width: 252px;
+        height: 450px;
+        background: #e6e6e6;
+        float: none;
+        display: block;
+        position: relative;
+    }
+    .fotos .publicado,
+    .mapeo .publicado {
+        width: 100%;
+    }
+    .descripcion {
+        width: 100%;
+        height: 160px;
+        float: none;
+        display: block;
+        background: #1e1e1e;
+        padding-top: 1.5%;
+        overflow: hidden;
+    }
+    .publicador>div {
+        width: 55px;
+        height: 55px;
+        float: left;
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+    .publicador h3,
+    .publicador h4 {
+        display: block;
+        width: 100%;
+        height: 30px;
+        font-size: 135%;
+        text-align: left;
+        padding-left: 9%;
+    }
+    .publicador h3 {
+        padding-top: 2.6%;
+    }
+    .publicador h4 {
+        margin-top: -3.8%;
+        height: 20px;
+    }
+    .publicador p {
+        width: 100%;
+        height: 57%;
+        padding-left: 1.5%;
+        padding-right: 1.5%;
+        font-size: 135%;
+        overflow-y: scroll;
+    }
+    .videos {
+        height: 690px;
+    }
+    .videos .descripcion {
+        height: 130px;
+    }
+    .videos .publicado {
+        height: 507px;
+    }
+    #like {
+        width: 55px;
+        height: 55px;
+        margin: 0;
+        margin-left: 46.8%;
+    }
+    #miembros {
+    margin-top: -1%;
+        padding: 1%;
+    padding-bottom: 8%;
+        overflow-x: hidden;
+    }
+    #miembros>div {
+      
+    width: 78%;
+    height: 120px;
+        margin-left: 11%;;
+    display: inline-block;
+    border-radius: 0px;
+    background-color: #1e1e1e;
+    }
+    #miembros>div>div {
+    width: 55px;
+    height: 55px;
+    float: left;
+    margin: 0;
+    margin-left: 1%;
+    margin-top: 1%;
+    }
+    #miembros>div>button {
+        width: 20%;
+        height: 22%;
+        margin-top: -6%;
+        margin-right: 7%;
+        font-family: 'play';
+        font-size: 100%;
+        border-style: solid;
+        border-radius: 5px;
+        float: right;
+}
+    #miembros>div h1{
+        color: dodgerblue;
+        text-align: center;
+        padding: 2.5%;
+        font-family: 'play';
+        margin-top: -2%;
+        font-size: 150%;
+        text-align: right;
+        margin-bottom: 1.5%;
+    /*Sombra*/
+    -webkit-box-shadow: 0px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: -2px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    }
+    #miembros>div h5{
+        width: 100%;
+        color: white;
+        text-align: center;
+        padding: 0;
+        font-family: 'play';
+        margin-left: 20%;
+        text-align: left;
+        margin-top: 0.5%;
+       
+    }
+    #fotos{
+        padding: 1.5%;
+        padding-bottom: 8%;
+    }
+    #fotos>div {
+    width: 96%;
+    height: 450px;
+    display: inline-block;
+ 
+    overflow: hidden;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    transition: 0.5s;
+}
+    #videos {
+   padding: 1.5%;
+        padding-left: 7%;
+        padding-bottom: 8%;
+        padding-top: -4%;
+}
+    #videos>div {
+        height: 300px;
+        float: none;
+        display: inline-block;
+        overflow: hidden;
+       
+   }
+    #rutas {
+       padding: 1.5%;
+        padding-left: 4%;
+       padding-bottom: 8%;
+    }
+    #rutas>div {
+        width: 270;
+        height: 200px;
+        float: none;
+        display: inline-block;
+    }
+    #retos {
+   padding: 1.5%;
+        padding-bottom: 8%;
+}
+    #retos>div {
+        background: #1e1e1e;
+        width:96%;
+        height: 95px;
+        float: none;
+        display: inline-block;
+    }
+    #retos>div>div{
+        width: 100px;
+        height: 100%;
+    }
+    #retos>div>h1{
+        margin-top: 2.5%;
+    }
+    #retos>div>button{
+        margin-top: -1%;
+        margin-left: 29.5%;
+    }
+}
+
+
+/********************320 x 533***********************/
+@media screen and (device-width: 320px) and (device-height: 533px) {
+    #conjunto {
+        padding: 0;
+    }
+    #btn-menu {
+        margin-top: -1%;
+    }
+    #icon-logo {
+        margin-top: -1%;
+    }
+    #menuTitle {
+        display: none;
+    }
+    #particulas {
+        width: 100%;
+        height: 120px;
+    }
+    #encabezado {
+        width: 100%;
+        height: 120px;
+        display: block;
+    }
+    #fotoGrupo {
+        width: 65px;
+        height: 65px;
+        margin-top: -35%;
+    }
+    #encabezado>h1 {
+        font-size: 200%;
+        margin-top: 1%;
+    }
+    .textMenu {
+        display: none;
+    }
+    #menuH {
+        width: 97%;
+    }
+    #datos ul li {
+        margin: 0%;
+        margin-left: 0.5%;
+        width: 14%;
+    }
+    #datos>div>ul {
+    width: 105%;
+    margin-top: -10.5%;
+    padding-left: 10%;
+       padding-right: -5%;
+}
+    #datos {
+        width: 100%;
+        height: 100%;
+        display: block;
+        /*  background: #D0D3D4;*/
+    }
+    #publications{
+        margin-top: -2.5%;
+        padding-bottom: 8%;
+    }
+    .videos,
+    .fotos,
+    .mapeo {
+        width: 95%;
+        height: 340px;
+        background: #fff;
+        overflow: hidden;
+        background: #1e1e1e;
+        border-radius: 7px;
+    }
+    .publicado {
+        width: 252px;
+        height: 171px;
+        background: #e6e6e6;
+        float: none;
+        display: block;
+        position: relative;
+    }
+    .fotos .publicado,
+    .mapeo .publicado {
+        width: 100%;
+    }
+    .descripcion {
+        width: 100%;
+        height: 130px;
+        float: none;
+        display: block;
+        background: #1e1e1e;
+        padding-top: 1.5%;
+        overflow: hidden;
+    }
+    .publicador>div {
+        width: 40px;
+        height: 40px;
+        float: left;
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+    .publicador h3,
+    .publicador h4 {
+        display: block;
+        width: 100%;
+        height: 30px;
+        font-size: 100%;
+        text-align: left;
+        padding-left: 17%;
+    }
+    .publicador h3 {
+        padding-top: 4.5%;
+    }
+    .publicador h4 {
+        margin-top: -5.5%;
+        height: 20px;
+    }
+    .publicador p {
+        width: 100%;
+        height: 57%;
+        padding-left: 1.5%;
+        padding-right: 1.5%;
+        font-size: 105%;
+        overflow-y: scroll;
+    }
+    #like {
+        width: 35px;
+        height: 35px;
+        margin: 0;
+        margin-left: 44%;
+    }
+    #miembros {
+    margin-top: -2.5%;
+        padding: 1%;
+    padding-bottom: 8%;
+        overflow-x: hidden;
+    }
+    #miembros>div {
+      
+    width: 97%;
+    height: 120px;
+    display: inline-block;
+    border-radius: 0px;
+    background-color: #1e1e1e;
+    }
+    #miembros>div>div {
+    width: 55px;
+    height: 55px;
+    float: left;
+    margin: 0;
+    margin-left: 1%;
+    margin-top: 1%;
+    }
+    #miembros>div>button {
+    width: 30%;
+    height: 22%;
+    margin-top: -15%;
+    margin-right: 7%;
+    font-family: 'play';
+    font-size: 100%;
+    border-style: solid;
+    border-radius: 5px;
+        float: right;
+}
+    #miembros>div h1{
+         color: dodgerblue;
+    text-align: center;
+    padding: 2.5%;
+    font-family: 'play';
+    margin-top: -1%;
+        text-align: right;
+        margin-bottom: 4%;
+    /*Sombra*/
+    -webkit-box-shadow: 0px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: -2px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    }
+    #miembros>div h5{
+        width: 100%;
+        color: white;
+        text-align: center;
+        padding: 0;
+        font-family: 'play';
+        margin-left: 20%;
+        text-align: left;
+       
+    }
+    #fotos{
+        padding: 1.5%;
+        padding-bottom: 8%;
+    }
+    #fotos>div {
+    width: 96%;
+    height: 155px;
+    display: inline-block;
+ 
+    overflow: hidden;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    transition: 0.5s;
+}
+    #videos {
+   padding: 1.5%;
+        padding-bottom: 8%;
+}
+    #videos>div {
+        width: 300px;
+        height: 190px;
+        float: none;
+        display: inline-block;
+        overflow: hidden;
+       
+   }
+    #rutas {
+       padding: 1.5%;
+        padding-bottom: 8%;
+    }
+    #rutas>div {
+        width: auto;
+        height: 190px;
+        float: none;
+        display: inline-block;
+    }
+    #retos {
+   padding: 1.5%;
+        padding-bottom: 8%;
+}
+    #retos>div {
+        background: #1e1e1e;
+        width:96%;
+        height: 95px;
+        float: none;
+        display: inline-block;
+    }
+}
+
+@media screen and (device-width: 533px) and (device-height: 320px) {
+   #conjunto {
+        padding: 0%;
+    }
+    header{
+        height:  30px;
+    }
+    #btn-menu {
+        margin-top: -1%;
+    }
+    #icon-logo {
+        margin-top: -1%;
+    }
+    #menuTitle {
+        display: none;
+    }
+    #particulas {
+        width: 100%;
+        height: 120px;
+    }
+    #encabezado {
+        width: 100%;
+        height: 120px;
+        display: block;
+    }
+    #fotoGrupo {
+        width: 65px;
+        height: 65px;
+        margin-top: -20%;
+    }
+    #encabezado>h1 {
+        font-size: 200%;
+        margin-top: 1%;
+    }
+    .textMenu {
+        display: none;
+    }
+    #menuH {
+        width: 97%;
+    }
+    #datos ul li {
+        margin: 0%;
+        margin-left: 0.5%;
+        width: 14%;
+    }
+    #datos>div>ul {
+    width: 105%;
+    margin-top: -6%;
+    padding-left: 10%;
+       padding-right: -5%;
+}
+    #datos {
+        width: 100%;
+        height: 100%;
+        display: block;
+        /*  background: #D0D3D4;*/
+    }
+    #publications{
+        padding-left:5.5%;
+        padding-right: 5.5%;
+        padding-bottom: 8%;
+    }
+    .videos,
+    .fotos,
+    .mapeo {
+        margin-top: 2%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: 395px;
+        background: #fff;
+        overflow: hidden;
+        background: #1e1e1e;
+        border-radius: 7px;
+    }
+    .publicado {
+        width: 252px;
+        height: 230px;
+        background: #e6e6e6;
+        float: none;
+        display: block;
+        position: relative;
+    }
+    .fotos .publicado,
+    .mapeo .publicado {
+        width: 100%;
+    }
+    .descripcion {
+        width: 100%;
+        height: 130px;
+        float: none;
+        display: block;
+        background: #1e1e1e;
+        padding-top: 1.5%;
+        overflow: hidden;
+    }
+    .publicador>div {
+        width: 40px;
+        height: 40px;
+        float: left;
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+    .publicador h3,
+    .publicador h4 {
+        display: block;
+        width: 100%;
+        height: 30px;
+        font-size: 100%;
+        text-align: left;
+        padding-left: 12%;
+       
+    }
+    .publicador h3 {
+        padding-top: 3%;
+    }
+    .publicador h4 {
+        margin-top: -5%;
+        height: 20px;
+    }
+    .publicador p {
+        width: 100%;
+        height: 57%;
+        padding-left: 1.5%;
+        padding-right: 1.5%;
+        font-size: 105%;
+        overflow-y: scroll;
+    }
+    .videos{
+        height: 425px;
+    }
+    .videos .descripcion {
+        height: 130px;
+    }
+    .videos .publicado {
+        height: 260px;
+    }
+    #like {
+        width: 35px;
+        height: 35px;
+        margin: 0;
+        margin-left: 46%;
+    }
+    #miembros {
+    margin-top: -1%;
+        padding: 1%;
+    padding-bottom: 8%;
+        overflow-x: hidden;
+    }
+    #miembros>div {
+      
+    width: 97%;
+    height: 120px;
+    display: inline-block;
+    border-radius: 0px;
+    background-color: #1e1e1e;
+    }
+    #miembros>div>div {
+    width: 55px;
+    height: 55px;
+    float: left;
+    margin: 0;
+    margin-left: 1%;
+    margin-top: 1%;
+    }
+    #miembros>div>button {
+        width: 30%;
+        height: 22%;
+        margin-top: -8%;
+        margin-right: 7%;
+        font-family: 'play';
+        font-size: 100%;
+        border-style: solid;
+        border-radius: 5px;
+        float: right;
+}
+    #miembros>div h1{
+        color: dodgerblue;
+        text-align: center;
+        padding: 2.5%;
+        font-family: 'play';
+        margin-top: -1%;
+        text-align: right;
+        margin-bottom: 5%;
+    /*Sombra*/
+    -webkit-box-shadow: 0px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: -2px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    }
+    #miembros>div h5{
+        width: 100%;
+        color: white;
+        text-align: center;
+        padding: 0;
+        font-family: 'play';
+        margin-left: 20%;
+        text-align: left;
+        margin-top: -1%;
+       
+    }
+    #fotos{
+        padding: 1.5%;
+        padding-bottom: 8%;
+    }
+    #fotos>div {
+    width: 96%;
+    height: 300px;
+    display: inline-block;
+ 
+    overflow: hidden;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    transition: 0.5s;
+}
+    #videos {
+       padding: 1.5%;
+        padding-bottom: 8%;
+        
+        padding-top: -4%;
+}
+    #videos>div {
+        width: 450px;
+        height: 340px;
+        margin-left: 6.5%;
+        float: none;
+        display: inline-block;
+        overflow: hidden;
+       
+   }
+    #rutas {
+       padding: 1.5%;
+       padding-bottom: 8%;
+    }
+    #rutas>div {
+        width: 450;
+        height: 200px;
+        margin-left: 6.5%;
+        float: none;
+        display: inline-block;
+    }
+    #retos {
+   padding: 1.5%;
+        padding-bottom: 8%;
+}
+    #retos>div {
+        background: #1e1e1e;
+        width:96%;
+        height: 110px;
+        float: none;
+        display: inline-block;
+    }
+}
+
+
+/********************768 x 1024***********************/
+@media screen and (device-width: 768px) and (device-height: 1024px) {
+   #conjunto {
+        padding: 0;
+    }
+    #btn-menu {
+        margin-top: -0%;
+    }
+    .icon-menu{
+        
+        font-size: 220%;
+    }
+    #icon-logo {
+        margin-top: -1%;
+        width: 50%;
+    }
+    #menuTitle {
+        display: none;
+    }
+    #particulas {
+        width: 100%;
+        height: 180px;
+    }
+    #encabezado {
+        width: 100%;
+        height: 180px;
+        display: block;
+    }
+    #fotoGrupo {
+        width: 85px;
+        height: 85px;
+        margin-top: -20%;
+    }
+    #encabezado>h1 {
+        font-size: 220%;
+        margin-top: 1%;
+    }
+    .textMenu {
+        display: none;
+    }
+    #menuH {
+        width: 97%;
+        border-top: 55px solid #2e2e2e;
+    }
+    #datos ul li {
+        margin: 0%;
+        margin-top: 1.3%;
+        margin-left: 0.5%;
+        width: 14%;
+    }
+    .icons{
+        font-size: 150%;
+    }
+    #datos>div>ul {
+    width: 105%;
+    margin-top: -7%;
+    padding-left: 10%;
+       padding-right: -5%;
+}
+    #datos {
+        width: 100%;
+        height: 100%;
+        display: block;
+        /*  background: #D0D3D4;*/
+    }
+    #publications{
+        margin-top: -1%;
+        padding: 2%;
+    
+        padding-bottom: 8%;
+    }
+   .videos,
+    .fotos,
+    .mapeo {
+        margin-top: 2%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: 608px;
+        background: #fff;
+        overflow: hidden;
+        background: #1e1e1e;
+        border-radius: 7px;
+    }
+    .publicado {
+        width: 252px;
+        height: 332px;
+        background: #e6e6e6;
+        float: none;
+        display: block;
+        position: relative;
+    }
+    .fotos .publicado,
+    .mapeo .publicado {
+        width: 100%;
+    }
+    .videos {
+        height: 677px;
+    }
+    .videos .publicado {
+        height: 405px;
+    }
+    .descripcion {
+        width: 100%;
+        height: 225px;
+        float: none;
+        display: block;
+        background: #1e1e1e;
+        padding-top: 1.5%;
+        overflow: hidden;
+    }
+    .publicador>div {
+        width: 80px;
+        height: 80px;
+        float: left;
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+    .publicador h3,
+    .publicador h4 {
+        display: block;
+        width: 100%;
+        height: 55px;
+        font-size: 190%;
+        text-align: left;
+        padding-left: 14%;
+    }
+    .publicador h3 {
+        padding-top: 3%;
+    }
+    .publicador h4 {
+        margin-top: -3.7%;
+        height: 20px;
+    }
+    .publicador p {
+        width: 100%;
+        height: 57%;
+        padding-left: 1.5%;
+        padding-right: 1.5%;
+        font-size: 210%;
+        overflow-y: scroll;
+    }
+    #like {
+        width: 47px;
+        height: 47px;
+        margin: 0;
+        margin-left: 47%;
+    }
+    #miembros {
+    margin-top: -1%;
+        padding: 1%;
+    padding-bottom: 8%;
+        overflow-x: hidden;
+    }
+    #miembros>div {
+      
+    width: 97%;
+    height: 140px;
+    display: inline-block;
+    border-radius: 0px;
+    background-color: #1e1e1e;
+    }
+    #miembros>div>div {
+    width: 75px;
+    height: 75px;
+    float: left;
+    margin: 0;
+    margin-left: 1%;
+    margin-top: 1%;
+    }
+    #miembros>div>button {
+    width: 30%;
+    height: 30%;
+    margin-top: -8.5%;
+    margin-right: 7%;
+    font-family: 'play';
+    font-size: 140%;
+    border-style: solid;
+    border-radius: 5px;
+        float: right;
+}
+    #miembros>div h1{
+         color: dodgerblue;
+    text-align: center;
+    padding: 2.5%;
+    font-family: 'play';
+    margin-top: -1%;
+        text-align: right;
+        margin-bottom: 1%;
+        font-size: 200%;
+    /*Sombra*/
+    -webkit-box-shadow: 0px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: -2px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    }
+    #miembros>div h5{
+        width: 100%;
+        color: white;
+        text-align: center;
+        padding: 0;
+        font-family: 'play';
+        margin-left: 20%;
+        font-size: 180%;
+        margin-top: 0%;
+        text-align: left;
+       
+    }
+    #fotos{
+        padding: 1.5%;
+        padding-bottom: 8%;
+    }
+    #fotos>div {
+    width: 96%;
+    height: 450px;
+    display: inline-block;
+ 
+    overflow: hidden;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    transition: 0.5s;
+}
+     #videos {
+   padding: 1.5%;
+         padding-left: 5%;
+        padding-bottom: 8%;
+}
+    #videos>div {
+        width: 93%;
+        height: 450px;
+        float: none;
+        display: inline-block;
+        overflow: hidden;
+       
+   }
+    #rutas {
+       padding: 1.5%;
+        padding-left: 5%;
+        padding-bottom: 8%;
+    }
+    #rutas>div {
+        width: 93%;
+        height: 450px;
+        float: none;
+        display: inline-block;
+    }
+    #retos {
+   padding: 1.5%;
+        padding-bottom: 8%;
+}
+    #retos>div {
+        background: #1e1e1e;
+        width:96%;
+        height: 130px;
+        float: none;
+        display: inline-block;
+    }
+}
+
+@media screen and (device-width: 1024px) and (device-height: 768px) {
+    #conjunto {
+        padding: 0%;
+    }
+    header{
+        height:  30px;
+    }
+    #btn-menu {
+        margin-top: -0.5%;
+    }
+    #icon-logo {
+        margin-top: -0.5%;
+    }
+    #menuTitle {
+        display: none;
+    }
+    .icons{
+        font-size: 150%;
+    }
+    #particulas {
+        width: 100%;
+        height: 150px;
+    }
+    #encabezado {
+        width: 100%;
+        height: 150px;
+        display: block;
+    }
+    #fotoGrupo {
+        width: 65px;
+        height: 65px;
+        margin-top: -13%;
+    }
+    #encabezado>h1 {
+        font-size: 200%;
+        margin-top: 1%;
+    }
+    .textMenu {
+        display: none;
+    }
+    #menuH {
+        width: 97%;
+         border-top: 45px solid #2e2e2e;
+    }
+    #datos ul li {
+        margin: 0%;
+        margin-left: 0.5%;
+        width: 14%;
+    }
+    #datos>div>ul {
+    width: 105%;
+    margin-top: -4%;
+    padding-left: 10%;
+       padding-right: -5%;
+}
+    #datos {
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+    #publications{
+        padding-left:5%;
+        padding-right: 5%;
+        padding-bottom: 8%;
+    }
+   .videos,
+    .fotos,
+    .mapeo {
+        margin-top: 2%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: 665px;
+        background: #fff;
+        overflow: hidden;
+        background: #1e1e1e;
+        border-radius: 7px;
+    }
+    .publicado {
+        width: 252px;
+        height: 450px;
+        background: #e6e6e6;
+        float: none;
+        display: block;
+        position: relative;
+    }
+    .fotos .publicado,
+    .mapeo .publicado {
+        width: 100%;
+    }
+    .descripcion {
+        width: 100%;
+        height: 160px;
+        float: none;
+        display: block;
+        background: #1e1e1e;
+        padding-top: 1.5%;
+        overflow: hidden;
+    }
+    .publicador>div {
+        width: 55px;
+        height: 55px;
+        float: left;
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+    .publicador h3,
+    .publicador h4 {
+        display: block;
+        width: 100%;
+        height: 30px;
+        font-size: 135%;
+        text-align: left;
+        padding-left: 9%;
+    }
+    .publicador h3 {
+        padding-top: 2.6%;
+    }
+    .publicador h4 {
+        margin-top: -3.8%;
+        height: 20px;
+    }
+    .publicador p {
+        width: 100%;
+        height: 57%;
+        padding-left: 1.5%;
+        padding-right: 1.5%;
+        font-size: 135%;
+        overflow-y: scroll;
+    }
+    .videos {
+        height: 690px;
+    }
+    .videos .descripcion {
+        height: 130px;
+    }
+    .videos .publicado {
+        height: 507px;
+    }
+    #like {
+        width: 55px;
+        height: 55px;
+        margin: 0;
+        margin-left: 46.8%;
+    }
+    #miembros {
+    margin-top: -1%;
+        padding: 1%;
+    padding-bottom: 8%;
+        overflow-x: hidden;
+    }
+    #miembros>div {
+      
+    width: 78%;
+    height: 120px;
+        margin-left: 11%;;
+    display: inline-block;
+    border-radius: 0px;
+    background-color: #1e1e1e;
+    }
+    #miembros>div>div {
+    width: 55px;
+    height: 55px;
+    float: left;
+    margin: 0;
+    margin-left: 1%;
+    margin-top: 1%;
+    }
+    #miembros>div>button {
+        width: 20%;
+        height: 30%;
+        margin-top: -8%;
+        margin-right: 7%;
+        font-family: 'play';
+        font-size: 120%;
+        border-style: solid;
+        border-radius: 5px;
+        float: right;
+}
+    #miembros>div h1{
+        color: dodgerblue;
+        text-align: center;
+        padding: 2.5%;
+        font-family: 'play';
+        margin-top: -2%;
+        font-size: 150%;
+        text-align: right;
+        margin-bottom: 1.5%;
+    /*Sombra*/
+    -webkit-box-shadow: 0px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: -2px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    }
+    #miembros>div h5{
+        width: 100%;
+        color: white;
+        text-align: center;
+        padding: 0;
+        font-size: 140%;
+        font-family: 'play';
+        margin-left: 20%;
+        text-align: left;
+        margin-top: 0.5%;
+       
+    }
+    #fotos{
+        padding: 1.5%;
+        padding-bottom: 8%;
+    }
+    #fotos>div {
+    width: 47%;
+    height: 370px;
+    display: inline-block;
+ 
+    overflow: hidden;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    transition: 0.5s;
+}
+    #videos {
+   padding: 1.5%;
+        padding-left: 7%;
+        padding-bottom: 8%;
+        padding-top: -4%;
+}
+    #videos>div {
+        height: 350px;
+        float: none;
+        margin-left: 2.5%;
+        display: inline-block;
+        overflow: hidden;
+       
+   }
+    #rutas {
+       padding: 1.5%;
+        padding-left: 4%;
+       padding-bottom: 8%;
+    }
+    #rutas>div {
+        width: 270;
+        height: 200px;
+        float: none;
+        margin-left: 2.5%;
+        display: inline-block;
+    }
+    #retos {
+   padding: 1.5%;
+        padding-bottom: 8%;
+}
+    #retos>div {
+        background: #1e1e1e;
+        width:72%;
+        height: 95px;
+        margin-left: 13%;
+        float: none;
+        display: inline-block;
+    }
+    #retos>div>div{
+        width: 100px;
+        height: 100%;
+    }
+    #retos>div>h1{
+        margin-top: 2.5%;
+    }
+    #retos>div>button{
+        margin-top: -1%;
+        margin-left: 29.5%;
+    }
+}
+
+/********************320 x 568***********************/
+@media screen and (device-width: 320px) and (device-height: 568px) {
+    #conjunto {
+        padding: 0;
+    }
+    #btn-menu {
+        margin-top: -1%;
+    }
+    #icon-logo {
+        margin-top: -1%;
+    }
+    #menuTitle {
+        display: none;
+    }
+    #particulas {
+        width: 100%;
+        height: 120px;
+    }
+    #encabezado {
+        width: 100%;
+        height: 120px;
+        display: block;
+    }
+    #fotoGrupo {
+        width: 65px;
+        height: 65px;
+        margin-top: -35%;
+    }
+    #encabezado>h1 {
+        font-size: 200%;
+        margin-top: 1%;
+    }
+    .textMenu {
+        display: none;
+    }
+    #menuH {
+        width: 97%;
+    }
+    #datos ul li {
+        margin: 0%;
+        margin-left: 0.5%;
+        width: 14%;
+    }
+    #datos>div>ul {
+    width: 105%;
+    margin-top: -10.5%;
+    padding-left: 10%;
+       padding-right: -5%;
+}
+    #datos {
+        width: 100%;
+        height: 100%;
+        display: block;
+        /*  background: #D0D3D4;*/
+    }
+    #publications{
+        margin-top: -2.5%;
+        padding-bottom: 8%;
+    }
+    .videos,
+    .fotos,
+    .mapeo {
+        width: 95%;
+        height: 340px;
+        background: #fff;
+        overflow: hidden;
+        background: #1e1e1e;
+        border-radius: 7px;
+    }
+    .publicado {
+        width: 252px;
+        height: 171px;
+        background: #e6e6e6;
+        float: none;
+        display: block;
+        position: relative;
+    }
+    .fotos .publicado,
+    .mapeo .publicado {
+        width: 100%;
+    }
+    .descripcion {
+        width: 100%;
+        height: 130px;
+        float: none;
+        display: block;
+        background: #1e1e1e;
+        padding-top: 1.5%;
+        overflow: hidden;
+    }
+    .publicador>div {
+        width: 40px;
+        height: 40px;
+        float: left;
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+    .publicador h3,
+    .publicador h4 {
+        display: block;
+        width: 100%;
+        height: 30px;
+        font-size: 100%;
+        text-align: left;
+        padding-left: 17%;
+    }
+    .publicador h3 {
+        padding-top: 4.5%;
+    }
+    .publicador h4 {
+        margin-top: -5.5%;
+        height: 20px;
+    }
+    .publicador p {
+        width: 100%;
+        height: 57%;
+        padding-left: 1.5%;
+        padding-right: 1.5%;
+        font-size: 105%;
+        overflow-y: scroll;
+    }
+    #like {
+        width: 35px;
+        height: 35px;
+        margin: 0;
+        margin-left: 44%;
+    }
+    #miembros {
+    margin-top: -2.5%;
+        padding: 1%;
+    padding-bottom: 8%;
+        overflow-x: hidden;
+    }
+    #miembros>div {
+      
+    width: 97%;
+    height: 120px;
+    display: inline-block;
+    border-radius: 0px;
+    background-color: #1e1e1e;
+    }
+    #miembros>div>div {
+    width: 55px;
+    height: 55px;
+    float: left;
+    margin: 0;
+    margin-left: 1%;
+    margin-top: 1%;
+    }
+    #miembros>div>button {
+    width: 30%;
+    height: 22%;
+    margin-top: -15%;
+    margin-right: 7%;
+    font-family: 'play';
+    font-size: 100%;
+    border-style: solid;
+    border-radius: 5px;
+        float: right;
+}
+    #miembros>div h1{
+         color: dodgerblue;
+    text-align: center;
+    padding: 2.5%;
+    font-family: 'play';
+    margin-top: -1%;
+        text-align: right;
+        margin-bottom: 4%;
+    /*Sombra*/
+    -webkit-box-shadow: 0px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: -2px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    }
+    #miembros>div h5{
+        width: 100%;
+        color: white;
+        text-align: center;
+        padding: 0;
+        font-family: 'play';
+        margin-left: 20%;
+        text-align: left;
+       
+    }
+    #fotos{
+        padding: 1.5%;
+        padding-bottom: 8%;
+    }
+    #fotos>div {
+    width: 96%;
+    height: 155px;
+    display: inline-block;
+ 
+    overflow: hidden;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    transition: 0.5s;
+}
+    #videos {
+   padding: 1.5%;
+        padding-bottom: 8%;
+}
+    #videos>div {
+        width: 300px;
+        height: 190px;
+        float: none;
+        display: inline-block;
+        overflow: hidden;
+       
+   }
+    #rutas {
+       padding: 1.5%;
+        padding-bottom: 8%;
+    }
+    #rutas>div {
+        width: auto;
+        height: 190px;
+        float: none;
+        display: inline-block;
+    }
+    #retos {
+   padding: 1.5%;
+        padding-bottom: 8%;
+}
+    #retos>div {
+        background: #1e1e1e;
+        width:96%;
+        height: 95px;
+        float: none;
+        display: inline-block;
+    }
+}
+
+@media screen and (device-width: 568px) and (device-height: 320px) {
+   #conjunto {
+        padding: 0%;
+    }
+    header{
+        height:  30px;
+    }
+    #btn-menu {
+        margin-top: -0.5%;
+    }
+    #icon-logo {
+        margin-top: -0.5%;
+    }
+    #menuTitle {
+        display: none;
+    }
+    #particulas {
+        width: 100%;
+        height: 120px;
+    }
+    #encabezado {
+        width: 100%;
+        height: 120px;
+        display: block;
+    }
+    #fotoGrupo {
+        width: 65px;
+        height: 65px;
+        margin-top: -20%;
+    }
+    #encabezado>h1 {
+        font-size: 200%;
+        margin-top: 1%;
+    }
+    .textMenu {
+        display: none;
+    }
+    #menuH {
+        width: 97%;
+    }
+    #datos ul li {
+        margin: 0%;
+        margin-left: 0.5%;
+        width: 14%;
+    }
+    #datos>div>ul {
+    width: 105%;
+    margin-top: -6%;
+    padding-left: 10%;
+       padding-right: -5%;
+}
+    #datos {
+        width: 100%;
+        height: 100%;
+        display: block;
+        /*  background: #D0D3D4;*/
+    }
+    #publications{
+        padding-left:8.5%;
+        padding-right: 8.5%;
+        padding-bottom: 8%;
+    }
+    .videos,
+    .fotos,
+    .mapeo {
+        margin-top: 2%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: 395px;
+        background: #fff;
+        overflow: hidden;
+        background: #1e1e1e;
+        border-radius: 7px;
+    }
+    .publicado {
+        width: 252px;
+        height: 230px;
+        background: #e6e6e6;
+        float: none;
+        display: block;
+        position: relative;
+    }
+    .fotos .publicado,
+    .mapeo .publicado {
+        width: 100%;
+    }
+    .descripcion {
+        width: 100%;
+        height: 130px;
+        float: none;
+        display: block;
+        background: #1e1e1e;
+        padding-top: 1.5%;
+        overflow: hidden;
+    }
+    .publicador>div {
+        width: 40px;
+        height: 40px;
+        float: left;
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+    .publicador h3,
+    .publicador h4 {
+        display: block;
+        width: 100%;
+        height: 30px;
+        font-size: 100%;
+        text-align: left;
+        padding-left: 12%;
+       
+    }
+    .publicador h3 {
+        padding-top: 3%;
+    }
+    .publicador h4 {
+        margin-top: -5%;
+        height: 20px;
+    }
+    .publicador p {
+        width: 100%;
+        height: 57%;
+        padding-left: 1.5%;
+        padding-right: 1.5%;
+        font-size: 105%;
+        overflow-y: scroll;
+    }
+    .videos{
+        height: 425px;
+    }
+    .videos .descripcion {
+        height: 130px;
+    }
+    .videos .publicado {
+        height: 260px;
+    }
+    #like {
+        width: 35px;
+        height: 35px;
+        margin: 0;
+        margin-left: 46%;
+    }
+    #miembros {
+    margin-top: -1%;
+        padding: 1%;
+    padding-bottom: 8%;
+        overflow-x: hidden;
+    }
+    #miembros>div {
+      
+    width: 97%;
+    height: 120px;
+    display: inline-block;
+    border-radius: 0px;
+    background-color: #1e1e1e;
+    }
+    #miembros>div>div {
+    width: 55px;
+    height: 55px;
+    float: left;
+    margin: 0;
+    margin-left: 1%;
+    margin-top: 1%;
+    }
+    #miembros>div>button {
+        width: 30%;
+        height: 22%;
+        margin-top: -8%;
+        margin-right: 7%;
+        font-family: 'play';
+        font-size: 100%;
+        border-style: solid;
+        border-radius: 5px;
+        float: right;
+}
+    #miembros>div h1{
+        color: dodgerblue;
+        text-align: center;
+        padding: 2.5%;
+        font-family: 'play';
+        margin-top: -1%;
+        text-align: right;
+        margin-bottom: 5%;
+    /*Sombra*/
+    -webkit-box-shadow: 0px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: -2px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    }
+    #miembros>div h5{
+        width: 100%;
+        color: white;
+        text-align: center;
+        padding: 0;
+        font-family: 'play';
+        margin-left: 20%;
+        text-align: left;
+        margin-top: -1%;
+       
+    }
+    #fotos{
+        padding: 1.5%;
+        padding-bottom: 8%;
+    }
+    #fotos>div {
+    width: 96%;
+    height: 300px;
+    display: inline-block;
+ 
+    overflow: hidden;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    transition: 0.5s;
+}
+    #videos {
+       padding: 1.5%;
+        padding-bottom: 8%;
+        
+        padding-top: -4%;
+}
+    #videos>div {
+        width: 87%;
+        height: 340px;
+        margin-left: 6.5%;
+        float: none;
+        display: inline-block;
+        overflow: hidden;
+       
+   }
+    #rutas {
+       padding: 1.5%;
+       padding-bottom: 8%;
+    }
+    #rutas>div {
+     width: 87%;
+        height: 340px;
+        margin-left: 6.5%;
+        float: none;
+        display: inline-block;
+    }
+    #retos {
+   padding: 1.5%;
+        padding-bottom: 8%;
+}
+    #retos>div {
+        background: #1e1e1e;
+        width:96%;
+        height: 110px;
+        float: none;
+        display: inline-block;
+    }
+}
+
+/********************375 x 667***********************/
+
+@media screen and (device-width: 375px) and (device-height: 667px) {
+   #conjunto {
+        padding: 0;
+    }
+    #btn-menu {
+        margin-top: -1%;
+    }
+    #icon-logo {
+        margin-top: -1%;
+    }
+    #menuTitle {
+        display: none;
+    }
+    #particulas {
+        width: 100%;
+        height: 120px;
+    }
+    #encabezado {
+        width: 100%;
+        height: 120px;
+        display: block;
+    }
+    #fotoGrupo {
+        width: 65px;
+        height: 65px;
+        margin-top: -30%;
+    }
+    #encabezado>h1 {
+        font-size: 200%;
+        margin-top: 1%;
+    }
+    .textMenu {
+        display: none;
+    }
+    #menuH {
+        width: 97%;
+    }
+    #datos ul li {
+        margin: 0%;
+        margin-left: 0.5%;
+        width: 14%;
+    }
+    #datos>div>ul {
+    width: 105%;
+    margin-top: -9%;
+    padding-left: 10%;
+       padding-right: -5%;
+}
+    #datos {
+        width: 100%;
+        height: 100%;
+        display: block;
+        /*  background: #D0D3D4;*/
+    }
+    #publications{
+        margin-top: -1%;
+        padding: 1%;
+        padding-bottom: 8%;
+    }
+    .videos,
+    .fotos,
+    .mapeo {
+        margin-top: 2%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: 340px;
+        background: #fff;
+        overflow: hidden;
+        background: #1e1e1e;
+        border-radius: 7px;
+    }
+    .publicado {
+        width: 252px;
+        height: 171px;
+        background: #e6e6e6;
+        float: none;
+        display: block;
+        position: relative;
+    }
+    .fotos .publicado,
+    .mapeo .publicado {
+        width: 100%;
+    }
+    .videos{
+        height: 390px;
+    }
+    .videos .publicado {
+        height: 220px;
+    }
+    .descripcion {
+        width: 100%;
+        height: 130px;
+        float: none;
+        display: block;
+        background: #1e1e1e;
+        padding-top: 1.5%;
+        overflow: hidden;
+    }
+    .publicador>div {
+        width: 40px;
+        height: 40px;
+        float: left;
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+    .publicador h3,
+    .publicador h4 {
+        display: block;
+        width: 100%;
+        height: 30px;
+        font-size: 100%;
+        text-align: left;
+        padding-left: 15%;
+    }
+    .publicador h3 {
+        padding-top: 4%;
+    }
+    .publicador h4 {
+        margin-top: -5.5%;
+        height: 20px;
+    }
+    .publicador p {
+        width: 100%;
+        height: 57%;
+        padding-left: 1.5%;
+        padding-right: 1.5%;
+        font-size: 105%;
+        overflow-y: scroll;
+    }
+    #like {
+        width: 35px;
+        height: 35px;
+        margin: 0;
+        margin-top: 0.5%;
+        margin-left: 44.5%;
+    }
+      #miembros {
+    margin-top: -2.5%;
+        padding: 1%;
+    padding-bottom: 8%;
+        overflow-x: hidden;
+    }
+    #miembros>div {
+      
+    width: 97%;
+    height: 120px;
+    display: inline-block;
+    border-radius: 0px;
+    background-color: #1e1e1e;
+    }
+    #miembros>div>div {
+    width: 55px;
+    height: 55px;
+    float: left;
+    margin: 0;
+    margin-left: 1%;
+    margin-top: 1%;
+    }
+    #miembros>div>button {
+    width: 30%;
+    height: 22%;
+    margin-top: -14%;
+    margin-right: 7%;
+    font-family: 'play';
+    font-size: 100%;
+    border-style: solid;
+    border-radius: 5px;
+        float: right;
+}
+    #miembros>div h1{
+         color: dodgerblue;
+    text-align: center;
+    padding: 2.5%;
+    font-family: 'play';
+    margin-top: -1%;
+        text-align: right;
+        margin-bottom: 4%;
+    /*Sombra*/
+    -webkit-box-shadow: 0px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: -2px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    }
+    #miembros>div h5{
+        width: 100%;
+        color: white;
+        text-align: center;
+        padding: 0;
+        font-family: 'play';
+        margin-left: 20%;
+        text-align: left;
+       
+    }
+     #fotos{
+        padding: 1.5%;
+        padding-bottom: 8%;
+    }
+    #fotos>div {
+    width: 96%;
+    height: 200px;
+    display: inline-block;
+ 
+    overflow: hidden;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    transition: 0.5s;
+}
+     #videos {
+   padding: 1.5%;
+        padding-bottom: 8%;
+}
+    #videos>div {
+        width: 96%;
+        height: 247px;
+        float: none;
+        display: inline-block;
+        overflow: hidden;
+       
+   }
+    #rutas {
+       padding: 1.5%;
+        padding-bottom: 8%;
+    }
+    #rutas>div {
+        width: 355;
+        height: 245px;
+        float: none;
+        display: inline-block;
+    }
+    #retos {
+   padding: 1.5%;
+        padding-bottom: 8%;
+}
+    #retos>div {
+        background: #1e1e1e;
+        width:96%;
+        height: 95px;
+        float: none;
+        display: inline-block;
+    }
+}
+
+@media screen and (device-width: 667px) and (device-height: 375px) {
+    #conjunto {
+        padding: 0%;
+    }
+    header{
+        height:  30px;
+    }
+    #btn-menu {
+        margin-top: -0.5%;
+    }
+    #icon-logo {
+        margin-top: -0.5%;
+    }
+    #menuTitle {
+        display: none;
+    }
+    #particulas {
+        width: 100%;
+        height: 120px;
+    }
+    #encabezado {
+        width: 100%;
+        height: 120px;
+        display: block;
+    }
+    #fotoGrupo {
+        width: 65px;
+        height: 65px;
+        margin-top: -18%;
+    }
+    #encabezado>h1 {
+        font-size: 200%;
+        margin-top: 1%;
+    }
+    .textMenu {
+        display: none;
+    }
+    #menuH {
+        width: 97%;
+    }
+    #datos ul li {
+        margin: 0%;
+        margin-left: 0.5%;
+        width: 14%;
+    }
+    #datos>div>ul {
+    width: 105%;
+    margin-top: -4.5%;
+    padding-left: 10%;
+       padding-right: -5%;
+}
+    #datos {
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+    #publications{
+        padding-left:5.5%;
+        padding-right: 5.5%;
+        padding-bottom: 8%;
+    }
+    .videos,
+    .fotos,
+    .mapeo {
+        margin-top: 2%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: 430px;
+        background: #fff;
+        overflow: hidden;
+        background: #1e1e1e;
+        border-radius: 7px;
+    }
+    .publicado {
+        width: 252px;
+        height: 265px;
+        background: #e6e6e6;
+        float: none;
+        display: block;
+        position: relative;
+    }
+    .fotos .publicado,
+    .mapeo .publicado {
+        width: 100%;
+    }
+    .descripcion {
+        width: 100%;
+        height: 130px;
+        float: none;
+        display: block;
+        background: #1e1e1e;
+        padding-top: 1.5%;
+        overflow: hidden;
+    }
+    .publicador>div {
+        width: 40px;
+        height: 40px;
+        float: left;
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+    .publicador h3,
+    .publicador h4 {
+        display: block;
+        width: 100%;
+        height: 30px;
+        font-size: 100%;
+        text-align: left;
+        padding-left: 9%;
+       
+    }
+    .publicador h3 {
+        padding-top: 2.5%;
+    }
+    .publicador h4 {
+        margin-top: -4%;
+        height: 20px;
+    }
+    .publicador p {
+        width: 100%;
+        height: 57%;
+        padding-left: 1.5%;
+        padding-right: 1.5%;
+        font-size: 105%;
+        overflow-y: scroll;
+    }
+    .videos{
+        height: 515px;
+    }
+    .videos .descripcion {
+        height: 130px;
+    }
+    .videos .publicado {
+        height: 345px;
+    }
+    #like {
+        width: 35px;
+        height: 35px;
+        margin: 0;
+        margin-left: 47%;
+    }
+    #miembros {
+    margin-top: -1%;
+        padding: 1%;
+    padding-bottom: 8%;
+        overflow-x: hidden;
+    }
+    #miembros>div {
+      
+    width: 97%;
+    height: 120px;
+    display: inline-block;
+    border-radius: 0px;
+    background-color: #1e1e1e;
+    }
+    #miembros>div>div {
+    width: 55px;
+    height: 55px;
+    float: left;
+    margin: 0;
+    margin-left: 1%;
+    margin-top: 1%;
+    }
+    #miembros>div>button {
+        width: 30%;
+        height: 22%;
+        margin-top: -8%;
+        margin-right: 7%;
+        font-family: 'play';
+        font-size: 100%;
+        border-style: solid;
+        border-radius: 5px;
+        float: right;
+}
+    #miembros>div h1{
+        color: dodgerblue;
+        text-align: center;
+        padding: 2.5%;
+        font-family: 'play';
+        margin-top: -1%;
+        text-align: right;
+        margin-bottom: 3%;
+    /*Sombra*/
+    -webkit-box-shadow: 0px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: -2px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    }
+    #miembros>div h5{
+        width: 100%;
+        color: white;
+        text-align: center;
+        padding: 0;
+        font-family: 'play';
+        margin-left: 20%;
+        text-align: left;
+        margin-top: 2%;
+       
+    }
+    #fotos{
+        padding: 1.5%;
+        padding-bottom: 8%;
+    }
+    #fotos>div {
+    width: 96%;
+    height: 325px;
+    display: inline-block;
+ 
+    overflow: hidden;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    transition: 0.5s;
+}
+    #videos {
+   padding: 1.5%;
+        padding-bottom: 8%;
+        padding-top: -4%;
+}
+    #videos>div {
+        width: 96%;
+        height: 500px;
+        float: none;
+        display: inline-block;
+        overflow: hidden;
+       
+   }
+    #rutas {
+       padding: 1.5%;
+       padding-bottom: 8%;
+    }
+    #rutas>div {
+        width: 96%;
+        height: 500px;
+        float: none;
+        display: inline-block;
+    }
+    #retos {
+   padding: 1.5%;
+        padding-bottom: 8%;
+}
+    #retos>div {
+        background: #1e1e1e;
+        width:96%;
+        height: 95px;
+        float: none;
+        display: inline-block;
+    }
+    #retos>div>div{
+        width: 100px;
+        height: 100%;
+    }
+    #retos>div>button{
+        margin-top: -1%;
+        margin-left: 27%;
+    }
+}
+
+/********************414 x 736***********************/
+
+@media screen and (device-width: 414px) and (device-height: 736px) {
+   #conjunto {
+        padding: 0;
+    }
+    #btn-menu {
+        margin-top: -1%;
+    }
+    #icon-logo {
+        margin-top: -1%;
+    }
+    #menuTitle {
+        display: none;
+    }
+    #particulas {
+        width: 100%;
+        height: 120px;
+    }
+    #encabezado {
+        width: 100%;
+        height: 120px;
+        display: block;
+    }
+    #fotoGrupo {
+        width: 65px;
+        height: 65px;
+        margin-top: -27.5%;
+    }
+    #encabezado>h1 {
+        font-size: 200%;
+        margin-top: 1%;
+    }
+    .textMenu {
+        display: none;
+    }
+    #menuH {
+        width: 97%;
+    }
+    #datos ul li {
+        margin: 0%;
+        margin-left: 0.5%;
+        width: 14%;
+    }
+    #datos>div>ul {
+    width: 105%;
+    margin-top: -7%;
+    padding-left: 10%;
+       padding-right: -5%;
+}
+    #datos {
+        width: 100%;
+        height: 100%;
+        display: block;
+        /*  background: #D0D3D4;*/
+    }
+    #publications{
+        margin-top: -1%;
+        padding: 1%;
+        padding-bottom: 8%;
+    }
+     .videos,
+    .fotos,
+    .mapeo {
+        margin-top: 2%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: 340px;
+        background: #fff;
+        overflow: hidden;
+        background: #1e1e1e;
+        border-radius: 7px;
+    }
+    .publicado {
+        width: 252px;
+        height: 171px;
+        background: #e6e6e6;
+        float: none;
+        display: block;
+        position: relative;
+    }
+    .fotos .publicado,
+    .mapeo .publicado {
+        width: 100%;
+    }
+    .videos {
+        height: 390px;
+    }
+    .videos .publicado {
+        height: 220px;
+    }
+    .descripcion {
+        width: 100%;
+        height: 130px;
+        float: none;
+        display: block;
+        background: #1e1e1e;
+        padding-top: 1.5%;
+        overflow: hidden;
+    }
+    .publicador>div {
+        width: 40px;
+        height: 40px;
+        float: left;
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+    .publicador h3,
+    .publicador h4 {
+        display: block;
+        width: 100%;
+        height: 30px;
+        font-size: 120%;
+        text-align: left;
+        padding-left: 14%;
+    }
+    .publicador h3 {
+        padding-top: 2.5%;
+    }
+    .publicador h4 {
+        margin-top: -5%;
+        height: 20px;
+    }
+    .publicador p {
+        width: 100%;
+        height: 57%;
+        padding-left: 1.5%;
+        padding-right: 1.5%;
+        font-size: 140%;
+        overflow-y: scroll;
+    }
+    #like {
+        width: 35px;
+        height: 35px;
+        margin: 0;
+        margin-top: 0.5%;
+        margin-left: 45.5%;
+    }
+      #miembros {
+    margin-top: -2.5%;
+        padding: 1%;
+    padding-bottom: 8%;
+        overflow-x: hidden;
+    }
+    #miembros>div {
+      
+    width: 97%;
+    height: 120px;
+    display: inline-block;
+    border-radius: 0px;
+    background-color: #1e1e1e;
+    }
+    #miembros>div>div {
+    width: 55px;
+    height: 55px;
+    float: left;
+    margin: 0;
+    margin-left: 1%;
+    margin-top: 1%;
+    }
+    #miembros>div>button {
+    width: 30%;
+    height: 22%;
+    margin-top: -15%;
+    margin-right: 7%;
+    font-family: 'play';
+    font-size: 100%;
+    border-style: solid;
+    border-radius: 5px;
+        float: right;
+}
+    #miembros>div h1{
+         color: dodgerblue;
+    text-align: center;
+    padding: 2.5%;
+    font-family: 'play';
+    margin-top: -1%;
+        text-align: right;
+        margin-bottom: 4%;
+    /*Sombra*/
+    -webkit-box-shadow: 0px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: -2px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    }
+    #miembros>div h5{
+        width: 100%;
+        color: white;
+        text-align: center;
+        padding: 0;
+        font-family: 'play';
+        margin-left: 20%;
+        text-align: left;
+       
+    }
+     #fotos{
+        padding: 1.5%;
+        padding-bottom: 8%;
+    }
+    #fotos>div {
+    width: 96%;
+    height: 200px;
+    display: inline-block;
+ 
+    overflow: hidden;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    transition: 0.5s;
+}
+     #videos {
+   padding: 1.5%;
+         padding-left: 5%;
+        padding-bottom: 8%;
+}
+    #videos>div {
+        width: 357px;
+        height: 247px;
+        float: none;
+        display: inline-block;
+        overflow: hidden;
+       
+   }
+    #rutas {
+       padding: 1.5%;
+        padding-left: 5%;
+        padding-bottom: 8%;
+    }
+    #rutas>div {
+        width: 355;
+        height: 245px;
+        float: none;
+        display: inline-block;
+    }
+    #retos {
+   padding: 1.5%;
+        padding-bottom: 8%;
+}
+    #retos>div {
+        background: #1e1e1e;
+        width:96%;
+        height: 95px;
+        float: none;
+        display: inline-block;
+    }
+}
+
+@media screen and (device-width: 736px) and (device-height: 414px) {
+    #conjunto {
+        padding: 0%;
+    }
+    header{
+        height:  30px;
+    }
+    #btn-menu {
+        margin-top: -0.5%;
+    }
+    #icon-logo {
+        margin-top: -0.5%;
+    }
+    #menuTitle {
+        display: none;
+    }
+    #particulas {
+        width: 100%;
+        height: 120px;
+    }
+    #encabezado {
+        width: 100%;
+        height: 120px;
+        display: block;
+    }
+    #fotoGrupo {
+        width: 65px;
+        height: 65px;
+        margin-top: -15.5%;
+    }
+    #encabezado>h1 {
+        font-size: 200%;
+        margin-top: 1%;
+    }
+    .textMenu {
+        display: none;
+    }
+    #menuH {
+        width: 97%;
+    }
+    #datos ul li {
+        margin: 0%;
+        margin-left: 0.5%;
+        width: 14%;
+    }
+    #datos>div>ul {
+    width: 105%;
+    margin-top: -4%;
+    padding-left: 10%;
+       padding-right: -5%;
+}
+    #datos {
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+    #publications{
+        padding-left:2%;
+        padding-right: 2%;
+        padding-bottom: 8%;
+    }
+   .videos,
+    .fotos,
+    .mapeo {
+        margin-top: 2%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: 485px;
+        background: #fff;
+        overflow: hidden;
+        background: #1e1e1e;
+        border-radius: 7px;
+    }
+    .publicado {
+        width: 252px;
+        height: 320px;
+        background: #e6e6e6;
+        float: none;
+        display: block;
+        position: relative;
+    }
+    .fotos .publicado,
+    .mapeo .publicado {
+        width: 100%;
+    }
+    .descripcion {
+        width: 100%;
+        height: 130px;
+        float: none;
+        display: block;
+        background: #1e1e1e;
+        padding-top: 1.5%;
+        overflow: hidden;
+    }
+    .publicador>div {
+        width: 40px;
+        height: 40px;
+        float: left;
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+    .publicador h3,
+    .publicador h4 {
+        display: block;
+        width: 100%;
+        height: 30px;
+        font-size: 100%;
+        text-align: left;
+        padding-left: 9%;
+    }
+    .publicador h3 {
+        padding-top: 2.5%;
+    }
+    .publicador h4 {
+        margin-top: -4%;
+        height: 20px;
+    }
+    .publicador p {
+        width: 100%;
+        height: 57%;
+        padding-left: 1.5%;
+        padding-right: 1.5%;
+        font-size: 105%;
+        overflow-y: scroll;
+    }
+    .videos {
+        height: 555px;
+    }
+    .videos .descripcion {
+        height: 130px;
+    }
+    .videos .publicado {
+        height: 387px;
+    }
+    #like {
+        width: 35px;
+        height: 35px;
+        margin: 0;
+        margin-left: 47.5%;
+    }
+    #miembros {
+    margin-top: -1%;
+        padding: 1%;
+    padding-bottom: 8%;
+        overflow-x: hidden;
+    }
+    #miembros>div {
+      
+    width: 97%;
+    height: 120px;
+    display: inline-block;
+    border-radius: 0px;
+    background-color: #1e1e1e;
+    }
+    #miembros>div>div {
+    width: 55px;
+    height: 55px;
+    float: left;
+    margin: 0;
+    margin-left: 1%;
+    margin-top: 1%;
+    }
+    #miembros>div>button {
+        width: 30%;
+        height: 22%;
+        margin-top: -6.5%;
+        margin-right: 7%;
+        font-family: 'play';
+        font-size: 100%;
+        border-style: solid;
+        border-radius: 5px;
+        float: right;
+}
+    #miembros>div h1{
+        color: dodgerblue;
+        text-align: center;
+        padding: 2.5%;
+        font-family: 'play';
+        margin-top: -2%;
+        text-align: right;
+        margin-bottom: 3%;
+    /*Sombra*/
+    -webkit-box-shadow: 0px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: -2px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    }
+    #miembros>div h5{
+        width: 100%;
+        color: white;
+        text-align: center;
+        padding: 0;
+        font-family: 'play';
+        margin-left: 20%;
+        text-align: left;
+        margin-top: 2%;
+       
+    }
+    #fotos{
+        padding: 1.5%;
+        padding-bottom: 8%;
+    }
+    #fotos>div {
+    width: 96%;
+    height: 325px;
+    display: inline-block;
+ 
+    overflow: hidden;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    transition: 0.5s;
+}
+    #videos {
+   padding: 1.5%;
+        padding-left: 7%;
+        padding-bottom: 8%;
+        padding-top: -4%;
+}
+    #videos>div {
+        width: 600px;
+        height: 490px;
+        float: none;
+        display: inline-block;
+        overflow: hidden;
+       
+   }
+    #rutas {
+       padding: 1.5%;
+        padding-left: 7%;
+       padding-bottom: 8%;
+    }
+    #rutas>div {
+        width: 600;
+        height: 490px;
+        float: none;
+        display: inline-block;
+    }
+    #retos {
+   padding: 1.5%;
+        padding-bottom: 8%;
+}
+    #retos>div {
+        background: #1e1e1e;
+        width:96%;
+        height: 95px;
+        float: none;
+        display: inline-block;
+    }
+    #retos>div>div{
+        width: 100px;
+        height: 100%;
+    }
+    #retos>div>h1{
+        margin-top: 2.5%;
+    }
+    #retos>div>button{
+        margin-top: -1%;
+        margin-left: 27%;
+    }
+}
+
+
+/********************480 x 800***********************/
+
+@media screen and (device-width: 480px) and (device-height: 800px) {
+   #conjunto {
+        padding: 0;
+    }
+    #btn-menu {
+        margin-top: -0.5%;
+    }
+    .icon-menu{
+        
+        font-size: 180%;
+    }
+    #icon-logo {
+        margin-top: -0.5%;
+        width: 50%;
+    }
+    #menuTitle {
+        display: none;
+    }
+    #particulas {
+        width: 100%;
+        height: 180px;
+    }
+    #encabezado {
+        width: 100%;
+        height: 180px;
+        display: block;
+    }
+    #fotoGrupo {
+        width: 85px;
+        height: 85px;
+        margin-top: -31.5%;
+    }
+    #encabezado>h1 {
+        font-size: 220%;
+        margin-top: 1%;
+    }
+    .textMenu {
+        display: none;
+    }
+    #menuH {
+        width: 97%;
+        border-top: 55px solid #2e2e2e;
+    }
+    #datos ul li {
+        margin: 0%;
+        margin-top: 1.3%;
+        margin-left: 0.5%;
+        width: 14%;
+    }
+    .icons{
+        font-size: 150%;
+    }
+    #datos>div>ul {
+    width: 105%;
+    margin-top: -11%;
+    padding-left: 10%;
+       padding-right: -5%;
+}
+    #datos {
+        width: 100%;
+        height: 100%;
+        display: block;
+        /*  background: #D0D3D4;*/
+    }
+    #publications{
+        margin-top: -1%;
+        padding: 2%;
+    
+        padding-bottom: 8%;
+    }
+    .videos,
+    .fotos,
+    .mapeo {
+        margin-top: 2%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: 520px;
+        background: #fff;
+        overflow: hidden;
+        background: #1e1e1e;
+        border-radius: 7px;
+    }
+    .publicado {
+        width: 252px;
+        height: 280px;
+        background: #e6e6e6;
+        float: none;
+        display: block;
+        position: relative;
+    }
+    .fotos .publicado,
+    .mapeo .publicado {
+        width: 100%;
+    }
+    .videos {
+        height: 494px;
+    }
+    .videos .publicado {
+        height: 255px;
+    }
+    .descripcion {
+        width: 100%;
+        height: 180px;
+        float: none;
+        display: block;
+        background: #1e1e1e;
+        padding-top: 1.5%;
+        overflow: hidden;
+    }
+    .publicador>div {
+        width: 80px;
+        height: 80px;
+        float: left;
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+    .publicador h3,
+    .publicador h4 {
+        display: block;
+        width: 100%;
+        height: 50px;
+        font-size: 160%;
+        text-align: left;
+        padding-left: 17%;
+    }
+    .publicador h3 {
+        padding-top: 4%;
+    }
+    .publicador h4 {
+        margin-top: -3.7%;
+        height: 20px;
+    }
+    .publicador p {
+        width: 100%;
+        height: 57%;
+        padding-left: 1.5%;
+        padding-right: 1.5%;
+        font-size: 140%;
+        overflow-y: scroll;
+    }
+    #like {
+        width: 55px;
+        height: 55px;
+        margin: 0;
+        margin-top: 0.5%;
+        margin-left: 45.2%;
+    }
+    #miembros {
+    margin-top: -1%;
+        padding: 1%;
+    padding-bottom: 8%;
+        overflow-x: hidden;
+    }
+    #miembros>div {
+      
+    width: 97%;
+    height: 140px;
+    display: inline-block;
+    border-radius: 0px;
+    background-color: #1e1e1e;
+    }
+    #miembros>div>div {
+    width: 75px;
+    height: 75px;
+    float: left;
+    margin: 0;
+    margin-left: 1%;
+    margin-top: 1%;
+    }
+    #miembros>div>button {
+    width: 30%;
+    height: 22%;
+    margin-top: -13%;
+    margin-right: 7%;
+    font-family: 'play';
+    font-size: 100%;
+    border-style: solid;
+    border-radius: 5px;
+        float: right;
+}
+    #miembros>div h1{
+         color: dodgerblue;
+    text-align: center;
+    padding: 2.5%;
+    font-family: 'play';
+    margin-top: -1%;
+        text-align: right;
+        margin-bottom: 1%;
+        font-size: 200%;
+    /*Sombra*/
+    -webkit-box-shadow: 0px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: -2px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    }
+    #miembros>div h5{
+        width: 100%;
+        color: white;
+        text-align: center;
+        padding: 0;
+        font-family: 'play';
+        margin-left: 20%;
+        font-size: 180%;
+        margin-top: 0%;
+        text-align: left;
+       
+    }
+    #fotos{
+        padding: 1.5%;
+        padding-bottom: 8%;
+    }
+    #fotos>div {
+    width: 96%;
+    height: 300px;
+    display: inline-block;
+ 
+    overflow: hidden;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    transition: 0.5s;
+}
+     #videos {
+   padding: 1.5%;
+         padding-left: 5%;
+        padding-bottom: 8%;
+}
+    #videos>div {
+        width: 93%;
+        height: 397px;
+        float: none;
+        display: inline-block;
+        overflow: hidden;
+       
+   }
+    #rutas {
+       padding: 1.5%;
+        padding-left: 5%;
+        padding-bottom: 8%;
+    }
+    #rutas>div {
+       width: 93%;
+        height: 397px;
+        float: none;
+        display: inline-block;
+    }
+    #retos {
+   padding: 1.5%;
+        padding-bottom: 8%;
+}
+    #retos>div {
+        background: #1e1e1e;
+        width:96%;
+        height: 130px;
+        float: none;
+        display: inline-block;
+    }
+}
+
+@media screen and (device-width: 800px) and (device-height: 480px) {
+    #conjunto {
+        padding: 0%;
+    }
+    header{
+        height:  30px;
+    }
+    #btn-menu {
+        margin-top: -0.5%;
+    }
+    #icon-logo {
+        margin-top: -0.5%;
+    }
+    #menuTitle {
+        display: none;
+    }
+    .icons{
+        font-size: 150%;
+    }
+    #particulas {
+        width: 100%;
+        height: 150px;
+    }
+    #encabezado {
+        width: 100%;
+        height: 150px;
+        display: block;
+    }
+    #fotoGrupo {
+        width: 65px;
+        height: 65px;
+        margin-top: -13%;
+    }
+    #encabezado>h1 {
+        font-size: 200%;
+        margin-top: 1%;
+    }
+    .textMenu {
+        display: none;
+    }
+    #menuH {
+        width: 97%;
+         border-top: 45px solid #2e2e2e;
+    }
+    #datos ul li {
+        margin: 0%;
+        margin-left: 0.5%;
+        width: 14%;
+    }
+    #datos>div>ul {
+    width: 105%;
+    margin-top: -4%;
+    padding-left: 10%;
+       padding-right: -5%;
+}
+    #datos {
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+    #publications{
+        padding-left:2%;
+        padding-right: 2%;
+        padding-bottom: 8%;
+    }
+   .videos,
+    .fotos,
+    .mapeo {
+        margin-top: 2%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: 665px;
+        background: #fff;
+        overflow: hidden;
+        background: #1e1e1e;
+        border-radius: 7px;
+    }
+    .publicado {
+        width: 252px;
+        height: 450px;
+        background: #e6e6e6;
+        float: none;
+        display: block;
+        position: relative;
+    }
+    .fotos .publicado,
+    .mapeo .publicado {
+        width: 100%;
+    }
+    .descripcion {
+        width: 100%;
+        height: 160px;
+        float: none;
+        display: block;
+        background: #1e1e1e;
+        padding-top: 1.5%;
+        overflow: hidden;
+    }
+    .publicador>div {
+        width: 55px;
+        height: 55px;
+        float: left;
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+    .publicador h3,
+    .publicador h4 {
+        display: block;
+        width: 100%;
+        height: 30px;
+        font-size: 135%;
+        text-align: left;
+        padding-left: 9%;
+    }
+    .publicador h3 {
+        padding-top: 2.6%;
+    }
+    .publicador h4 {
+        margin-top: -3.8%;
+        height: 20px;
+    }
+    .publicador p {
+        width: 100%;
+        height: 57%;
+        padding-left: 1.5%;
+        padding-right: 1.5%;
+        font-size: 135%;
+        overflow-y: scroll;
+    }
+    .videos {
+        height: 690px;
+    }
+    .videos .descripcion {
+        height: 130px;
+    }
+    .videos .publicado {
+        height: 507px;
+    }
+    #like {
+        width: 55px;
+        height: 55px;
+        margin: 0;
+        margin-left: 46.8%;
+    }
+    #miembros {
+    margin-top: -1%;
+        padding: 1%;
+    padding-bottom: 8%;
+        overflow-x: hidden;
+    }
+    #miembros>div {
+      
+    width: 78%;
+    height: 120px;
+        margin-left: 11%;;
+    display: inline-block;
+    border-radius: 0px;
+    background-color: #1e1e1e;
+    }
+    #miembros>div>div {
+    width: 55px;
+    height: 55px;
+    float: left;
+    margin: 0;
+    margin-left: 1%;
+    margin-top: 1%;
+    }
+    #miembros>div>button {
+        width: 20%;
+        height: 22%;
+        margin-top: -6%;
+        margin-right: 7%;
+        font-family: 'play';
+        font-size: 100%;
+        border-style: solid;
+        border-radius: 5px;
+        float: right;
+}
+    #miembros>div h1{
+        color: dodgerblue;
+        text-align: center;
+        padding: 2.5%;
+        font-family: 'play';
+        margin-top: -2%;
+        font-size: 150%;
+        text-align: right;
+        margin-bottom: 1.5%;
+    /*Sombra*/
+    -webkit-box-shadow: 0px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: -2px 8px 9px -1px rgba(0, 0, 0, 0.75);
+    }
+    #miembros>div h5{
+        width: 100%;
+        color: white;
+        text-align: center;
+        padding: 0;
+        font-family: 'play';
+        margin-left: 20%;
+        text-align: left;
+        margin-top: 0.5%;
+       
+    }
+    #fotos{
+        padding: 1.5%;
+        padding-bottom: 8%;
+    }
+    #fotos>div {
+    width: 96%;
+    height: 450px;
+    display: inline-block;
+ 
+    overflow: hidden;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    transition: 0.5s;
+}
+    #videos {
+   padding: 1.5%;
+        padding-left: 7%;
+        padding-bottom: 8%;
+        padding-top: -4%;
+}
+    #videos>div {
+        height: 300px;
+        float: none;
+        display: inline-block;
+        overflow: hidden;
+       
+   }
+    #rutas {
+       padding: 1.5%;
+        padding-left: 4%;
+       padding-bottom: 8%;
+    }
+    #rutas>div {
+        width: 270;
+        height: 200px;
+        float: none;
+        display: inline-block;
+    }
+    #retos {
+   padding: 1.5%;
+        padding-bottom: 8%;
+}
+    #retos>div {
+        background: #1e1e1e;
+        width:96%;
+        height: 95px;
+        float: none;
+        display: inline-block;
+    }
+    #retos>div>div{
+        width: 100px;
+        height: 100%;
+    }
+    #retos>div>h1{
+        margin-top: 2.5%;
+    }
+    #retos>div>button{
+        margin-top: -1%;
+        margin-left: 29.5%;
+    }
+}

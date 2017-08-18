@@ -4,29 +4,34 @@
     <title>
         RunTime Web
     </title>
-    <link href="css/style.css" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Jockey+One" rel="stylesheet" />
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="css/styleIndex.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Jockey+One" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="css/mediaScreenIndex.css">
+
 </head>
 
-<body id="cuerpoIndex">
+<body>
     <div id="particulas"></div>
     <video autoplay="" id="fondo" loop="" src="videos/fondo.mp4">
         </video>
-    <div id="logo-inicio">
+    
+    <div class="container baul">
 
-        <img id="icon-logo" src="imagenes/logotipo.png" />
-        <div id="main">
+        <img src="imagenes/logotipo.png" />
+        <div id="main" class="container">
 
 
-            <input id="usuario" placeholder="Usuario" type="text" />
+            <input id="usuario" class="form-control" placeholder="Usuario" type="text" />
 
-            <input id="password" placeholder="Contraseña" type="text" />
-
-            <button id="login">
-                    <font color=red><a id="link-principal" href="principal.html">Login</a></font>
+            <input id="password"  class="form-control" placeholder="Contraseña" type="password" />
+            <br/>
+            <button class="btn btn-default" type="submit" id="login">
+                   <a id="link-principal" href="principal.html">Login</a>
                 </button>
-            <a href="registro.html">Registrarse</a>
+                <br/>
+            <a id="registro" href="registro.html">Registrarse</a>
 
         </div>
     </div>

@@ -9,6 +9,8 @@
     <link href="https://fonts.googleapis.com/css?family=Jockey+One" rel="stylesheet" />
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="css/mediaScreenRegistro.css">
+    <script src="js/registroUsuarios.js"></script>
+      <link rel="stylesheet" type="text/css" href="css/scoll.css">
 </head>
 
 <body>
@@ -21,26 +23,29 @@
             <img id="logo" src="imagenes/logotipo.png" />
         </div>
         <div align="center" class="container">
+           <div id="fotoPerfil" align="center" >
             <img id="user" src="imagenes/user.png" />
+            </div>
         </div>
         <div align="center" class="container formulario">
 
-            <input class="form-control" placeholder="Nombre" type="text" />
+            <input class="form-control" placeholder="Nombre" type="text"  id="nombre"/>
             <br>
-            <input class="form-control" placeholder="Apellidos" type="text" />
+            <input class="form-control" placeholder="Apellidos" type="text"  id="apellidos"/>
             <br>
-            <input class="form-control" placeholder="Correo" type="text" />
+            <input class="form-control" placeholder="Correo" type="text"  id="correo"/>
             <br>
-            <input class="form-control" placeholder="Usuario" type="text" />
+            <input class="form-control" placeholder="Usuario" type="text"  id="usuario"/>
             <br>
-            <input class="form-control" placeholder="Contraseña" type="password" />
+            <input class="form-control" placeholder="Contraseña" type="password"  id="password"/>
             <br>
-            <input class="form-control" placeholder="Confirmar Contraseña" type="password" />
+            <input class="form-control" placeholder="Confirmar Contraseña" type="password" id="confirmar" />
+            <span class="btn btn-default btn-file">
+    Cargar Foto <input type="file" id="loadFoto" accept="image/png, .jpeg, .jpg, image/gif">
+</span>
         </div>
         <div align="center" class="container">
-            <button class="btn btn-default" type="submit">
-                   <a id="link-principal" href="index.html">Registrar</a>
-                </button>
+            <button class="btn btn-default" type="submit" id="registrar">Registrar</button>
         </div>
     </div>
 

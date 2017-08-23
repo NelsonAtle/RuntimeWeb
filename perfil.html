@@ -1,0 +1,277 @@
+<html>
+
+<head>
+    <title>
+        RunTime Web
+    </title>
+    <link href="css/styleGrupos.css" rel="stylesheet" type="text/css" />
+
+    <link href="css/icons.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/styleMenu.css">
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/mediaScreenGrupos.css">
+
+    <script languague="javascript">
+        function mostrarPubli() {
+            div1 = document.getElementById('publications');
+            div2 = document.getElementById('miembros');
+            div3 = document.getElementById('fotos');
+            div4 = document.getElementById('videos');
+            div5 = document.getElementById('rutas');
+            div6 = document.getElementById('retos');
+            div1.style.display = 'block';
+            div2.style.display = 'none';
+            div3.style.display = 'none';
+            div4.style.display = 'none';
+            div5.style.display = 'none';
+            div6.style.display = 'none';
+        }
+
+        function mostrarMiembros() {
+            div1 = document.getElementById('publications');
+            div2 = document.getElementById('miembros');
+            div3 = document.getElementById('fotos');
+            div4 = document.getElementById('videos');
+            div5 = document.getElementById('rutas');
+            div6 = document.getElementById('retos');
+            div1.style.display = 'none';
+            div2.style.display = 'block';
+            div3.style.display = 'none';
+            div4.style.display = 'none';
+            div5.style.display = 'none';
+            div6.style.display = 'none';
+        }
+
+        function mostrarFotos() {
+            div1 = document.getElementById('publications');
+            div2 = document.getElementById('miembros');
+            div3 = document.getElementById('fotos');
+            div4 = document.getElementById('videos');
+            div5 = document.getElementById('rutas');
+            div6 = document.getElementById('retos');
+            div1.style.display = 'none';
+            div2.style.display = 'none';
+            div3.style.display = 'block';
+            div4.style.display = 'none';
+            div5.style.display = 'none';
+            div6.style.display = 'none';
+        }
+
+        function mostrarVideos() {
+            div1 = document.getElementById('publications');
+            div2 = document.getElementById('miembros');
+            div3 = document.getElementById('fotos');
+            div4 = document.getElementById('videos');
+            div5 = document.getElementById('rutas');
+            div6 = document.getElementById('retos');
+            div1.style.display = 'none';
+            div2.style.display = 'none';
+            div3.style.display = 'none';
+            div4.style.display = 'block';
+            div5.style.display = 'none';
+            div6.style.display = 'none';
+        }
+
+        function mostrarRutas() {
+            div1 = document.getElementById('publications');
+            div2 = document.getElementById('miembros');
+            div3 = document.getElementById('fotos');
+            div4 = document.getElementById('videos');
+            div5 = document.getElementById('rutas');
+            div6 = document.getElementById('retos');
+            div1.style.display = 'none';
+            div2.style.display = 'none';
+            div3.style.display = 'none';
+            div4.style.display = 'none';
+            div5.style.display = 'block';
+            div6.style.display = 'none';
+        }
+
+        function mostrarRetos() {
+            div1 = document.getElementById('publications');
+            div2 = document.getElementById('miembros');
+            div3 = document.getElementById('fotos');
+            div4 = document.getElementById('videos');
+            div5 = document.getElementById('rutas');
+            div6 = document.getElementById('retos');
+            div1.style.display = 'none';
+            div2.style.display = 'none';
+            div3.style.display = 'none';
+            div4.style.display = 'none';
+            div5.style.display = 'none';
+            div6.style.display = 'block';
+        }
+
+    </script>
+    <link rel="stylesheet" href="css/styleMenu.css">
+    <script src="js/cargaFotoPerfil.js"></script>
+      <link rel="stylesheet" type="text/css" href="css/scoll.css">
+</head>
+
+<body id="cuerpoPrincipal">
+
+    <!--Encabezado-->
+    <header id="principal">
+        <a href="#" id="btn-menu"><span class="icon-menu"></span><span id="menuTitle">Menu</span></a>
+        <a href="#" id="logo"><img id="icon-logo" src="imagenes/logotipo.png" /></a>
+
+    </header>
+    <!--Menu del Perfil-->
+     <div id="divPerfil" class="container">
+        <nav>
+            <div align="center" id="user"><img id="foto" src="" /></div>
+
+            <h2 id="nombre" align="center"></h2>
+            <hr id="linea1" />
+            <hr id="linea2" />
+            <h4 class="subtitulos-menu"><span class="icon-xing2"></span>Personal</h4>
+            <ul id="menu">
+                <li><a href="#" id="seguidores" class="subitems"><span class="icon-users"></span>Seguidores</a></li>
+
+                        <li><a href="#" id="siguiendo" class="subitems"><span class="icon-user-check"></span>Seguidos</a></li>
+
+                        <li><a href="#" id="noDisponibles1" class="subitems"><span class="icon-spinner4"></span>Retos Ganados</a></li>
+
+                  <li><a href="#" id="noDisponibles2"><span class="icon-earth"></span>Notificaciones</a></li>
+
+                <li><a href="#" id="noDisponibles6"><span class="icon-mail4"></span>Mensajes</a></li>
+
+                <li><a href="#" id="videosHtml"><span class="icon-play"></span>Videos</a></li>
+
+                <li><a href="#" id="fotosHtml"><span class="icon-camera"></span>Fotos</a></li>
+
+                <li><a href="#" id="noDisponibles3"><span class="icon-map"></span>Rutas Realizadas</a></li>
+
+                <h4 class="subItemsTitulos-menu"><span class="icon-xing2"></span>Social</h4>
+
+                <li><a href="#" id="noDisponibles4"><span class="icon-fire"></span>Nuevos Retos</a></li>
+
+                <li><a href="#" id="noDisponibles5"><span class="icon-spinner10"></span>Retos Corriendo</a></li>
+
+                <h4 class="subItemsTitulos-menu"><span class="icon-xing2"></span>Otros</h4>
+
+                <li><a href="#" id="configuracion"><span class="icon-cog"></span>Configuración</a></li>
+
+                <li><a href="index.html"><span class="icon-lock"></span>Salir</a></li>
+
+
+            </ul>
+        </nav>
+    </div>
+
+    <div id="cuerpoGrupo">
+        <div id="conjunto">
+            <div id="encabezado" align="center">
+                <div id="particulas"></div>
+                <img id="portada" src="http://wallpapercave.com/wp/wp1840687.jpg" alt="" />
+                <div id="fotoGrupo">
+
+                    <img id="perfilUsuario" src="" alt="">
+                </div>
+                <h1 id="nombreUsuario"></h1>
+            </div>
+            <div id="datos">
+                <div id="menuH">
+                    <ul>
+                        <li>
+                            <a href="javascript:mostrarPubli();"><span class="icon-stack icons"></span>
+                                <span class="textMenu">Publicaciones</span></a>
+                        </li>
+                        <li>
+                            <a href="javascript:mostrarMiembros();"><span class="icon-users icons"></span><span class="textMenu">Miembros</span></a></li>
+                        <li><a href="javascript:mostrarFotos();"><span class="icon-camera icons"></span><span class="textMenu">Fotos</span></a></li>
+                        <li><a href="javascript:mostrarVideos();"><span class="icon-play icons"></span><span class="textMenu">Videos</span></a></li>
+                        <li><a href="javascript:mostrarRutas();"><span class="icon-map icons"></span><span class="textMenu">Rutas</span></a></li>
+                        <li><a href="javascript:mostrarRetos();"><span class="icon-fire icons"></span><span class="textMenu">Retos</span></a></li>
+                    </ul>
+                </div>
+                <div id="contenidoGrupo">
+                   
+                </div>
+              
+                <div id="videos">
+                    <div><video src="videos/1.mp4" controls allowfullscreen></video></div>
+                    <div><video src="videos/2.mp4" controls allowfullscreen></video></div>
+                    <div><video src="videos/3.mp4" controls allowfullscreen></video></div>
+                    <div><video src="videos/4.mp4" controls allowfullscreen></video></div>
+                    <div><video src="videos/5.mp4" controls allowfullscreen></video></div>
+                    <div><video src="videos/6.mp4" controls allowfullscreen></video></div>
+                    <div><video src="videos/7.mp4" controls allowfullscreen></video></div>
+                    <div><video src="videos/8.mp4" controls allowfullscreen></video></div>
+                    <div><video src="videos/9.mp4" controls allowfullscreen></video></div>
+                    <div><video src="videos/10.mp4" controls allowfullscreen></video></div>
+                    <div><video src="videos/11.mp4" controls allowfullscreen></video></div>
+                </div>
+                <div id="rutas">
+                    <div><iframe src="https://www.google.com/maps/embed?pb=!1m24!1m12!1m3!1d31401.827703504758!2d-84.44740005893985!3d10.323592828295125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m9!3e6!4m3!3m2!1d10.3024249!2d-84.4265126!4m3!3m2!1d10.3493503!2d-84.4342625!5e0!3m2!1ses-419!2scr!4v1499183750960" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+                    <div><iframe src="https://www.google.com/maps/embed?pb=!1m24!1m12!1m3!1d15719.892220041998!2d-84.09876287987608!3d9.93619983631767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m9!3e6!4m3!3m2!1d9.9355683!2d-84.0780616!4m3!3m2!1d9.938231499999999!2d-84.1019654!5e0!3m2!1ses-419!2scr!4v1499374582273" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+                    <div><iframe src="https://www.google.com/maps/embed?pb=!1m24!1m12!1m3!1d15719.1407359994!2d-84.14786422987366!3d9.951823136146187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m9!3e6!4m3!3m2!1d9.9537404!2d-84.1227909!4m3!3m2!1d9.9599539!2d-84.1549345!5e0!3m2!1ses-419!2scr!4v1499374630139" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+                    <div><iframe src="https://www.google.com/maps/embed?pb=!1m24!1m12!1m3!1d27098.08978899235!2d-84.25449370916397!3d9.964504794022742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m9!3e6!4m3!3m2!1d9.9697722!2d-84.2098238!4m3!3m2!1d9.9571284!2d-84.26532689999999!5e1!3m2!1ses-419!2scr!4v1499374674996" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+                    <div><iframe src="https://www.google.com/maps/embed?pb=!1m24!1m12!1m3!1d31440.078643027384!2d-84.07567949652076!3d9.933129149532022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m9!3e6!4m3!3m2!1d9.9437815!2d-84.05559509999999!4m3!3m2!1d9.922730099999999!2d-84.08761!5e0!3m2!1ses-419!2scr!4v1499374706228" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+                    <div><iframe src="https://www.google.com/maps/embed?pb=!1m24!1m12!1m3!1d7860.014363118202!2d-84.10957527752133!3d9.933359271587404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m9!3e6!4m3!3m2!1d9.9368992!2d-84.1120028!4m3!3m2!1d9.9286984!2d-84.1031623!5e0!3m2!1ses-419!2scr!4v1499374733244" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+                    <div><iframe src="https://www.google.com/maps/embed?pb=!1m24!1m12!1m3!1d7859.811166567664!2d-84.09966183300226!3d9.941813562873346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m9!3e6!4m3!3m2!1d9.943610099999999!2d-84.0896411!4m3!3m2!1d9.9450261!2d-84.1086741!5e0!3m2!1ses-419!2scr!4v1499374776904" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+                    <div><iframe src="https://www.google.com/maps/embed?pb=!1m24!1m12!1m3!1d15719.166209756004!2d-84.08824487987373!3d9.951293936151988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m9!3e6!4m3!3m2!1d9.9501928!2d-84.07172279999999!4m3!3m2!1d9.960041499999999!2d-84.0851124!5e0!3m2!1ses-419!2scr!4v1499374812746" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+                </div>
+                <div id="retos">
+                    <div>
+                        <div>
+                            <img src="https://www.griffith.edu.au/__data/assets/image/0008/838601/SP3633_Toohey_Trail_Run_-_Website_Tile_Buttons21.jpg" alt="">
+                        </div>
+                        <h1>Reto 10Km Top 10</h1>
+                        <button>Unido</button>
+                    </div>
+                    <div>
+                        <div>
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6pyMlYX-2Xjj1APJ7mazhZy9NrQwH2ZOAlIdbbpBfb0Bjw_xD" alt="">
+                        </div>
+                        <h1>Reto 5Km Top 10</h1>
+                        <button>Unido</button></div>
+                    <div>
+
+                        <div>
+                            <img src="http://sportteknologi.se/wp-content/uploads/sites/1542/2017/03/iStock-482484861-300x284.jpg" alt="">
+                        </div>
+                        <h1>Reto Maximos Km</h1>
+                        <button>Unirme</button>
+                    </div>
+                    <div>
+                        <div>
+                            <img src="https://www.govisitcostarica.co.cr/images/photos/full-side-of-zarcero-church.jpg" alt="">
+                        </div>
+                        <h1>Reto CQ-Zarcero</h1>
+                        <button>Unirme</button>
+                    </div>
+                    <div>
+                        <div>
+                            <img src="http://fincasylotesensancarloscostarica.com/Sivendemos/wp-content/uploads/2015/09/Parque.jpg" alt="">
+                        </div>
+                        <h1>Reto CQ-Florencia</h1>
+                        <button>Unido</button>
+                    </div>
+                    <div>
+                        <div>
+                            <img src="https://pbs.twimg.com/profile_images/425538695442096128/kDv0iw4b_400x400.png" alt="">
+                        </div>
+                        <h1>Reto 21Km</h1>
+                        <button>Unido</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="particulas/particles.js"></script>
+    <script src="particulas/config-particulas.js"></script>
+    <script src="js/redirecciones.js"></script>
+    <script src="js/cargarPublicacionesIndividuales.js"></script>
+    <!---->
+</body>
+
+</html>

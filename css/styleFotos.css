@@ -87,6 +87,7 @@ html{
     -ms-transform: scale(1);
     transform: scale(1);
     transition: 0.5s;
+    background: #1e1e1e;
 }
 
 #fotos>div:hover {
@@ -99,7 +100,7 @@ html{
 }
 
 #fotos>div>img {
-    width: 100%;
+    height: 100%;
 }
 
 #cuerpoFotos {
@@ -107,13 +108,13 @@ html{
     width: 100%;
 }
 
-#cuerpoFotos #usuario {
+#cuerpoFotos #foto{
     width: 150px;
     height: 150px;
     border-radius: 100%;
     overflow: hidden;
     margin: auto;
-    margin-top: -45%;
+    margin-top: -35%;
     
 }
 
@@ -129,10 +130,12 @@ html{
     margin-top: -48%;
 }
 
-#cuerpoFotos #usuario{
-      margin-top: -35%;
-}
 
 #cuerpoFotos h1{
     color:dodgerblue;
+}
+
+#busefovi{
+    width: 100%;
+    height: 100%;
 }

@@ -4,7 +4,7 @@
     <title>
         RunTime Web
     </title>
-    <link href="css/StylePublicaciones.css" rel="stylesheet" type="text/css" />
+
     <link href="css/icons.css" rel="stylesheet" type="text/css" />
     <meta charset="UTF-8">
     <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
@@ -13,145 +13,99 @@
     <!--Nos sirve para configurar la adaptacion de la pantalla-->
     <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/mediaScreenPublicaciones.css">
+
     <link rel="stylesheet" type="text/css" href="css/styleMenu.css">
+    <link href="css/StylePublicaciones.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="css/mediaScreenPublicaciones.css">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/cargaFotoPerfil.js"></script>
+    <script src="js/menu.js"></script>
+      <link rel="stylesheet" type="text/css" href="css/scoll.css">
 </head>
 
 <body id="cuerpoPrincipal">
     <div id="particulas"></div>
     <!--Encabezado-->
+    <div id="modal" class="container">
+        <div id="containerGr">
+            <div>
+                <a href="#cerrar">
+                    <div id="cerrar-modal"><img src="imagenes/cerrar.jpg" alt="">
+                    </div>
+                </a>
+                <input type="text" id="tituloPubli" placeholder="Titulo de Publicación">
+                <span class="btn btn-default btn-file">
+                        Cargar Foto <input type="file" controls  id="fotoVideo" accept="image/png, .jpeg, .jpg, image/gif"></span>
+                <div id="videoPreview" align="center">
+                    <video src="" id="video"></video>
+                </div>
+                <img id="preview" src="imagenes/view.jpg" alt="">
+                <textarea placeholder="Descripción" name="" id="descripcionPubli" cols="30" rows="10"></textarea>
+                <button id="publicar">Publicar</button>
+
+            </div>
+
+
+
+
+        </div>
+    </div>
     <header id="principal">
         <a href="#" id="btn-menu"><span class="icon-menu"></span><span id="menuTitle">Menu</span></a>
-        <a href="principal.html"><img id="icon-logo" src="imagenes/logotipo.png" /></a>
-
+        <a href="#" id="logo"><img id="icon-logo" src="imagenes/logotipo.png" /></a>
+        <a href="#modal"><button class="agregar"><span class="icon-earth icon"></span><h1>Agregar</h1></button></a>
     </header>
     <!--Menu del Perfil-->
 
     <div id="divPerfil" class="container">
         <nav>
-            <div align="center"><img id="foto" src="imagenes/nelson.jpg" /></div>
+            <div align="center" id="user"><img id="foto" src="" /></div>
 
-            <h2 id="nombre" align="center">Nelson Barrantes</h2>
+            <h2 id="nombre" align="center"></h2>
             <hr id="linea1" />
             <hr id="linea2" />
             <h4 class="subtitulos-menu"><span class="icon-xing2"></span>Personal</h4>
             <ul id="menu">
-                <li class="activado">
-                    <a><span class="icon-stack"></span>Perfil<span class="icon-circle-down" id="more"></span></a>
-                    <ul class="children">
-                        <li><a href="seguidores.html" class="subitems"><span class="icon-users"></span>Seguidores</a></li>
+                <li><a href="#" id="seguidores" class="subitems"><span class="icon-users"></span>Seguidores</a></li>
 
-                        <li><a href="" class="subitems"><span class="icon-user-check"></span>Seguidos</a></li>
+                        <li><a href="#" id="siguiendo" class="subitems"><span class="icon-user-check"></span>Seguidos</a></li>
 
-                        <li><a href="" class="subitems"><span class="icon-spinner4"></span>Retos Ganados</a></li>
-                    </ul>
-                </li>
+                        <li><a href="#" id="noDisponibles1" class="subitems"><span class="icon-spinner4"></span>Retos Ganados</a></li>
 
-                <li><a href=""><span class="icon-earth"></span>Notificaciones</a></li>
+                  <li><a href="#" id="noDisponibles2"><span class="icon-earth"></span>Notificaciones</a></li>
 
-                <li><a href=""><span class="icon-mail4"></span>Mensajes</a></li>
+                <li><a href="#" id="noDisponibles6"><span class="icon-mail4"></span>Mensajes</a></li>
 
-                <li><a href="videos.html"><span class="icon-play"></span>Videos</a></li>
+                <li><a href="#" id="videosHtml"><span class="icon-play"></span>Videos</a></li>
 
-                <li><a href="fotos.html"><span class="icon-camera"></span>Fotos</a></li>
+                <li><a href="#" id="fotosHtml"><span class="icon-camera"></span>Fotos</a></li>
 
-                <li><a href=""><span class="icon-map"></span>Rutas Realizadas</a></li>
+                <li><a href="#" id="noDisponibles3"><span class="icon-map"></span>Rutas Realizadas</a></li>
 
                 <h4 class="subItemsTitulos-menu"><span class="icon-xing2"></span>Social</h4>
 
-                <li><a href=""><span class="icon-fire"></span>Nuevos Retos</a></li>
+                <li><a href="#" id="noDisponibles4"><span class="icon-fire"></span>Nuevos Retos</a></li>
 
-                <li><a href=""><span class="icon-spinner10"></span>Retos Corriendo</a></li>
+                <li><a href="#" id="noDisponibles5"><span class="icon-spinner10"></span>Retos Corriendo</a></li>
 
                 <h4 class="subItemsTitulos-menu"><span class="icon-xing2"></span>Otros</h4>
 
-                <li><a href=""><span class="icon-cog"></span>Configuración</a></li>
+                <li><a href="#" id="configuracion"><span class="icon-cog"></span>Configuración</a></li>
 
                 <li><a href="index.html"><span class="icon-lock"></span>Salir</a></li>
+
 
             </ul>
         </nav>
     </div>
 
-    <div id="cuerpoInfo">
 
-        <div class="fotos">
-           <div class="descripcion">
-                <div class="publicador">
-                    <div><img  src="https://scontent.fsjo1-1.fna.fbcdn.net/v/t1.0-9/12931187_960121787386367_7590095502347743510_n.jpg?oh=4eb4cd3a39adb7c74c28f452c39f8644&oe=5A0F4DA9" alt="">
-                    </div>
-                    <h3>Melany Cambronero</h3>
-                    <h4>Marathon De Boston 2017</h4>
-                    <p>Los corredores keniatas dominaron la edición 121 del maratón de Boston, con los triunfos de Geoffrey Kirui en hombres y Edna Kiplagat en mujeres, con tiempos impresionantes y destacables que seran reconocidos por la IAAF para los mundiales que se acercan.
-                    </p>
-                    
-                       
-                   
-                </div>
-            </div>
-            <div class="publicado">
-                <ul id="listaFotos">
-                    <li>
-                        <input type="radio" name="rbutton" checked>
-
-                        <img src="https://assets.metrolatam.com/co/2017/04/17/636280565952421900-1200x600.jpg" alt=""></li>
-                    <li>
-                        <input type="radio" name="rbutton">
-
-                        <img src="https://2.bp.blogspot.com/-VdbmzrYbhnQ/VxAYXrQhWLI/AAAAAAAANJ4/NgtwDbX3kLUlGKEQEk0xyWWRdM5-AwV7wCLcB/s1600/boston1.jpg" alt=""></li>
-                    <li>
-                        <input type="radio" name="rbutton">
-
-                        <img src="http://lavozdelmuro.net/wp-content/uploads/2017/05/maratonBoston-610x336.png" alt=""></li>
-                    <li>
-                        <input type="radio" name="rbutton">
-
-                        <img src="https://assets.metrolatam.com/pr/2017/04/17/APTOPIX-Boston-Marath_Figu-1200x800.jpg" alt=""></li>
-                </ul>
-            </div>
-             <button id="like"></button>
-        </div>
-        <div class="videos">
-           <div class="descripcion">
-                <div class="publicador">
-                    <div><img src="imagenes/nelson.jpg" alt="">
-                    </div>
-                    <h3>Nelson Barrantes</h3>
-                    <h4>JUDUCA 2016</h4>
-                    <p>Centroamericano universitario en la prueba 1500m en Honduras.
-                    </p>
-                    
-                </div>
-            </div>
-            <div class="publicado">
-                <video id="muestraVideo" src="videos/video.mp4" controls/>
-            </div>
-            <button id="like"></button>
-        </div>
-        <div class="mapeo">
-           <div class="descripcion">
-                <div class="publicador">
-                    <div><img src="https://scontent.fsjo1-1.fna.fbcdn.net/v/t1.0-9/14212638_10210197069274012_5162951872761536712_n.jpg?oh=f4091cc7c10700a81e651f726ec239de&oe=59C7BEB9" alt="">
-                    </div>
-                    <h3>Jonathan Ramirez</h3>
-                    <h4>Ruta Completada 6KM</h4>
-                    <p>Fondo en grupo a medio dia.
-                    </p>
-                    <button id="like"></button>
-                </div>
-            </div>
-            <div class="publicado">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m24!1m12!1m3!1d31401.827703504758!2d-84.44740005893985!3d10.323592828295125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m9!3e6!4m3!3m2!1d10.3024249!2d-84.4265126!4m3!3m2!1d10.3493503!2d-84.4342625!5e0!3m2!1ses-419!2scr!4v1499183750960" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-            </div>
-            <button id="like"></button>
-        </div>
-    </div>
-
-    <script src="http://code.jquery.com/jquery-latest.js"></script>
-    <script src="js/menu.js"></script>
     <script src="particulas/particles.js"></script>
     <script src="particulas/config-particulas.js"></script>
-    <!---->
+    <script src="js/redirecciones.js"></script>
+    <script src="js/publicaciones.js"></script>
+    <script src="js/cargarPublicaciones.js"></script>
+    <script src="js/redirecciones2.js"></script>
 </body>
 
 </html>

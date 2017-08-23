@@ -21,7 +21,7 @@ header {
     position: fixed;
     z-index: -1;
 }
-#cuerpoPrincipal {
+#cuerpoPrincipal{
     background: #222220;
    
 }
@@ -35,7 +35,7 @@ header {
     position: relative;
 }
 #cuerpoInfo {
-    height: 100%;
+    height: 94%;
     width: 100%;
     padding-left: 2%;
     padding-right: 2%;
@@ -57,10 +57,12 @@ header {
 .publicado {
     width: 734px;
     height: 406px;
-    background: #e6e6e6;
+    background: #1e1e1e;
     float: right;
     display: block;
     position: relative;
+    border-left:solid;
+    border-left-color: dodgerblue;
 }
 
 .descripcion {
@@ -80,13 +82,11 @@ header {
     align-items: flex-end;
 }
 
-.publicado>ul>li>img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
+.publicado>img {
+    
+   
     height: 100%;
-    opacity: 0;
+   
 }
 
 .publicado input[type="radio"] {
@@ -104,7 +104,8 @@ header {
 }
 
 .publicador>div {
-    width: 35%;
+    width: 95px;
+    height: 95px;
     overflow: hidden;
     margin-left: auto;
     margin-right: auto;
@@ -118,6 +119,7 @@ header {
 
 .publicador>div>img {
     width: 100%;
+    height: 100%;
 }
 
 .publicador h3 {
@@ -175,3 +177,158 @@ header {
     width: 100%;
     height: 100%;
 }
+
+
+
+
+.agregar{
+  position: relative;
+  overflow: hidden;
+    float: right;
+    width: 100px;
+    height: 30px;
+    margin-top: -29px;
+    background-color: dodgerblue;
+    border: none;
+    border-radius: 5px;
+    font-family:"play";
+    font-size: 120%;
+    padding: 0;
+  }
+.icon{
+    color: #fff;
+}
+
+.agregar>h1{
+    font-size: 100%;
+    display: inline;
+    font-family: "play";
+    margin-left: 6px;
+    font-weight: bold;
+    color: #fff;
+}
+
+#modal {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 5;
+    float: left;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: none;
+    visibility: hidden;
+}
+#modal>div {
+    display: flex;
+    margin: auto;
+    width: 300px;
+    height: 270px;
+    padding: 0;
+    background: rgba(0, 0, 0, 1);
+    border-radius: 5px;
+}
+
+#modal input[type=text]{
+    margin-top: 10px;
+    border-radius: 2px;
+    width: 170px;
+    height: 25px;
+    border: none;
+    margin-left: 4%;
+    padding-left: 2%;
+    margin-bottom:2%;
+        
+}
+
+#modal .btn-file {
+    height: 25px;
+    margin-top: 10px;
+    padding: 1;
+    border: none;
+    position: relative;
+  overflow: hidden;
+    display: inline-block;
+    float: right;
+    width: 32%;
+    border-radius: 2px;
+    margin-right: 13px;
+}
+#modal input[type=file]{
+     position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block; 
+}
+
+#preview{
+    width: 227px;
+    height: 114px;
+    margin-left: 12.17%;
+    margin-top: 4.8%;
+    margin-bottom: 3.5%;
+}
+
+#videoPreview{
+    width: 300px;
+    height: 113px;
+    margin-top: 1%;
+    position: absolute;
+}
+#videoPreview video{
+    height: 100%;
+}
+
+#modal textarea{
+    width: 90%;
+    height: 50px;
+    margin: auto;
+    display: block;
+    border-radius: 2px;
+    padding-left: 2%;
+    resize: none;
+}
+
+#modal button{
+    width: 32%;
+    height: 30px;
+    display: block;
+    margin: auto;
+    margin-top: 1.5%;
+    border-radius: 2px;
+    border: none;
+}
+
+#modal:target {
+    display: flex;
+    visibility: visible;
+}
+
+#cerrar-modal {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 100%;
+    float: right;
+    margin-left: 287px;
+    margin-top: -15px;
+    border: none;
+    cursor: pointer;
+}
+
+#cerrar-modal>img {
+    width: 100%;
+   
+}
+

@@ -14,70 +14,66 @@
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
      <link rel="stylesheet" href="css/mediaScreenVideos.css">
     <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
-
-
+      <link rel="stylesheet" type="text/css" href="css/scoll.css">
 </head>
 
 <body id="cuerpoPrincipal">
     <!--Encabezado-->
     <header id="principal">
         <a href="#" id="btn-menu"><span class="icon-menu"></span><span id="menuTitle">Menu</span></a>
-        <a href="principal.html"><img id="icon-logo" src="imagenes/logotipo.png" /></a>
+        <a href="#" id="logo"><img id="icon-logo" src="imagenes/logotipo.png" /></a>
 
     </header>
     <!--Menu del Perfil-->
 
-     <div id="divPerfil" class="container">
+  <div id="divPerfil" class="container">
         <nav>
-            <div align="center"><img id="foto" src="imagenes/nelson.jpg" /></div>
+            <div align="center" id="user"><img id="foto" src="" /></div>
 
-            <h2 id="nombre" align="center">Nelson Barrantes</h2>
+            <h2 id="nombre" align="center"></h2>
             <hr id="linea1" />
             <hr id="linea2" />
             <h4 class="subtitulos-menu"><span class="icon-xing2"></span>Personal</h4>
             <ul id="menu">
-                <li class="activado">
-                    <a><span class="icon-stack"></span>Perfil<span class="icon-circle-down" id="more"></span></a>
-                    <ul class="children">
-                        <li><a href="seguidores.html" class="subitems"><span class="icon-users"></span>Seguidores</a></li>
+                <li><a href="#" id="seguidores" class="subitems"><span class="icon-users"></span>Seguidores</a></li>
 
-                        <li><a href="" class="subitems"><span class="icon-user-check"></span>Seguidos</a></li>
+                        <li><a href="#" id="siguiendo" class="subitems"><span class="icon-user-check"></span>Seguidos</a></li>
 
-                        <li><a href="" class="subitems"><span class="icon-spinner4"></span>Retos Ganados</a></li>
-                    </ul>
-                </li>
+                        <li><a href="#" id="noDisponibles1" class="subitems"><span class="icon-spinner4"></span>Retos Ganados</a></li>
 
-                <li><a href=""><span class="icon-earth"></span>Notificaciones</a></li>
+                  <li><a href="#" id="noDisponibles2"><span class="icon-earth"></span>Notificaciones</a></li>
 
-                <li><a href=""><span class="icon-mail4"></span>Mensajes</a></li>
+                <li><a href="#" id="noDisponibles6"><span class="icon-mail4"></span>Mensajes</a></li>
 
-                <li><a href="videos.html"><span class="icon-play"></span>Videos</a></li>
+                <li><a href="#" id="videosHtml"><span class="icon-play"></span>Videos</a></li>
 
-                <li><a href="fotos.html"><span class="icon-camera"></span>Fotos</a></li>
+                <li><a href="#" id="fotosHtml"><span class="icon-camera"></span>Fotos</a></li>
 
-                <li><a href=""><span class="icon-map"></span>Rutas Realizadas</a></li>
+                <li><a href="#" id="noDisponibles3"><span class="icon-map"></span>Rutas Realizadas</a></li>
 
                 <h4 class="subItemsTitulos-menu"><span class="icon-xing2"></span>Social</h4>
 
-                <li><a href=""><span class="icon-fire"></span>Nuevos Retos</a></li>
+                <li><a href="#" id="noDisponibles4"><span class="icon-fire"></span>Nuevos Retos</a></li>
 
-                <li><a href=""><span class="icon-spinner10"></span>Retos Corriendo</a></li>
+                <li><a href="#" id="noDisponibles5"><span class="icon-spinner10"></span>Retos Corriendo</a></li>
 
                 <h4 class="subItemsTitulos-menu"><span class="icon-xing2"></span>Otros</h4>
 
-                <li><a href=""><span class="icon-cog"></span>Configuración</a></li>
+                <li><a href="#" id="configuracion"><span class="icon-cog"></span>Configuración</a></li>
 
                 <li><a href="index.html"><span class="icon-lock"></span>Salir</a></li>
+
 
             </ul>
         </nav>
     </div>
 
+
     <div id="cuerpoVideos">
         <div id="conjunto">
             <div id="encabezado">
                 <img id="portadaVideo" src="http://i.imgur.com/vpt5gsU.gif" alt="" />
-                <div id="usuario"><img src="imagenes/nelson.jpg" alt=""></div>
+                <div id="foto"><img id="busefovi" src="" alt=""></div>
                 <h1>Videos</h1>
             </div>
             <div id="videos">
@@ -98,9 +94,9 @@
 
     <script src="http://code.jquery.com/jquery-latest.js"></script>
     <script src="js/menu.js"></script>
-    <script src="particulas/particles.js"></script>
-    <script src="particulas/config-particulas.js"></script>
-    <!---->
+   
+    <script src="js/cargaFotoPerfil.js"></script>
+    <script src="js/redirecciones.js"></script>
 </body>
 
 </html>

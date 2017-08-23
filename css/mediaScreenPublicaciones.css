@@ -28,10 +28,13 @@
     .publicado {
         width: 252px;
         height: 171px;
-        background: #e6e6e6;
+        background: #1e1e1e;
         float: none;
         display: block;
         position: relative;
+    }
+    .publicado>img {
+        height: 100%;
     }
     .fotos .publicado,
     .mapeo .publicado {
@@ -117,10 +120,13 @@
     .publicado {
         width: 252px;
         height: 230px;
-        background: #e6e6e6;
+        background: #1e1e1e;
         float: none;
         display: block;
         position: relative;
+    }
+    .publicado>img {
+        height: 100%;
     }
     .fotos .publicado,
     .mapeo .publicado {
@@ -218,10 +224,13 @@
     .publicado {
         width: 252px;
         height: 171px;
-        background: #e6e6e6;
+        background: #1e1e1e;
         float: none;
         display: block;
         position: relative;
+    }
+    .publicado>img {
+        height: 100%;
     }
     .fotos .publicado,
     .mapeo .publicado {
@@ -314,10 +323,13 @@
     .publicado {
         width: 252px;
         height: 265px;
-        background: #e6e6e6;
+        background: #1e1e1e;
         float: none;
         display: block;
         position: relative;
+    }
+    .publicado>img {
+        height: 100%;
     }
     .fotos .publicado,
     .mapeo .publicado {
@@ -414,10 +426,13 @@
     .publicado {
         width: 252px;
         height: 191px;
-        background: #e6e6e6;
+        background: #1e1e1e;
         float: none;
         display: block;
         position: relative;
+    }
+    .publicado>img {
+        height: 100%;
     }
     .fotos .publicado,
     .mapeo .publicado {
@@ -510,10 +525,13 @@
     .publicado {
         width: 252px;
         height: 265px;
-        background: #e6e6e6;
+        background: #1e1e1e;
         float: none;
         display: block;
         position: relative;
+    }
+    .publicado>img {
+        height: 100%;
     }
     .fotos .publicado,
     .mapeo .publicado {
@@ -611,10 +629,13 @@
     .publicado {
         width: 252px;
         height: 332px;
-        background: #e6e6e6;
+        background: #1e1e1e;
         float: none;
         display: block;
         position: relative;
+    }
+    .publicado>img {
+        height: 100%;
     }
     .fotos .publicado,
     .mapeo .publicado {
@@ -710,10 +731,13 @@
     .publicado {
         width: 252px;
         height: 519px;
-        background: #e6e6e6;
+        background: #1e1e1e;
         float: none;
         display: block;
         position: relative;
+    }
+    .publicado>img {
+        height: 100%;
     }
     .fotos .publicado,
     .mapeo .publicado {
@@ -806,10 +830,13 @@
     .publicado {
         width: 252px;
         height: 171px;
-        background: #e6e6e6;
+        background: #1e1e1e;
         float: none;
         display: block;
         position: relative;
+    }
+    .publicado>img {
+        height: 100%;
     }
     .fotos .publicado,
     .mapeo .publicado {
@@ -902,10 +929,13 @@
     .publicado {
         width: 252px;
         height: 320px;
-        background: #e6e6e6;
+        background: #1e1e1e;
         float: none;
         display: block;
         position: relative;
+    }
+    .publicado>img {
+        height: 100%;
     }
     .fotos .publicado,
     .mapeo .publicado {
@@ -1007,10 +1037,13 @@
     .publicado {
         width: 252px;
         height: 280px;
-        background: #e6e6e6;
+        background: #1e1e1e;
         float: none;
         display: block;
         position: relative;
+    }
+    .publicado>img {
+        height: 100%;
     }
     .fotos .publicado,
     .mapeo .publicado {
@@ -1108,10 +1141,13 @@
     .publicado {
         width: 252px;
         height: 450px;
-        background: #e6e6e6;
+        background: #1e1e1e;
         float: none;
         display: block;
         position: relative;
+    }
+    .publicado>img {
+        height: 100%;
     }
     .fotos .publicado,
     .mapeo .publicado {
@@ -1205,10 +1241,13 @@
     .publicado {
         width: 252px;
         height: 171px;
-        background: #e6e6e6;
+        background: #1e1e1e;
         float: none;
         display: block;
         position: relative;
+    }
+    .publicado>img {
+        height: 100%;
     }
     .fotos .publicado,
     .mapeo .publicado {
@@ -1294,10 +1333,13 @@
     .publicado {
         width: 252px;
         height: 230px;
-        background: #e6e6e6;
+        background: #1e1e1e;
         float: none;
         display: block;
         position: relative;
+    }
+    .publicado>img {
+        height: 100%;
     }
     .fotos .publicado,
     .mapeo .publicado {
@@ -1398,10 +1440,13 @@
     .publicado {
         width: 252px;
         height: 332px;
-        background: #e6e6e6;
+        background: #1e1e1e;
         float: none;
         display: block;
         position: relative;
+    }
+    .publicado>img {
+        height: 100%;
     }
     .fotos .publicado,
     .mapeo .publicado {
@@ -1497,10 +1542,217 @@
     .publicado {
         width: 252px;
         height: 519px;
-        background: #e6e6e6;
+        background: #1e1e1e;
         float: none;
         display: block;
         position: relative;
+    }
+    .publicado>img {
+        height: 100%;
+    }
+    .fotos .publicado,
+    .mapeo .publicado {
+        width: 100%;
+    }
+    .videos{
+        height: 836px;
+    }
+    .videos .publicado {
+        height: 542px;
+    }
+    .descripcion {
+        width: 100%;
+        height: 225px;
+        float: none;
+        display: block;
+        background: #1e1e1e;
+        padding-top: 1.5%;
+        overflow: hidden;
+    }
+    .publicador>div {
+        width: 80px;
+        height: 80px;
+        float: left;
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+    .publicador h3,
+    .publicador h4 {
+        display: block;
+        width: 100%;
+        height: 55px;
+        font-size: 190%;
+        text-align: left;
+        padding-left: 11%;
+    }
+    .publicador h3 {
+        padding-top: 2.8%;
+    }
+    .publicador h4 {
+        margin-top: -3.7%;
+        height: 20px;
+    }
+    .publicador p {
+        width: 100%;
+        height: 57%;
+        padding-left: 1.5%;
+        padding-right: 1.5%;
+        font-size: 210%;
+        overflow-y: scroll;
+    }
+    #like {
+        width: 68px;
+        height: 68px;
+        margin: 0;
+        margin-left: 46.5%;
+    }
+}
+/********************600 x 1024***********************/
+@media screen and (device-width: 600px) and (device-height: 1024px) {
+    #cuerpoPrincipal {
+        background: #2E4053;
+    }
+    header{
+        height: 70px;
+    }
+    #btn-menu {
+        margin-top: -1%;
+    }
+    .icon-menu{
+        font-size: 72px;
+    }
+    #icon-logo {
+        margin-top: 0%;
+        width: 50%;
+    }
+    #menuTitle {
+        display: none;
+    }
+    .videos,
+    .fotos,
+    .mapeo {
+        margin-top: 2%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: 608px;
+        background: #fff;
+        overflow: hidden;
+        background: #1e1e1e;
+        border-radius: 7px;
+    }
+    .publicado {
+        width: 252px;
+        height: 332px;
+        background: #1e1e1e;
+        float: none;
+        display: block;
+        position: relative;
+    }
+    .publicado>img {
+        height: 100%;
+    }
+    .fotos .publicado,
+    .mapeo .publicado {
+        width: 100%;
+    }
+    .videos{
+        height: 677px;
+    }
+    .videos .publicado {
+        height: 405px;
+    }
+    .descripcion {
+        width: 100%;
+        height: 225px;
+        float: none;
+        display: block;
+        background: #1e1e1e;
+        padding-top: 1.5%;
+        overflow: hidden;
+    }
+    .publicador>div {
+        width: 80px;
+        height: 80px;
+        float: left;
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+    .publicador h3,
+    .publicador h4 {
+        display: block;
+        width: 100%;
+        height: 55px;
+        font-size: 190%;
+        text-align: left;
+        padding-left: 14%;
+    }
+    .publicador h3 {
+        padding-top: 3%;
+    }
+    .publicador h4 {
+        margin-top: -3.7%;
+        height: 20px;
+    }
+    .publicador p {
+        width: 100%;
+        height: 57%;
+        padding-left: 1.5%;
+        padding-right: 1.5%;
+        font-size: 210%;
+        overflow-y: scroll;
+    }
+    #like {
+        width: 47px;
+        height: 47px;
+        margin: 0;
+        margin-left: 47%;
+    }
+}
+
+@media screen and (device-width: 1024px) and (device-height: 600px)  {
+    #cuerpoPrincipal {
+        background: #2E4053;
+    }
+    header{
+        height: 65px;
+    }
+    #btn-menu {
+        margin-top: -1%;
+    }
+    .icon-menu{
+        font-size: 72px;
+    }
+    #icon-logo {
+        margin-top: 0%;
+        width: 35%;
+    }
+    #menuTitle {
+        display: none;
+    }
+    .videos,
+    .fotos,
+    .mapeo {
+        margin-top: 2%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: 808px;
+        background: #fff;
+        overflow: hidden;
+        background: #1e1e1e;
+        border-radius: 7px;
+    }
+    .publicado {
+        width: 252px;
+        height: 519px;
+        background: #1e1e1e;
+        float: none;
+        display: block;
+        position: relative;
+    }
+    .publicado>img {
+        height: 100%;
     }
     .fotos .publicado,
     .mapeo .publicado {
@@ -1590,10 +1842,13 @@
     .publicado {
         width: 252px;
         height: 171px;
-        background: #e6e6e6;
+        background: #1e1e1e;
         float: none;
         display: block;
         position: relative;
+    }
+    .publicado>img {
+        height: 100%;
     }
     .fotos .publicado,
     .mapeo .publicado {
@@ -1679,10 +1934,13 @@
     .publicado {
         width: 252px;
         height: 260px;
-        background: #e6e6e6;
+        background: #1e1e1e;
         float: none;
         display: block;
         position: relative;
+    }
+    .publicado>img {
+        height: 100%;
     }
     .fotos .publicado,
     .mapeo .publicado {
@@ -1779,10 +2037,13 @@
     .publicado {
         width: 252px;
         height: 171px;
-        background: #e6e6e6;
+        background: #1e1e1e;
         float: none;
         display: block;
         position: relative;
+    }
+    .publicado>img {
+        height: 100%;
     }
     .fotos .publicado,
     .mapeo .publicado {
@@ -1875,10 +2136,13 @@
     .publicado {
         width: 252px;
         height: 265px;
-        background: #e6e6e6;
+        background: #1e1e1e;
         float: none;
         display: block;
         position: relative;
+    }
+    .publicado>img {
+        height: 100%;
     }
     .fotos .publicado,
     .mapeo .publicado {
@@ -1975,10 +2239,13 @@
     .publicado {
         width: 252px;
         height: 171px;
-        background: #e6e6e6;
+        background: #1e1e1e;
         float: none;
         display: block;
         position: relative;
+    }
+    .publicado>img {
+        height: 100%;
     }
     .fotos .publicado,
     .mapeo .publicado {
@@ -2071,10 +2338,13 @@
     .publicado {
         width: 252px;
         height: 320px;
-        background: #e6e6e6;
+        background: #1e1e1e;
         float: none;
         display: block;
         position: relative;
+    }
+    .publicado>img {
+        height: 100%;
     }
     .fotos .publicado,
     .mapeo .publicado {
@@ -2175,10 +2445,13 @@
     .publicado {
         width: 252px;
         height: 280px;
-        background: #e6e6e6;
+        background: #1e1e1e;
         float: none;
         display: block;
         position: relative;
+    }
+    .publicado>img {
+        height: 100%;
     }
     .fotos .publicado,
     .mapeo .publicado {
@@ -2276,10 +2549,13 @@
     .publicado {
         width: 252px;
         height: 450px;
-        background: #e6e6e6;
+        background: #1e1e1e;
         float: none;
         display: block;
         position: relative;
+    }
+    .publicado>img {
+        height: 100%;
     }
     .fotos .publicado,
     .mapeo .publicado {

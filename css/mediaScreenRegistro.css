@@ -9,7 +9,7 @@
     body {
         margin: 0;
         padding: 0;
-        background-image: url("/Imagenes/deviceResponsive2.png");
+        background-image: url("/imagenes/deviceResponsive2.png");
         background-size: 100%;
         overflow-y: hidden;
     }
@@ -46,6 +46,11 @@
         padding-bottom: 2%;
         margin-top: 5%;
     }
+    #fotoPerfil{
+    height: 150px;
+    width: 150px;
+    
+}
     #user {
         margin-top: 2%;
     }
@@ -62,7 +67,7 @@
     body {
         margin: 0;
         padding: 0;
-        background-image: url("/Imagenes/deviceResponsive2.png");
+        background-image: url("/imagenes/deviceResponsive2.png");
         background-size: 100%;
         overflow-y: hidden;
     }
@@ -115,7 +120,7 @@
     body {
         margin: 0;
         padding: 0;
-        background-image: url("/Imagenes/deviceResponsive2.png");
+        background-image: url("/imagenes/deviceResponsive2.png");
         background-size: 100%;
         overflow-y: hidden;
     }
@@ -168,7 +173,7 @@
     body {
         margin: 0;
         padding: 0;
-        background-image: url("/Imagenes/deviceResponsive2.png");
+        background-image: url("/imagenes/deviceResponsive2.png");
         background-size: 100%;
         overflow-y: hidden;
     }
@@ -221,7 +226,7 @@
     body {
         margin: 0;
         padding: 0;
-        background-image: url("/Imagenes/deviceResponsive2.png");
+        background-image: url("/imagenes/deviceResponsive2.png");
         background-size: 100%;
         overflow-y: hidden;
     }
@@ -274,7 +279,7 @@
     body {
         margin: 0;
         padding: 0;
-        background-image: url("/Imagenes/deviceResponsive2.png");
+        background-image: url("/imagenes/deviceResponsive2.png");
         background-size: 100%;
         overflow-y: hidden;
     }
@@ -327,7 +332,7 @@
     body {
         margin: 0;
         padding: 0;
-        background-image: url("/Imagenes/deviceResponsive2.png");
+        background-image: url("/imagenes/deviceResponsive2.png");
         background-size: 100%;
         overflow-y: hidden;
     }
@@ -380,7 +385,7 @@
     body {
         margin: 0;
         padding: 0;
-        background-image: url("/Imagenes/deviceResponsive2.png");
+        background-image: url("/imagenes/deviceResponsive2.png");
         background-size: 100%;
         overflow-y: hidden;
     }
@@ -433,7 +438,7 @@
     body {
         margin: 0;
         padding: 0;
-        background-image: url("/Imagenes/deviceResponsive2.png");
+        background-image: url("/imagenes/deviceResponsive2.png");
         background-size: 100%;
         overflow-y: hidden;
     }
@@ -486,7 +491,7 @@
     body {
         margin: 0;
         padding: 0;
-        background-image: url("/Imagenes/deviceResponsive2.png");
+        background-image: url("/imagenes/deviceResponsive2.png");
         background-size: 100%;
         overflow-y: hidden;
     }
@@ -539,7 +544,7 @@
     body {
         margin: 0;
         padding: 0;
-        background-image: url("/Imagenes/deviceResponsive2.png");
+        background-image: url("/imagenes/deviceResponsive2.png");
         background-size: 100%;
         overflow-y: hidden;
     }
@@ -592,7 +597,7 @@
     body {
         margin: 0;
         padding: 0;
-        background-image: url("/Imagenes/deviceResponsive2.png");
+        background-image: url("/imagenes/deviceResponsive2.png");
         background-size: 100%;
         overflow-y: hidden;
     }
@@ -645,7 +650,7 @@
     body {
         margin: 0;
         padding: 0;
-        background-image: url("/Imagenes/deviceResponsive2.png");
+        background-image: url("/imagenes/deviceResponsive2.png");
         background-size: 100%;
         overflow-y: hidden;
     }

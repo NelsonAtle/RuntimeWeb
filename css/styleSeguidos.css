@@ -30,7 +30,7 @@ html{
 
 #cuerpoPrincipal {
     overflow-y: scroll;
-    background: #222220;
+    background-image: url(/imagenes/lolo.jpg);
     overflow-y: hidden;
 }
 
@@ -49,8 +49,10 @@ html{
     position: relative;
     overflow: hidden;
 }
-#encabezado>img{
-    margin-top: -100;
+#encabezado #portadaFotos {
+    width: 100%;
+    height: 300%;
+    margin-top: -42%;
 }
 
 
@@ -159,7 +161,4 @@ html{
    height: 100%;
     
 }
-#portadaFotos {
-    width: 100%;
-    margin-top: -20%;
-}
+

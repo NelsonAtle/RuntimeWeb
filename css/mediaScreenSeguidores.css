@@ -90,7 +90,7 @@
     border-radius: 100%;
     overflow: hidden;
     margin: auto;
-    margin-top: -52%;
+    margin-top: -46%;
     }
     #encabezado>h1 {
     text-align: center;
@@ -100,8 +100,8 @@
     font-size: 300%;
         margin-top: 0;
 }
-    #encabezado>img{
-    margin-top: -10;
+    #encabezado #portadaFotos{
+    margin-top: 0;
 }
 }
 @media screen and (device-width: 600px) and (device-height: 1024px) {
@@ -207,7 +207,7 @@
     border-radius: 100%;
     overflow: hidden;
     margin: auto;
-    margin-top: -52%;
+    margin-top: -35%;
     }
     #encabezado>h1 {
     text-align: center;
@@ -313,7 +313,7 @@
     border-radius: 100%;
     overflow: hidden;
     margin: auto;
-    margin-top: -52%;
+    margin-top: -46%;
     }
     #encabezado>h1 {
     text-align: center;
@@ -323,8 +323,8 @@
     font-size: 300%;
         margin-top: 0;
 }
-     #encabezado>img{
-    margin-top: -10;
+    #encabezado #portadaFotos{
+    margin-top: 0;
 }
 }
 @media screen and (device-width: 800px) and (device-height: 1280px) {
@@ -430,10 +430,10 @@
     border-radius: 100%;
     overflow: hidden;
     margin: auto;
-    margin-top: -53%;
+    margin-top: -42%;
     }
-     #encabezado>img{
-    margin-top: -10;
+     #encabezado #portadaFotos{
+    margin-top: -20;
 }
     #encabezado>h1 {
     text-align: center;
@@ -537,7 +537,7 @@
     border-radius: 100%;
     overflow: hidden;
     margin: auto;
-    margin-top: -53%;
+    margin-top: -38%;
     }
     #encabezado>h1 {
     text-align: center;
@@ -654,7 +654,7 @@
     border-radius: 100%;
     overflow: hidden;
     margin: auto;
-    margin-top: -53%;
+    margin-top: -38%;
     }
     #encabezado>h1 {
     text-align: center;

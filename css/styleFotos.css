@@ -31,7 +31,7 @@ html{
 
 #cuerpoPrincipal {
     overflow-y: scroll;
-    background: #222220;
+    background-image: url(/imagenes/lolo.jpg);
     overflow-y: hidden;
 }
 

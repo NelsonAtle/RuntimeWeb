@@ -62,7 +62,9 @@ function saveToLocalStorage(nombre, apellido, correo, usuario, password, confirm
                     document.getElementById("usuario").value = "";
                     document.getElementById("password").value = "";
                     document.getElementById("confirmar").value = "";
+                document.getElementById("user").src = "/imagenes/user.png";
                     alert("Nuevo Usuario Registrado");
+                location.href = "index.html"
                     break;
             }
             if (usuario == usuarios[i].usuario) {
@@ -89,6 +91,7 @@ function saveToLocalStorage(nombre, apellido, correo, usuario, password, confirm
                     document.getElementById("usuario").value = "";
                     document.getElementById("password").value = "";
                     document.getElementById("confirmar").value = "";
+                    document.getElementById("user").src = "/imagenes/user.png";
                     alert("Nuevo Usuario Registrado");
                     location.href = "index.html"
                     break;

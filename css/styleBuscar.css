@@ -30,7 +30,7 @@ html{
 
 #cuerpoPrincipal {
     overflow-y: scroll;
-    background: #222220;
+    background-image:url(/imagenes/lolo.jpg);
     overflow-y: hidden;
 }
 
@@ -154,7 +154,7 @@ html{
     border-radius: 100%;
     overflow: hidden;
     margin: auto;
-    margin-top: -45%;
+    margin-top: -55%;
     
 }
 
